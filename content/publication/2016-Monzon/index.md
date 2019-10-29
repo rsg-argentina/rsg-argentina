@@ -3,7 +3,7 @@
 
 title: "Second ISCB Latin American Student Council Symposium (LA-SCS) 2016"
 authors: [ "Monzon AM", "Hasenahuer MA", "Mancini E", "Coimbra N", "Cravero F", "Cáceres-Molina J", "Ramírez-Sarmiento CA", "Palopoli N", "Meysman P", "Parra RG"]
-date: 2019-10-16
+date: 2019-08-16
 doi: "10.12688/f1000research.12321.1"
 
 # Schedule page publish date (NOT publication's date).
