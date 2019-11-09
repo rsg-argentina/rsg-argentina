@@ -71,5 +71,5 @@ user_groups = ["Authorities"]
 +++
 
 # About me 
-I am currently working on my thesis to obtain the degree in Bsc/MSc in Biotechnology at the Microbiological Industrial Process Pilot Plant (PROIMI-CONICET). My work focuses on the prediction of plasmids and resistance proteins in prokaryotic organisms from a semi-automatic computer analysis of NGS data.
+I am currently working on the prediction of plasmids and resistance proteins in prokaryotic organisms from a semi-automatic computer analysis of NGS data, at the Microbiological Industrial Process Pilot Plant (PROIMI-CONICET). I am a constant learner, passionate about science and experimentation in all states.
 
