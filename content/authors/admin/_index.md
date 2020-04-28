@@ -20,10 +20,10 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: We are a group of graduate students working their way through their PhD in bioinformatics.
 
-interests:
-- Bioinformatics
-- Science communication
-- Networking opportunities
+#interests:
+#- Bioinformatics
+#- Science communication
+#- Networking opportunities
 
 # education:
 #   courses:
@@ -54,6 +54,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/rsg-argentina
+- icon: instagram
+  icon_pack : fab
+  link: https://instagram.com/rsg_arg
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -69,4 +72,5 @@ user_groups:
 - Admin
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+The Argentine Regional Student Group (i.e RSG-Arg) is a non-profit academic group intended to aid young researchers among the bioinformatics and computational biology fields. Sponsored by the International Society of Computational Biology and partner of an ever-growing world-wide network of regional groups, we aim to help undergrad and graduate students, as well as young PIs, to make the most of their academic development capabilities. We do this by hosting yearly conferences, organizing hands-on workshops/courses, and making career talks with renowned scientists in the field.
+Borned in 2010, the group has grown to a rather multifaceted group that not only has kept the academic enhancement moto, but also moved to new, challenging endeavors like science communication writing, wikipedia hackathon organizing, merchandising design & development, among others. New members are always welcomed to join in and help however the want. *Come to the dry side, we have coffee!*

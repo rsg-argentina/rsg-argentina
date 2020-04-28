@@ -19,7 +19,8 @@ subtitle = ""
                  "Administration",
                  "Visitors",
                  "Alumni",
-				 "Authorities"]
+				         "Academic Advisor",
+                 "Authorities"]
 
 [design]
   # Show user's social networking links? (true/false)
