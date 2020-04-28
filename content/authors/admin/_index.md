@@ -73,4 +73,5 @@ user_groups:
 ---
 
 The Argentine Regional Student Group (i.e RSG-Arg) is a non-profit academic group intended to aid young researchers among the bioinformatics and computational biology fields. Sponsored by the International Society of Computational Biology and partner of an ever-growing world-wide network of regional groups, we aim to help undergrad and graduate students, as well as young PIs, to make the most of their academic development capabilities. We do this by hosting yearly conferences, organizing hands-on workshops/courses, and making career talks with renowned scientists in the field.
+
 Borned in 2010, the group has grown to a rather multifaceted group that not only has kept the academic enhancement moto, but also moved to new, challenging endeavors like science communication writing, wikipedia hackathon organizing, merchandising design & development, among others. New members are always welcomed to join in and help however the want. *Come to the dry side, we have coffee!*
