@@ -54,9 +54,15 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/rsg-argentina
+- icon: facebook
+  icon_pack : fab
+  link: https://www.facebook.com/RSGArgentina/
 - icon: instagram
   icon_pack : fab
   link: https://instagram.com/rsg_arg
+- icon: youtube
+  icon_pack : fab
+  link: https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w?view_as=subscriber
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
