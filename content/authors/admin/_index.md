@@ -54,6 +54,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/rsg-argentina
+- icon: facebook
+  icon_pack : fab
+  link: https://www.facebook.com/RSGArgentina/
 - icon: instagram
   icon_pack : fab
   link: https://instagram.com/rsg_arg

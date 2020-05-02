@@ -16,7 +16,7 @@ role = "Secretary"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "PROIMI-CONICET", url = "https://www.proimi.org.ar/" }, { name = "Facultad de Bioquimica, Quimica y Farmacia(FBQyF)", url = "http://www.fbqf.unt.edu.ar/" }, {name="Universidad Nacional de Tucuman", url="http://www.unt.edu.ar/"} ]
+organizations = [{ name = "Facultad de Bioquimica, Quimica y Farmacia(FBQyF)", url = "http://www.fbqf.unt.edu.ar/" }, {name="Universidad Nacional de Tucuman", url="http://www.unt.edu.ar/"} ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Tesinist, assistant professor of biostatistics, lover of science."
@@ -71,5 +71,5 @@ user_groups = ["Authorities"]
 +++
 
 # About me 
-I am currently working on the prediction of plasmids and resistance proteins in prokaryotic organisms from a semi-automatic computer analysis of NGS data, at the Microbiological Industrial Process Pilot Plant (PROIMI-CONICET). Since 2015 I have collaborated in the FBQyF biostatistics institute. I am a constant learner, passionate about science and experimentation in all states.
+I am currently working on the prediction of plasmids and resistance proteins in prokaryotic organisms from a semi-automatic computer analysis of NGS data, at the Microbiological Industrial Process Pilot Plant (PROIMI-CONICET). Since 2015 I have been collaborating at the FBQyF biostatistics institute. I am a constant learner, passionate about science and experimentation in all states.
 
