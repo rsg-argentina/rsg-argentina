@@ -70,12 +70,12 @@ The 5th SAJIB will take place the 13th and 14th of August. As we normally do, th
 - Mecano
 
 ## Workshops 
-- Molecular Dynamics: Data analysis in simulation experiments (Dr. Lucy)
-- Machine Learning Classifiers: Fundamentals (Dr. Berenstein)
+- Molecular Dynamics: Data analysis in simulation experiments (Dr. Lucy Jiménez)
+- Machine Learning Classifiers: Fundamentals (Dr. Ariel Berenstein)
 
 ## Important Dates
-- Registration and abstract submission deadline: 3 of July
-- Notification of acceptance: 20 of July
+- Registration and abstract submission deadline: July, 3rd
+- Notification of acceptance: July, 20th
 
 ## Important Links
 - [Registration](https://forms.gle/FSdMtdFLJWzrZyiK9)
