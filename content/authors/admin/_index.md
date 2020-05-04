@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: We are a group of graduate students working their way through their PhD in bioinformatics.
+bio: We are a group of Argentine undergraduate and graduate students who research in bioinformatics.
 
 #interests:
 #- Bioinformatics
