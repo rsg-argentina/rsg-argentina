@@ -1,7 +1,7 @@
 # Page Sharer
 # Documentation: https://sourcethemes.com/academic/docs/customization/#page-sharer
 
-[[buttons]]
+#[[buttons]]
   id = "twitter"
   url = "https://twitter.com/intent/tweet?url={url}&text={title}"
   title = "Twitter"
@@ -9,7 +9,7 @@
   icon = "twitter"
   enable = true
 
-[[buttons]]
+#[[buttons]]
   id = "facebook"
   url = "https://www.facebook.com/sharer.php?u={url}&t={title}"
   title = "Facebook"
@@ -17,7 +17,7 @@
   icon = "facebook-f"
   enable = true
 
-[[buttons]]
+#[[buttons]]
   id = "email"
   url = "mailto:?subject={title}&body={url}"
   title = "Email"
@@ -25,7 +25,7 @@
   icon = "envelope"
   enable = true
 
-[[buttons]]
+#[[buttons]]
   id = "linkedin"
   url = "https://www.linkedin.com/shareArticle?url={url}&title={title}"
   title = "LinkedIn"
@@ -33,7 +33,7 @@
   icon = "linkedin-in"
   enable = true
 
-[[buttons]]
+#[[buttons]]
   id = "whatsapp"
   url = "https://web.whatsapp.com/send?text={title}%20{url}"
   title = "WhatsApp"
@@ -41,7 +41,7 @@
   icon = "whatsapp"
   enable = true
 
-[[buttons]]
+#[[buttons]]
   id = "weibo"
   url = "https://service.weibo.com/share/share.php?url={url}&title={title}"
   title = "Weibo"
@@ -49,7 +49,7 @@
   icon = "weibo"
   enable = true
 
-[[buttons]]
+#[[buttons]]
   id = "reddit"
   url = "https://reddit.com/submit?url={url}&title={title}"
   title = "Reddit"
@@ -57,7 +57,7 @@
   icon = "reddit-alien"
   enable = false
 
-[[buttons]]
+#[[buttons]]
   id = "pinterest"
   url = "https://pinterest.com/pin/create/link/?url={url}&description={title}"
   title = "Pinterest"
@@ -65,7 +65,7 @@
   icon = "pinterest"
   enable = false
 
-[[buttons]]
+#[[buttons]]
   id = "xing"
   url = "https://www.xing.com/spi/shares/new?url={url}&title={title}"
   title = "Xing"
@@ -73,7 +73,7 @@
   icon = "xing"
   enable = false
 
-[[buttons]]
+#[[buttons]]
   id = "tumblr"
   url = "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}"
   title = "Tumblr"
