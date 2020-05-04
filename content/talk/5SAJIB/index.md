@@ -65,9 +65,7 @@ projects: [""]
 The 5th SAJIB will take place the 13th and 14th of August. As we normally do, the activities will be separated into one day of keynotes and selected presentations exposition (the 13th) and workshops with hands on activities. All activities will be held virtually on Zoom to registered users, and broadcasted live via streaming through our [youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured). 
 
 ## Keynote Speakers
-- Fulano
-- Mengano
-- Mecano
+
 
 ## Workshops 
 - Molecular Dynamics: Data analysis in simulation experiments (Dr. Lucy Jiménez)
