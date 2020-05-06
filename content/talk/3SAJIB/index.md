@@ -8,7 +8,7 @@ location: Fundación Instituto Leloir, Buenos Aires
 address: 
   street: ""
   city: Buenos Aires
-  region: Buenos Aires
+  region: ""
   postcode: ""
   country: Argentina
 summary: ""
