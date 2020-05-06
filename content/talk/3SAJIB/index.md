@@ -16,12 +16,12 @@ abstract: ""
 
 #  Talk start and end times.
 #  End time can optionally be hidden by prefixing the line with `#`.
-date: 2018-06-28 
-date_end: 2018-06-29
+date: 2018-06-28T09:00:00-17:00
+#date_end: 2018-06-29
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2018
+publishDate: 2020-05-06T13:15:21-03:00
 
 #authors: []
 tags: ["Meeting","Symposium"]
