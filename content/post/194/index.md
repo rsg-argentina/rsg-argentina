@@ -1,6 +1,6 @@
 ---
 title: "1er encuentro de Estudiantes de Bioinformática y Biología Computacional"
-authors: ["admin"]
+authors: []
 date: 2014-11-25T12:00:00-03:00
 lastmod: 2014-11-26T12:00:00-03:00
 featured: true
@@ -10,8 +10,8 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Flyer"
+  focal_point: "center"
   preview_only: false
 
 # Projects (optional).
