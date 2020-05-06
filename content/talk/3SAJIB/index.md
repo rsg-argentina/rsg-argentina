@@ -5,23 +5,17 @@ title: "3er Simposio Argentino de Jóvenes Investigadores en Bioinformática"
 event: "3SAJIB"
 event_url: ""
 location: Fundaci�n Instituto Leloir, Buenos Aires
-address: 
-  street: ""
-  city: Buenos Aires
-  region: ""
-  postcode: ""
-  country: Argentina
 summary: ""
 abstract: ""
 
 #  Talk start and end times.
 #  End time can optionally be hidden by prefixing the line with `#`.
 date: 2018-06-28T09:00:00-17:00
-#date_end: 2018-06-29
+#date_end: 2018-06-29T09:00:00-17:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2020-05-06T13:15:21-03:00
+publishDate: 2020-05-01T13:15:21-03:00
 
 #authors: []
 tags: ["Meeting","Symposium"]
