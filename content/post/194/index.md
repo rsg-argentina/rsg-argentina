@@ -1,8 +1,8 @@
 ---
 title: "1er encuentro de Estudiantes de Bioinformática y Biología Computacional"
 authors: ["admin"]
-date: 2014-11-29T12:00:00-03:00
-lastmod: 2014-11-29T12:00:00-03:00
+date: 2014-11-25T12:00:00-03:00
+lastmod: 2014-11-26T12:00:00-03:00
 featured: true
 draft: false
 
