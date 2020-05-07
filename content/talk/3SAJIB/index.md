@@ -4,7 +4,7 @@
 title: "3er Simposio Argentino de Jóvenes Investigadores en Bioinformática"
 event: "3SAJIB"
 event_url: ""
-location: Fundaci�n Instituto Leloir, Buenos Aires
+location: Fundación Instituto Leloir, Buenos Aires
 summary: ""
 abstract: ""
 
