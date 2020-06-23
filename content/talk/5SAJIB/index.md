@@ -60,13 +60,17 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: [""]
 ---
+# RSG Argentina - 10 years of stories
+
+On August 12, 2020, the founders of RSG-Argentina will hold a cycle of talks to tell us how their careers have changed during these years. The same day we will have the honor of having the presence of Prof. Christine Orengo who will deliver a Keynote lecture. Prof. Orengo is the President of the International Society for Computational Biology and first woman to achieve this position. She will present the talk: "SARS-CoV-2 and its predicted infectivity in mammals" along other stories about her trajectory as a key researcher in our field. At the end we will have a round table to reflect on how Bioinformatics has changed over the years, which plans are there for the future and what can we do to improve.
+
 # 5SAJIB
 
 The 5th SAJIB will take place the 13th and 14th of August. As we normally do, the activities will be separated into one day of keynotes and selected presentations exposition (the 13th) and workshops with hands on activities. All activities will be held virtually on Zoom to registered users, and broadcasted live via streaming through our [youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured). 
 
 ## Keynote Speakers
-- Analysis of gene expression data(Dr. Jessica A. Carballido)
-- Markov state models in protein ligand-binding analysis: finding the needle in a haystack(Dr. Cesar Avila)
+- Analysis of gene expression data (Dr. Jessica A. Carballido)
+- Markov state models in protein ligand-binding analysis: finding the needle in a haystack (Dr. Cesar Avila)
 
 ## Workshops 
 - Molecular Dynamics: Data analysis in simulation experiments (Dr. Lucy Jiménez)
