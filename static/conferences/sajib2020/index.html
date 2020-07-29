@@ -77,24 +77,36 @@
             </ul>
          </div>
       </nav>      
-      <div class="container-fluid" style="background:url(prot-bg-low.png) center no-repeat; padding:30px;">         
+      <div class="container-fluid" style="background:url(prot-bg-low.png) center no-repeat; padding:30px; margin-bottom:0">         
          <div class="container" >
             <h2 class="col-12" style="background-color:#FFF; opacity: 0.75;text-align: center;"> SAJIB 2020 - Online conference deck</h2>
-          <div class="row" style="">            
-                <div class="col-md-12"  style="overflow:hidden;padding-bottom:56.25%;position:relative;height:0;">                                                                            
-                     <iframe class="col-md-12" style="left:0;top:0;height:100%;width:100%;position:absolute" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F101309938348948%2Fvideos%2F915205038972163%2F&width=640" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                </div>
-            </div>                        
+            <div class="row" style="">            
+               <div class="col-md-12"  style="overflow:hidden;padding-bottom:56.25%;position:relative;height:0;">                                                                            
+                  <iframe class="col-md-12" style="left:0;top:0;height:100%;width:100%;position:absolute" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F101309938348948%2Fvideos%2F915205038972163%2F&width=640" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+               </div>
+            </div>
         </div>
       </div>
+      <div class="container-fluid" style="background-color: #263545;">
+         <div class="col-md-12" style="text-align:center; margin-bottom:20px; padding:10px">            
+            <a id="fullprogram" href="#" role="button" class="btn btn-primary btn-lg"><i class="fa fa-book" aria-hidden="true"></i> See full program</a>
+            <a id="day-1-bt" href="#" role="button" class="btn btn-light btn-lg"><i class="fas fa-angle-down" aria-hidden="true"></i> Day 1</a>
+            <a id="day-2-bt" href="#" role="button" class="btn btn-light btn-lg"><i class="fas fa-angle-down" aria-hidden="true"></i> Day 2</a>
+            <a id="live" href="#" role="button" class="btn btn-success btn-lg" ><i class="fas fa-podcast" aria-hidden="true"></i> Right now!</a>                                                    
+         </div>         
+      </div>
         <div class="container-fluid" style="background-color: #FFF; margin-top:0px">
+         <!-- Day 0 -->
+         <div class="container" id="day-0" day="29-07-2020" style="display:none">
+               <div class="alert alert-danger"><i class="fas fa-exclamation-circle"></i> Hey! We are excited too, but conference hasn't started yet. See you soon :)</div>
+                 
+         </div>
          <!-- Day 1 -->
-         <div class="container">
+         <div class="container" id="day-1" day="12-08-2020" style="display:none">
             <div class="card text-white bg-secondary mb-3">
                <div class="card-header">Day 1 - <i> 10 years of stories </i> </div>
             </div>         
-               <div class="container">
-                  
+               <div class="container">                  
                   <div class="card text-white bg-info mb-3">
                      <div class="card-body">
                         <div class="row">
@@ -115,7 +127,7 @@
                         <div class="row"> 
                            <div class="col-sm-10" style="text-align:right">
                               <h4 class="card-title"><span class="badge badge-dark text-white">11:00 - 11:20</span> R. Gonzalo Parra</h4>                                           
-                              <h5 class="card-title">Building up an international community in Latin America</h5>    
+                              <h5 class="card-title">Construyendo una comunidad internacional en América Latina</h5>    
                            </div>
                            <div class="col-sm-2" style="text-align:center; vertical-align: middle; margin:auto">
                               <img height="150px"src="gonza-desk-tile-sm.png">                     
@@ -255,7 +267,7 @@
                </div>
             </div>
          <!-- Day 2 -->
-         <div class="container">
+         <div class="container" id="day-2" day="29-07-2020" style="display:none">
             <div class="card text-white bg-secondary mb-3">
                <div class="card-header">Day 2 - Simposium Program</div>
              </div>                           
@@ -428,6 +440,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
       <script src="academic.min.js"></script>
+      <script src="main.js"></script>      
       <div class="container">
          <footer class="site-footer">
             <p class="powered-by">
