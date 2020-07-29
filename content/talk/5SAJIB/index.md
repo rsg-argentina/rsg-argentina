@@ -68,7 +68,7 @@ On August 12, 2020, the founders of RSG-Argentina will hold a cycle of talks to 
 
 #### Program
 
-[![Click to Download!](/conferences/sajib2020/programme-10y-ann.jpg)](/conferences/sajib2020/cronograma-1208.pdf)
+![program](/conferences/sajib2020/programme-10y-ann.jpg)
 
 ## [13-08] Student Symposium 
 
