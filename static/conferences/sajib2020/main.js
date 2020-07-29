@@ -23,6 +23,7 @@ $( function() {
 
     $("#fullprogram").click(function(e){
         e.preventDefault()
+        $("#day-0").css("display","none")  
         $("#day-1").css("display","block")
         $("#day-2").css("display","block")        
 
@@ -31,6 +32,7 @@ $( function() {
     $("#day-1-bt").click(function(e){
         // toggle day program
         e.preventDefault()
+        $("#day-0").css("display","none")  
         $("#day-2").css("display","none")   
         $("#day-1").css("display","block")              
     });
@@ -38,26 +40,43 @@ $( function() {
     $("#day-2-bt").click(function(e){
         // toggle day program
         e.preventDefault()
+        $("#day-0").css("display","none")  
         $("#day-1").css("display","none")  
         $("#day-2").css("display","block")              
     });
 
+    $("#poster-bt").click(function(e){
+        // toggle day program
+        e.preventDefault()
+        $("#day-0").css("display","none")  
+        $("#day-1").css("display","none")  
+        $("#day-2").css("display","none")              
+        $("#poster").css("display","block")              
+    });
+
+
     $("#live").click(function(e){
         e.preventDefault()
+        $("#day-0").css("display","none")  
         $("#day-1").css("display","none")  
         $("#day-2").css("display","none")  
-        $("#day-0").css("display","none")    
+        $("#poster").css("display","none")            
         
         if(checkDay() == $("#day-1").attr("day") ){
       
             $("#day-1").css("display","block")
 
         } else if (checkDay() == $("#day-2").attr("day")){
-   
-            $("#day-2").css("display","block")        
+            
+            // if hour < 17
+            $("#day-2").css("display","block") 
+            // else 
+            $("#poster").css("display","block") 
 
         } else {
+
             $("#day-0").css("display","block")  
+
         }           
 
     })
