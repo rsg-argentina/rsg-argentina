@@ -90,9 +90,13 @@ The 5th SAJIB will take place the 13th and 14th of August. As we normally do, th
 
 *We are working on this* 
 
+#### Poster session guidelines
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5f210e4ac2b34d0d9cf09c37" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
 ## Important Dates
 - <span style="text-decoration:line-through"> Registration and abstract submission deadline: July, 3rd</span> [<span style="color:red">CLOSED</span>]
-- Notification of acceptance: July, 20th
+- <span style="text-decoration:line-through"> Notification of acceptance: July, 20th</span>  [<span style="color:green">DONE</span>]
 
 ## Important Links
 - [Registration](https://forms.gle/FSdMtdFLJWzrZyiK9)
