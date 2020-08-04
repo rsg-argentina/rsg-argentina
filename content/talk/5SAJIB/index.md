@@ -80,7 +80,7 @@ The 5th SAJIB will take place the 13th and 14th of August. As we normally do, th
 
 #### Program
 
-*We are working on this* 
+![program](/conferences/sajib2020/programme-13.jpg)
 
 ## [14-08] Workshops 
 - **Molecular Dynamics**: Data analysis in simulation experiments (Dr. Lucy Jiménez)
