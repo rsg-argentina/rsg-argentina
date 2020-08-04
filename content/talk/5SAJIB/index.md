@@ -78,9 +78,6 @@ The 5th SAJIB will take place the 13th and 14th of August. As we normally do, th
 - Analysis of gene expression data (Dr. Jessica A. Carballido)
 - Markov state models in protein ligand-binding analysis: finding the needle in a haystack (Dr. Cesar Avila)
 
-#### Program
-
-![program](/conferences/sajib2020/programme-13.jpg)
 
 ## [14-08] Workshops 
 - **Molecular Dynamics**: Data analysis in simulation experiments (Dr. Lucy Jiménez)
@@ -88,7 +85,7 @@ The 5th SAJIB will take place the 13th and 14th of August. As we normally do, th
 
 #### Program
 
-*We are working on this* 
+![program](/conferences/sajib2020/programme-13.jpg)
 
 #### Poster session guidelines
 
