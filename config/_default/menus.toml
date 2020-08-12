@@ -28,10 +28,10 @@
   url = "#people"
   weight = 50
 
-#[[main]]
-#  name = "SAJIB2020"  # Title of the link.
-#  url = "conferences/sajib2020"  # Widget Page folder name.
-#  weight = 60  # Position of the link in the navigation bar.
+[[main]]
+  name = "SAJIB2020"  # Title of the link.
+  url = "conferences/sajib2020"  # Widget Page folder name.
+  weight = 60  # Position of the link in the navigation bar.
 
 #[[main]]
 #  name = "Contact"
