@@ -52,7 +52,7 @@ $( function() {
         $("#day-0").css("display","none")  
         $("#day-2").css("display","none")   
         $("#poster").css("display","none")      
-        $("#day-1").css("display","block")              
+        $("#day-1").css("display","none")              
     });
 
     $("#day-2-bt").click(function(e){
@@ -61,7 +61,7 @@ $( function() {
         $("#day-0").css("display","none")  
         $("#day-1").css("display","none")  
         $("#poster").css("display","none")      
-        $("#day-2").css("display","block")              
+        $("#day-2").css("display","none")              
     });
 
     $("#poster-bt").click(function(e){
@@ -70,7 +70,7 @@ $( function() {
         $("#day-0").css("display","none")  
         $("#day-1").css("display","none")  
         $("#day-2").css("display","none")              
-        $("#poster").css("display","block")              
+        $("#poster").css("display","none")              
     });
 
     setInterval(checkTime, second*60);
