@@ -71,4 +71,4 @@ user_groups = ["Authorities"]
 +++
 
 # About me 
-I am currently working on the prediction of plasmids and resistance proteins in prokaryotic organisms from a semi-automatic computer analysis of NGS data, at the Pilot Plant for Industrial Microbiological Processes (PROIMI-CONICET), under the supervision of Dr. Daniel Kurth. Since 2015, I have collaborated in the FBQyF Institute for Biostatistics. I am a constant learner, passionate about science and experimentation in all states.
+-
