@@ -15,7 +15,7 @@ date: 2021-09-01T09:00:00-19:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2021-06-22T14:00:00-03:00
+publishDate: 2021-06-22T13:48:21-03:00
 
 #authors: []
 tags: ["Meeting","Symposium"]
@@ -67,7 +67,6 @@ projects: [""]
 
 ## [00-09] Student Symposium 
 
-# The 5th SAJIB will take place the 13th and 14th of August. As we normally do, the activities will be separated into one day of keynotes and selected presentations exposition (the 13th) and workshops with hands on activities. All activities will be held virtually on Zoom to registered users, and broadcasted live via streaming through our [youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured). 
 
 ### Keynote Speakers
 - 
@@ -79,11 +78,11 @@ projects: [""]
 
 #### Program
 
-# ![program](/conferences/sajib2020/programme-13.jpg)
+
 
 #### Poster session guidelines
 
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5f210e4ac2b34d0d9cf09c37" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
 
 ## Important Dates
 - <span style="text-decoration:line-through"> Registration and abstract submission deadline: July, 16th</span> [<span style="color:red">CLOSED</span>]
