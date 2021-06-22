@@ -67,7 +67,7 @@ projects: [""]
 
 ## Important Links
 - [Abstract submission](https://easychair.org/conferences/?conf=6sajib)
-- [Youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
+
 
 
 ## ¡Pronto más Novedades! 
@@ -75,5 +75,15 @@ projects: [""]
 ### Program
 ### [00-09] Student Symposium 
 ## Keynote Speakers
+## Oral communications
+## Poster session 
 ### [00-09] Workshops 
-### Poster session 
+
+
+
+## Social Media
+- [Twitter](https://twitter.com/rsgargentina)
+- [Linkedin](https://www.linkedin.com/in/iscb-sc-rsg-argentina-053599214/)
+- [Instagram](https://www.instagram.com/rsg_arg/)
+- [Facebook](https://www.facebook.com/RSGArgentina/)
+- [Youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
