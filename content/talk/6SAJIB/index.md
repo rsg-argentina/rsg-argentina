@@ -72,12 +72,6 @@ projects: [""]
 
 ## ¡Pronto más Novedades! 
 
-### Program
-### [00-09] Student Symposium 
-## Keynote Speakers
-## Oral communications
-## Poster session 
-### [00-09] Workshops 
 
 
 ---
