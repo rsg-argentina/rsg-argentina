@@ -16,7 +16,7 @@ role = "President"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Facultad de Bioquimica, Quimica y Farmacia(FBQyF)", url = "http://www.fbqf.unt.edu.ar/" }, {name="Universidad Nacional de Tucuman", url="http://www.unt.edu.ar/"} ]
+organizations = [{ name = "UNQ-CONICET", url = "http://ufq.unq.edu.ar/sbg/" }, { name = "Structural Bioinformatics Group, UNQ", url = "http://ufq.unq.edu.ar/sbg/" }, {name="Universidad Nacional de Quilmes", url="http://www.unq.edu.ar/"} ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Tesinist, assistant professor of biostatistics, lover of science."
@@ -25,7 +25,7 @@ bio = "Tesinist, assistant professor of biostatistics, lover of science."
 email = "carlastembio@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Bioinformatics of NGS data, prediction of prokaryotic plasmids and resistance proteins"]
+interests = ["Structural Bioinformatics, Education, Programming"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -33,10 +33,14 @@ user_groups = ["Authorities"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Bsc/MSc in Biotechnology"
+  course = "Ms in Biotechnology"
   institution = "Facultad de Bioquimica, Quimica y Farmacia-UNT (FBQyF-UNT)"
   year = 2020
 
+[[education.courses]]
+course = "PhD"
+institution = "Universidad Nacional de Quilmes"
+year = 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -47,16 +51,6 @@ user_groups = ["Authorities"]
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:carlastembio@gmail.com"
-
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.com/citations?user=V_bxLYMAAAAJ&hl=es"
-
-[[social]]
-  icon = "mendeley"
-  icon_pack = "ai"
-  link = "https://www.mendeley.com/profiles/carla-luciana-padilla-franzotti/"
 
 [[social]]
   icon = "linkedin"
