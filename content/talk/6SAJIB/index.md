@@ -63,7 +63,7 @@ projects: [""]
 
 #### Program
 
-# ![program](/conferences/sajib2020/programme-10y-ann.jpg)
+
 
 ## [00-09] Student Symposium 
 
@@ -73,8 +73,8 @@ projects: [""]
 
 
 ## [00-09] Workshops 
-- **Molecular Dynamics**: Data analysis in simulation experiments (Dr. Lucy Jiménez)
-- **Machine Learning** Classifiers: Fundamentals (Dr. Ariel Berenstein)
+- **Introducción a Linux**
+- **Programación Web** 
 
 #### Program
 
@@ -85,10 +85,10 @@ projects: [""]
 
 
 ## Important Dates
-- <span style="text-decoration:line-through"> Registration and abstract submission deadline: July, 16th</span> [<span style="color:red">CLOSED</span>]
-- <span style="text-decoration:line-through"> Notification of acceptance: August, 13th</span>  [<span style="color:green">DONE</span>]
+- Registration and abstract submission deadline: July, 16th
+- Notification of acceptance: August, 13th
 
 ## Important Links
-# - [Registration](https://forms.gle/FSdMtdFLJWzrZyiK9)
-# - [Abstract submission](https://forms.gle/DjuEkN65inXukADv5)
+- [Registration]
+- [Abstract submission]
 - [Youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
