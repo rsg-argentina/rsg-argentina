@@ -70,11 +70,10 @@ projects: [""]
 - [Youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
 
 
-¡Pronto más Novedades! 
+## ¡Pronto más Novedades! 
 
-#### Program
-## [00-09] Student Symposium 
-### Keynote Speakers
-## [00-09] Workshops 
-#### Program
-#### Poster session guidelines
+### Program
+### [00-09] Student Symposium 
+## Keynote Speakers
+### [00-09] Workshops 
+### Poster session 
