@@ -80,7 +80,7 @@ projects: [""]
 ### [00-09] Workshops 
 
 
-
+---
 ## Social Media
 - [Twitter](https://twitter.com/rsgargentina)
 - [Linkedin](https://www.linkedin.com/in/iscb-sc-rsg-argentina-053599214/)
