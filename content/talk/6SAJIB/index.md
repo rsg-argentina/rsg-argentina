@@ -61,34 +61,20 @@ slides: ""
 projects: [""]
 ---
 
-#### Program
-
-
-
-## [00-09] Student Symposium 
-
-
-### Keynote Speakers
-- 
-
-
-## [00-09] Workshops 
-- **Introducción a Linux**
-- **Programación Web** 
-
-#### Program
-
-
-
-#### Poster session guidelines
-
-
-
 ## Important Dates
 - Registration and abstract submission deadline: July, 16th
 - Notification of acceptance: August, 13th
 
 ## Important Links
-- [Registration]
-- [Abstract submission]
+- [Abstract submission](https://easychair.org/conferences/?conf=6sajib)
 - [Youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
+
+
+¡Pronto más Novedades! 
+
+#### Program
+## [00-09] Student Symposium 
+### Keynote Speakers
+## [00-09] Workshops 
+#### Program
+#### Poster session guidelines
