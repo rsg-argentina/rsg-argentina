@@ -18,7 +18,7 @@ all_day: false
 publishDate: 2021-06-22T13:48:21-03:00
 
 #authors: []
-tags: ["Meeting","Symposium"]
+tags: ["Symposium"]
 
 # Is this a featured talk? (true/false)
 featured: true
@@ -70,7 +70,7 @@ projects: [""]
 - [Submission guidelines](https://drive.google.com/file/d/1AAzmd_aPo4OJ6lfclEoo6pwfUkySpgla/view?usp=sharing)
 
 
-### ¡Pronto más Novedades! 
+### More news coming soon! 
 
 
 
