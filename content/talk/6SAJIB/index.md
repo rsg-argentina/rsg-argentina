@@ -65,9 +65,9 @@ projects: [""]
 - Registration and abstract submission deadline: July, 16th
 - Notification of acceptance: August, 13th
 
-## Important Links
-- [Abstract submission](https://easychair.org/conferences/?conf=6sajib)
-
+## Abstract submission
+- [Link](https://easychair.org/conferences/?conf=6sajib)
+- [Submission guidelines](https://docs.google.com/document/d/196Eip2wYuf27A7g-_krZs83VRSLCkqwj-1JJewYZUWI/edit?usp=sharing)
 
 
 ### ¡Pronto más Novedades! 
