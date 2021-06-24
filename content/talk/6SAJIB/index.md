@@ -67,7 +67,7 @@ projects: [""]
 
 ## Abstract submission
 - [Link](https://easychair.org/conferences/?conf=6sajib)
-- [Submission guidelines](https://drive.google.com/file/d/1AAzmd_aPo4OJ6lfclEoo6pwfUkySpgla/view?usp=sharing)
+- [Submission guidelines](https://drive.google.com/file/d/1CYMW5BTe4D9WH2CDHnCKxyXWEmBVHDoT/view?usp=sharing)
 
 
 ### More news coming soon! 
