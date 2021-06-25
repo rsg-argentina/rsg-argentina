@@ -12,7 +12,7 @@ authors = ["gparra"]
 gparra = [""]
 
 # Role/position
-role = "Volunteer"
+role = "Honorary Member"
 
 # Short bio (displayed in user profile at end of posts)
 bio = "I am an Argentinian Scientist specialised in bioinformatics and computational biology. I have a Bioinformatics BSc/MSc degree (5 years) from Entre Rios University (Argentina) (http://www.uner.edu.ar/) and obtained my Ph.D. from Buenos Aires University (Argentina) working at the Protein Physiology Laboratory as a CONICET graduate fellow under the supervision of Prof. Diego Ferreiro. After being an EMBO Postdoctoral Fellow at the Max Planck Institute for Biophysical Chemistry with Johannes Soeding I am currently a Postdoctoral Researcher at EMBL/DKFZ under the supervision of Oliver Stegle."

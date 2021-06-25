@@ -12,7 +12,7 @@ authors = ["npalopoli"]
 npalopoli = [""]
 
 # Role/position
-role = "Volunteer"
+role = "Honorary Member"
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Computational biologist. Researcher at CONICET. Teaching Assistant at Universidad Nacional de Quilmes.."
