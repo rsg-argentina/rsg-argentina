@@ -34,7 +34,7 @@ user_groups = ["Authorities"]
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "Ms in Biotechnology"
-  institution = "Facultad de Bioquimica, Quimica y Farmacia-UNT (FBQyF-UNT)"
+  institution = "Facultad de Bioquimica, Quimica y Farmacia- Universidad Nacional de Tucuman (FBQyF-UNT)"
   year = 2020
 
 [[education.courses]]
@@ -51,6 +51,11 @@ year = 2021
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:carlastembio@gmail.com"
+
+  [[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/Carlalpf91"
 
 [[social]]
   icon = "linkedin"
