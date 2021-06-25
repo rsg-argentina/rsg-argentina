@@ -70,3 +70,4 @@ year = 2021
 +++
 
 # About me 
+Carla Padilla Franzotti holds an MS degree in Biotechnology from the National University of Tucumán, Argentina. She is currently a CONICET doctoral fellow and aims to deepen the knowledge of protein-protein interactions mediated by linear motifs, in order to achieve a more complete description of their biological role.
