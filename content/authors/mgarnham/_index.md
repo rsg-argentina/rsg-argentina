@@ -16,10 +16,10 @@ role = "Vice-President"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-# organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
+organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"}, {name="Trypanosomatics Laboratory", url="https://www.trypanosomatics.org/"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "I am currently doing the last year of my bachelor’s degree in Biotechnology at the University of Hurlingham (UNAHUR)."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "mercedesdidiergarnham@gmail.com"
@@ -35,7 +35,12 @@ user_groups = ["Authorities"]
 [[education.courses]]
   course = "Ms in Biotechnology"
   institution = "Universidad Nacional de Hurlingham"
-  year = ""
+  year = "2020"
+
+[[education.courses]]
+course = "PhD Student"
+institution = "Universidad Nacional de San Martin"
+year = 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -47,8 +52,18 @@ user_groups = ["Authorities"]
   icon_pack = "fas"
   link = "mailto:mercedesdidiergarnham@gmail.com"
 
+  [[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/MMDidierGarnham"
+
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/mercedes-didier-garnham-67242a151"
+
 +++
 
 # About me 
 
-I work in Bioinformatics, using computer science and programming to analize chemogenomic information. I’m researching new compounds that might be useful to treat Chagas disease by using genome-wide data and chemical libraries at IIBIO-CONICET.
+Mercedes Didier Garnham holds an MS degree in Biotechnology from the National University of Hurlingham, Argentina. She is currently a CONICET doctoral fellow using computer science and programming to analize chemogenomic information, looking for new compounds that might be useful to treat Chagas disease at IIBIO-CONICET, National University of San Martín, Argentina.
