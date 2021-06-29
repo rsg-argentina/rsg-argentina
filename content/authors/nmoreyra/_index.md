@@ -25,7 +25,7 @@ bio = "PhD Fellow, teacher and professional procrastinator."
 email = "nmoreyra@ege.fcen.uba.ar"
 
 # List (academic) interests or hobbies
-interests = ["Comparative and Evolutionary Genomics, Phylogenomics, Genome Assembly"]
+interests = ["Evolution", "Comparative Genomics", "Phylogenomics", "Molecular Ecology"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -38,7 +38,7 @@ user_groups = ["Academic Advisors"]
   year = 2014
 [[education.courses]]
   course = "PhD in Biological Sciences"
-
+  year = 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
