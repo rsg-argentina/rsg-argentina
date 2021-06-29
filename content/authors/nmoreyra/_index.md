@@ -16,7 +16,7 @@ role = "Academic Advisor"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Instituto de Ecología, Genética y Evolución de Buenos Aires (IEGEBA)", url="http://www.ege.fcen.uba.ar/institucional/iegeba"},{name="Evolution Lab",url = "http://labodeevolucion.blogspot.com/p/blog-page.html"} ]
+organizations = [ { name = "Laboratorio de Evolución, Instituto de Ecología, Genética y Evolución de Buenos Aires (IEGEBA, UBA - CONICET)", url = "https://labodeevolucion.blogspot.com/p/blog-page.html" }, {name="Fundación para el Estudio de Especies Invasivas (FuEDEI)", url="https://fuedei.org/"}]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "PhD Fellow, teacher and professional procrastinator."
@@ -36,6 +36,8 @@ user_groups = ["Academic Advisors"]
   course = "BSc. in Bioinformatics"
   institution = "Universidad Nacional de Entre Ríos"
   year = 2014
+[[education.courses]]
+  course = "PhD in Biological Sciences"
 
 
 # Social/Academic Networking
@@ -77,4 +79,4 @@ user_groups = ["Academic Advisors"]
 
 # About me 
 
-Nicolás Nahuel Moreyra holds an BSc. degree in Bioinformatics from the National University of Entre Rios (UNER), Argentina. He has been working at IEGEBA-CONICET since 2015, when he started a Ph.D. in Biological Sciences at University of Buenos Aires. His research focuses on the study of the evolutionary history of cactophilic Drosophila species. He has experience working with NGS datasets and genome/transcriptome assembly pipelines and he is currently interested in changing his field of work towards human health. Nicolás teachs Bioinformatics at Favaloro University and Informatics at IFTS N°7.
+Nicolás Nahuel Moreyra holds an BSc. degree in Bioinformatics from the Universidad Nacional de Entre Rios (UNER), Argentina; and a PhD in Biological Sciences from the Universidad de Buenos Aires, Argentina. He has been working at Instituto de Ecología, Genética y Evolución de Buenos Aires (IEGEBA, UBA - CONICET) since 2015. In April 2021, after finished the PhD, he started a CONICET Postdoctoral fellowship to address a project in collaboration with the Fundación para el Estudio de Especies Invasivas (FuEDEI). His research focuses on the study of the molecular ecology and evolutionary history of cactophilic arthropods such as drosophilids and lepidopterans. He has experience working with NGS datasets, genome/transcriptome assembly pipelines, and phylogenomic analysis. Nicolás also teaches Bioinformatics at Favaloro University and Informatics at IFTS N°7.
