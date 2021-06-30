@@ -16,7 +16,7 @@ role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "NANOBIOTEC/CONICET - FAUBA", url = "" }]
+organizations = [ { name = "NANOBIOTEC/CONICET - FAUBA", url = "https://nanobiotec.conicet.gov.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
@@ -50,7 +50,7 @@ user_groups = ["Volunteers"]
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "www.linkedin.com/in/juan-felix-orlowski-824485187"
+  link = "https://www.linkedin.com/in/juan-felix-orlowski-824485187/"
 +++
 
 # About me 
