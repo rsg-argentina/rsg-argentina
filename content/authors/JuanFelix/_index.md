@@ -1,31 +1,31 @@
 +++
 # Display name
-name = "Barbara Nogar"
+name = "Juan Felix Orlowski"
 
 # Author weight -- for sort purposes
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["BarbaraNogar"]
+authors = ["JuanFelix"]
 
 # Author name (this is required for people without content)
-BarbaraNogar = [""]
+JuanFelix = [""]
 
 # Role/position
 role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Systems Biology Group (IFLYSIB - UNLP - CONICET)", url = "https://sysbioiflysib.wordpress.com" }]
+organizations = [ { name = "NANOBIOTEC/CONICET - FAUBA", url = "" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "fjbarbi@gmail.com"
+email = "orlowski@agro.uba.ar"
 
 # List (academic) interests or hobbies
-interests = ["Molecular Dynamics", "Structural Biology", "Biostatistics", "Data Science", "Systems Biology"]
+interests = ["Metagenomics, and other bioinformatic fields"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -33,8 +33,8 @@ user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Bioinformatics and Biotechnology Student"
-  institution = "UADE"
+  course = "Agricultural Engineer"
+  # institution = ""
 
 
 # Social/Academic Networking
@@ -45,10 +45,14 @@ user_groups = ["Volunteers"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:fjbarbi@gmail.com"
+  link = "mailto:orlowski@agro.uba.ar"
 
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "www.linkedin.com/in/juan-felix-orlowski-824485187"
 +++
 
 # About me 
 
-Bioinformatic student currently working in Molecular Dynamics and Structural Biology
+PhD candidate, former bioinformatic technician

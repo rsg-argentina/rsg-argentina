@@ -29,7 +29,7 @@ user_groups = ["Academic Advisors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Ms in Bioinformatics"
+  course = "BSc. in Bioinformatics"
   institution = "Universidad Nacional de Entre Rios"
   year = 2014
 [[education.courses]]
