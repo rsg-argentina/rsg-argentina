@@ -34,7 +34,7 @@ user_groups = ["Volunteers"]
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "Bioinformatics and Biotechnology Student"
-
+  institution = "UADE"
 
 
 # Social/Academic Networking
