@@ -55,4 +55,4 @@ user_groups = ["Volunteers"]
 
 # About me 
 
-PhD candidate, former bioinformatic technician
+Juan Felix Orlowski is a PhD candidate, former bioinformatic technician

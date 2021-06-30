@@ -9,7 +9,7 @@ weight = 10
 authors = ["Carla"]
 
 # Author name (this is required for people without content)
-Carla = ["Carla Luciana Padilla Franzotti"]
+Carla = [""]
 
 # Role/position
 role = "President"

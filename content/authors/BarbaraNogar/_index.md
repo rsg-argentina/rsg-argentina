@@ -51,4 +51,4 @@ user_groups = ["Volunteers"]
 
 # About me 
 
-Bioinformatic student currently working in Molecular Dynamics and Structural Biology
+Barbara Nogar is a Bioinformatic student currently working in Molecular Dynamics and Structural Biology
