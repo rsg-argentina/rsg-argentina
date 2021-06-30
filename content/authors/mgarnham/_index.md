@@ -33,7 +33,7 @@ user_groups = ["Authorities"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Ms in Biotechnology"
+  course = "BSc. in Biotechnology"
   institution = "Universidad Nacional de Hurlingham"
   year = "2020"
 
@@ -66,4 +66,4 @@ year = 2021
 
 # About me 
 
-Mercedes Didier Garnham holds an MS degree in Biotechnology from the National University of Hurlingham, Argentina. She is currently a CONICET doctoral fellow using computer science and programming to analize chemogenomic information, looking for new compounds that might be useful to treat Chagas disease at IIBIO-CONICET, National University of San Martín, Argentina.
+Mercedes Didier Garnham holds an BSc. degree in Biotechnology from the National University of Hurlingham, Argentina. She is currently a CONICET doctoral fellow using computer science and programming to analize chemogenomic information, looking for new compounds that might be useful to treat Chagas disease at IIBIO-CONICET, National University of San Martín, Argentina.

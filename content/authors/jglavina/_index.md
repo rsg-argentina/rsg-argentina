@@ -29,7 +29,7 @@ user_groups = ["Authorities"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Ms in Biology"
+  course = "BSc. in Biology"
   institution = "Universidad de Buenos Aires"
   year = 2009
 

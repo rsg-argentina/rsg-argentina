@@ -33,7 +33,7 @@ user_groups = ["Academic Advisors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Ms in Biotechnology"
+  course = "BSc. in Biotechnology"
   institution = "Universidad Nacional de Quilmes"
   year = 2015
 
@@ -77,4 +77,4 @@ user_groups = ["Academic Advisors"]
 
 # About me 
 
-Lionel Uran Landaburu holds an MS degree in Biotechnology from the Universidad Nacional de Quilmes, Argentina. Is passionate about, and has been working on since 2011, global health problems. He has had welcoming experiences in the wet lab, but is now aiming towards Bioinformatics as a PhD fellow at IIBIO-CONICET. He is currently doing research in applied chemogenomics, using genome-wide data and chemical libraries to find novel treatments for a wide variety of neglected diseases, Chagas disease in particular.
+Lionel Uran Landaburu holds an BSc. degree in Biotechnology from the Universidad Nacional de Quilmes, Argentina. Is passionate about, and has been working on since 2011, global health problems. He has had welcoming experiences in the wet lab, but is now aiming towards Bioinformatics as a PhD fellow at IIBIO-CONICET. He is currently doing research in applied chemogenomics, using genome-wide data and chemical libraries to find novel treatments for a wide variety of neglected diseases, Chagas disease in particular.

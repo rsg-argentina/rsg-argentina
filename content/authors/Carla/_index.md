@@ -33,7 +33,7 @@ user_groups = ["Authorities"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Ms in Biotechnology"
+  course = "BSc. in Biotechnology"
   institution = "Facultad de Bioquimica, Quimica y Farmacia- Universidad Nacional de Tucuman (FBQyF-UNT)"
   year = 2020
 
@@ -70,4 +70,4 @@ year = 2021
 +++
 
 # About me 
-Carla Padilla Franzotti holds an MS degree in Biotechnology from the National University of Tucumán, Argentina. She is currently a CONICET doctoral fellow and aims to deepen the knowledge of protein-protein interactions mediated by linear motifs, in order to achieve a more complete description of their biological role.
+Carla Padilla Franzotti holds an BSc. degree in Biotechnology from the National University of Tucumán, Argentina. She is currently a CONICET doctoral fellow and aims to deepen the knowledge of protein-protein interactions mediated by linear motifs, in order to achieve a more complete description of their biological role.
