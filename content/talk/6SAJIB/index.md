@@ -69,6 +69,13 @@ projects: [""]
 - [Link](https://easychair.org/conferences/?conf=6sajib)
 - [Submission guidelines](https://drive.google.com/file/d/1CYMW5BTe4D9WH2CDHnCKxyXWEmBVHDoT/view?usp=sharing)
 
+### Symposium Topics
+- Drug Discovery
+- Bioinformatics and Diseases
+- Bioinformatics Tools & Algorithms
+- Structural Bioinformatics
+- Genomics and Evolution
+
 
 ### More news coming soon! 
 
