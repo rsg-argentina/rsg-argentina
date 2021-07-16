@@ -62,7 +62,7 @@ projects: [""]
 ---
 
 ## Important Dates
-- Abstract submission deadline: <span style="text-decoration:line-through" July, 16th> July, 23rd
+- Abstract submission deadline: <span style="text-decoration:line-through"> July, 16th </span> <span style="color:blue">July, 23rd</span>
 - Notification of acceptance: August, 13th
 
 ## Abstract submission
