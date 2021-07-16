@@ -76,6 +76,10 @@ projects: [""]
 - Structural Bioinformatics
 - Genomics and Evolution
 
+### Keynote Talks 
+(/conferences/sajib2021/flyers-keynotes.jpg)
+- APRENDIZAJE DE MÁQUINAS EN QUÍMICA COMPUTACIONAL - Dr. Adrian Roitberg
+- MOTIVOS LINEALES CANDIDATOS EN EL MECANISMO DE ENTRADA CELULAR DE SARS-CoV-2 Y SUS IMPLICACIONES TERAPÉUTICAS - Dra. Lucia Chemes
 
 ### More news coming soon! 
 
