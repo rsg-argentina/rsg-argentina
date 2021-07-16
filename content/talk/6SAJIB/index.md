@@ -62,7 +62,7 @@ projects: [""]
 ---
 
 ## Important Dates
-- Registration and abstract submission deadline: July, 16th
+- Registration and abstract submission deadline: <span style="text-decoration:line-through"> July, 16th
 - Notification of acceptance: August, 13th
 
 ## Abstract submission
