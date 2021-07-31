@@ -80,10 +80,10 @@ projects: [""]
 
 >![keynote](/conferences/sajib2021/adrianweb.png)
 > **Aprendizaje de Máquinas en Química Computacional**
-'
+---
 >![keynote](/conferences/sajib2021/luciaweb.png)
 > **Motivos Lineales candidatos en el mecanismo de entrada celular de SARS-CoV-2 y sus implicaciones terapéuticas**
----
+
 
 ### Workshops
 >![teacher](/conferences/sajib2021/anaweb.png)
