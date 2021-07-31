@@ -77,11 +77,14 @@ projects: [""]
 - Genomics and Evolution
 
 ### Keynote Talks 
-![program](/conferences/sajib2021/flyers-keynotes.jpg)
-- APRENDIZAJE DE MÁQUINAS EN QUÍMICA COMPUTACIONAL - Dr. Adrian Roitberg
-- MOTIVOS LINEALES CANDIDATOS EN EL MECANISMO DE ENTRADA CELULAR DE SARS-CoV-2 Y SUS IMPLICACIONES TERAPÉUTICAS - Dra. Lucia Chemes
+![keynote](/conferences/sajib2021/adrianweb.png)
+- Aprendizaje de Máquinas en Química Computacional
+![keynote](/conferences/sajib2021/luciaweb.png)
+- Motivos Lineales candidatos en el mecanismo de entrada celular de SARS-CoV-2 y sus implicaciones terapéuticas
 
-### More news coming soon! 
+### Workshops
+![keynote](/conferences/sajib2021/anaweb.png)
+- Primeros pasos en programación Web
 
 
 
