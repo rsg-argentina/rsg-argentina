@@ -78,9 +78,9 @@ projects: [""]
 
 ### Keynote Talks 
 ![keynote](/conferences/sajib2021/adrianweb.png)
-Talk:**Aprendizaje de Máquinas en Química Computacional**
+> **Aprendizaje de Máquinas en Química Computacional**
 ![keynote](/conferences/sajib2021/luciaweb.png)
-Talk:**Motivos Lineales candidatos en el mecanismo de entrada celular de SARS-CoV-2 y sus implicaciones terapéuticas**
+> **Motivos Lineales candidatos en el mecanismo de entrada celular de SARS-CoV-2 y sus implicaciones terapéuticas**
 
 ### Workshops
 ![keynote](/conferences/sajib2021/anaweb.png)
