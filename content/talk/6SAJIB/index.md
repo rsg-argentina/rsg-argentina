@@ -79,8 +79,8 @@ projects: [""]
 ### Keynote Talks 
 
 >![keynote](/conferences/sajib2021/adrianweb.png)
-> **Aprendizaje de Máquinas en Química Computacional** - [More Info][Link]
-[Link]:https://drive.google.com/file/d/1HKD2nuPkb94yQjYlMSmljYYQshoUt73K/view?usp=sharing
+> **Aprendizaje de Máquinas en Química Computacional** - [More Info][flyer]
+[flyer]:https://drive.google.com/file/d/1HKD2nuPkb94yQjYlMSmljYYQshoUt73K/view?usp=sharing
 ---
 >![keynote](/conferences/sajib2021/luciaweb.png)
 > **Motivos Lineales candidatos en el mecanismo de entrada celular de SARS-CoV-2 y sus implicaciones terapéuticas**
