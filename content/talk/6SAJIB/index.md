@@ -65,10 +65,6 @@ projects: [""]
 - Abstract submission deadline: <span style="text-decoration:line-through"> Extended until July, 30th </span> <span style="color:red"> [CLOSED]</span>
 - Notification of acceptance: **August, 13th**
 
-## Abstract submission
-- [Link](https://easychair.org/conferences/?conf=6sajib)
-- [Submission guidelines](https://drive.google.com/file/d/1CYMW5BTe4D9WH2CDHnCKxyXWEmBVHDoT/view?usp=sharing)
-
 ### Symposium Topics
 - Drug Discovery
 - Bioinformatics and Diseases
