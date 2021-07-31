@@ -83,6 +83,7 @@ projects: [""]
 '
 >![keynote](/conferences/sajib2021/luciaweb.png)
 > **Motivos Lineales candidatos en el mecanismo de entrada celular de SARS-CoV-2 y sus implicaciones terapéuticas**
+'En esta charla, voy a hablar sobre el análisis de secuencias del receptor celular de SARS-CoV-2 y potenciales co-receptores utilizando la base de datos ELM. Les presentaré resultados de nuestro estudio, donde encontramos motivos lineales candidatos en colas citosólicas desordenadas del receptor, que se encuentran altamente conservados en vertebrados y median interacciones con la maquinaria de endocitosis y múltiples dominios (I-BAR, LC3, PDZ, PTB, SH2) presentes en proteínas señalizadoras. El solapamiento de varios de estos motivos en la secuencia proteica sugiere que podrían actuar como interruptores celulares dependientes de fosforilación. Varios de estos motivos fueron validados experimentalmente, y su descubrimiento sugiere posibles avenidas terapéuticas.'
 
 ### Workshops
 >![teacher](/conferences/sajib2021/anaweb.png)
