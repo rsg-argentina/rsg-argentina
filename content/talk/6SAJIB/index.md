@@ -77,15 +77,14 @@ projects: [""]
 - Genomics and Evolution
 
 ### Keynote Talks 
->
-![keynote](/conferences/sajib2021/adrianweb.png)
+
+>![keynote](/conferences/sajib2021/adrianweb.png)
 > **Aprendizaje de Máquinas en Química Computacional**
-![keynote](/conferences/sajib2021/luciaweb.png)
+>![keynote](/conferences/sajib2021/luciaweb.png)
 > **Motivos Lineales candidatos en el mecanismo de entrada celular de SARS-CoV-2 y sus implicaciones terapéuticas**
 
 ### Workshops
->
-![keynote](/conferences/sajib2021/anaweb.png)
+>![keynote](/conferences/sajib2021/anaweb.png)
 > **Primeros pasos en programación Web**
 
 
