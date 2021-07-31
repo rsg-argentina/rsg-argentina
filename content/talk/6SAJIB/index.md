@@ -62,8 +62,8 @@ projects: [""]
 ---
 
 ## Important Dates
-- Abstract submission deadline: <span style="text-decoration:line-through"> July, 16th </span> <span style="color:red"> Extended until July, 30th</span>
-- Notification of acceptance: August, 13th
+- Abstract submission deadline: <span style="text-decoration:line-through"> July, 16th </span> <span style="color:red"> **Extended until July, 30th**</span>
+- Notification of acceptance: **August, 13th**
 
 ## Abstract submission
 - [Link](https://easychair.org/conferences/?conf=6sajib)
