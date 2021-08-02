@@ -88,7 +88,7 @@ projects: [""]
 >- [More Info](https://drive.google.com/file/d/19ommZyt6KQlyctbtz-mVARJnnwf6Tltb/view?usp=sharing)
 ---
 >![teacher](/conferences/sajib2021/marciaweb.png)
-> **Primeros pasos en programación Web**
+> **Introducción a GNU/Linux**
 >- [More Info](https://drive.google.com/file/d/1tRLW1CrjmC4sbBwfBWN66508N0ajrTK6/view?usp=sharing)
 
 ## Social Media
