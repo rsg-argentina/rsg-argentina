@@ -62,7 +62,7 @@ projects: [""]
 ---
 
 ## Important Dates
-- [Inscription]()
+- [Inscription](https://forms.gle/PZpoGZP9dXFoJqUB8)
 - Abstract submission deadline: <span style="text-decoration:line-through"> Extended until July, 30th </span> <span style="color:red"> [CLOSED]</span>
 - Notification of acceptance: **August, 13th**
 
