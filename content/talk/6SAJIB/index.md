@@ -61,21 +61,23 @@ slides: ""
 projects: [""]
 ---
 
-## Inscription
-- [Inscription](https://forms.gle/PZpoGZP9dXFoJqUB8)
-- Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](blank:#https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
-
----
-## Important Dates
-- Abstract submission deadline:<span style="color:red"> [CLOSED]</span>
-- Notification of acceptance: **August, 13th**
-
 ### Symposium Topics
 - Drug Discovery
 - Bioinformatics and Diseases
 - Bioinformatics Tools & Algorithms
 - Structural Bioinformatics
 - Genomics and Evolution
+
+### Inscription
+- [Inscription](https://forms.gle/PZpoGZP9dXFoJqUB8)
+- Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
+
+---
+### Important Dates
+- Abstract submission deadline:<span style="color:red"> [CLOSED]</span>
+- Notification of acceptance: **August, 13th**
+
+---
 
 ### Keynote Talks 
 
