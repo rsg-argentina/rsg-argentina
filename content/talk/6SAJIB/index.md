@@ -72,6 +72,9 @@ projects: [""]
 - [Inscription](https://forms.gle/PZpoGZP9dXFoJqUB8)
 - Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
 
+### Poster session 
+- [Poster Instructions](https://docs.google.com/document/d/1e_B1gxE7IeBP7IlAJ0Afza-Jw6GUMLNHGQn-JRlTh7g/edit)
+
 ---
 ### Important Dates
 - Abstract submission deadline:<span style="color:red"> [CLOSED]</span>
