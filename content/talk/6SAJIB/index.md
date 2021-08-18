@@ -79,6 +79,7 @@ projects: [""]
 ### Important Dates
 - Abstract submission deadline:<span style="color:red"> [CLOSED]</span>
 - Notification of acceptance: **August, 13th**
+- Poster submission deadline: **August, 27th**
 
 ---
 
