@@ -62,7 +62,7 @@ projects: [""]
 ---
 
 ### :red_circle: 6SAJIB deck
-- [Link](https://rsg-argentina.netlify.app/conferences/sajib2021/)
+- [Link](https://rsg-argentina.netlify.app/conferences/sajib2021/) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ### Symposium Topics
 - Drug Discovery
