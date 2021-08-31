@@ -61,6 +61,9 @@ slides: ""
 projects: [""]
 ---
 
+### 6SAJIB deck
+- [Link](https://rsg-argentina.netlify.app/conferences/sajib2021/)
+
 ### Symposium Topics
 - Drug Discovery
 - Bioinformatics and Diseases
