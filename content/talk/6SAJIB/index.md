@@ -72,7 +72,7 @@ projects: [""]
 - Genomics and Evolution
 
 ### Inscription
-- [Inscription](https://forms.gle/PZpoGZP9dXFoJqUB8)
+- [Inscription](https://forms.gle/PZpoGZP9dXFoJqUB8) <span style="text-decoration:line-through">August, 13th</span>  [<span style="color:green">DONE</span>]
 - Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
 
 ### Poster session 
@@ -82,7 +82,7 @@ projects: [""]
 ### Important Dates
 - Abstract submission deadline:<span style="color:red"> [CLOSED]</span>
 - Notification of acceptance: <span style="text-decoration:line-through">August, 13th</span>  [<span style="color:green">DONE</span>]
-- Poster submission deadline: **August, 27th**
+- Poster submission deadline: August, 27th <span style="text-decoration:line-through">August, 13th</span>  [<span style="color:green">DONE</span>]
 
 ---
 
