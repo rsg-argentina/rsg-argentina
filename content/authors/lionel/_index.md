@@ -12,7 +12,7 @@ authors = ["lionel"]
 lionel = [""]
 
 # Role/position
-role = "Academic Advisor"
+role = "Honorary Member"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -29,7 +29,7 @@ interests = ["Chemogenomics, Neglected diseases, Drug Discovery"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Academic Advisors"]
+user_groups = ["Honorary Member"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
