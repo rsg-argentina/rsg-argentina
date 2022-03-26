@@ -12,7 +12,7 @@ authors = ["fcravero"]
 fcravero = [""]
 
 # Role/position
-role = "Academic Advisor"
+role = "Honorary Member"
 
 # Short bio (displayed in user profile at end of posts)
 bio = "I'm Fiorella and I hold a BSc. in Bioinformatics and a PhD in Computer Science. I am currently a bit removed from bioinformatics, working on cheminformatics specifically in materials informatics."
@@ -25,7 +25,7 @@ interests = ["Machine Learning", "Cheminformatics"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Academic Advisors"]
+user_groups = ["Honorary Member"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
