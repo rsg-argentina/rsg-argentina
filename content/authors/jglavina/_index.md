@@ -12,7 +12,7 @@ authors = ["jglavina"]
 jglavina = [""]
 
 # Role/position
-role = "Secretary"
+role = "Vice-President"
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Post-Doc, bioinformatician and volunteer in science outreach programs"
