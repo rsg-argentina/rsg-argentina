@@ -3,7 +3,7 @@
 name = "Nicolás Nahuel Moreyra"
 
 # Author weight -- for sort purposes
-weight = 40
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["nmoreyra"]
