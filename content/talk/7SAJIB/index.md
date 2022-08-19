@@ -1,16 +1,16 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "6to Simposio Argentino de Jóvenes Investigadores en Bioinformática"
-event: "6SAJIB"
+title: "7mo Simposio Argentino de Jóvenes Investigadores en Bioinformática"
+event: "7SAJIB"
 event_url: ""
-location: Virtual Conference 
+location: Hybrid event
 summary: ""
 abstract: ""
 
 #  Talk start and end times.
 #  End time can optionally be hidden by prefixing the line with `#`.
-date: 2022-09-05T09:00:00-19:00
+date: 2022-10-05T09:00:00-19:00
 #date_end: 2019-07-2T09:00:00-17:00
 all_day: false
 
@@ -72,10 +72,10 @@ projects: [""]
 - Genomics and Evolution
 
 ### Inscription
-- [Inscription] 
+- [Inscription] SOON!
 
 ### Poster session 
-- [Poster Instructions]
+- [Poster Instructions] SOON!
 
 ---
 ### Important Dates
