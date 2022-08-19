@@ -15,8 +15,7 @@ date: 2022-10-05T09:00:00-19:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: true
-
+publishDate: 2021-06-22T13:48:21-03:00
 
 #authors: []
 tags: ["Symposium"]
