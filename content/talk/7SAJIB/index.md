@@ -4,7 +4,7 @@
 title: "7mo Simposio Argentino de Jóvenes Investigadores en Bioinformática"
 event: "7SAJIB"
 event_url: ""
-location: Hybrid conference
+location: Hybrid event
 summary: ""
 abstract: ""
 
