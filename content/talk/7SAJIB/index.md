@@ -15,7 +15,7 @@ date: 2022-10-05T09:00:00-19:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2022-08-18T13:48:21-03:00
+publishDate: 2022-09-18T13:48:21-03:00
 
 
 #authors: []
