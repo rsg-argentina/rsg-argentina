@@ -10,12 +10,13 @@ abstract: ""
 
 #  Talk start and end times.
 #  End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-09-01T09:00:00-19:00
+date: 2022-09-05T09:00:00-19:00
 #date_end: 2019-07-2T09:00:00-17:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2021-06-22T13:48:21-03:00
+publishDate: 2022-08-18T13:48:21-03:00
+
 
 #authors: []
 tags: ["Symposium"]
@@ -61,8 +62,7 @@ slides: ""
 projects: [""]
 ---
 
-### :red_circle: 6SAJIB deck :computer:
-- [Link](https://rsg-argentina.netlify.app/conferences/sajib2021/) :point_left: :point_left:
+
 
 ### Symposium Topics
 - Drug Discovery
@@ -72,38 +72,21 @@ projects: [""]
 - Genomics and Evolution
 
 ### Inscription
-- [Inscription] <span style="text-decoration:line-through"> (https://forms.gle/PZpoGZP9dXFoJqUB8)</span>  [<span style="color:green">DONE</span>]
-- Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
+- [Inscription] 
 
 ### Poster session 
-- [Poster Instructions](https://docs.google.com/document/d/1e_B1gxE7IeBP7IlAJ0Afza-Jw6GUMLNHGQn-JRlTh7g/edit)
+- [Poster Instructions]
 
 ---
 ### Important Dates
-- Abstract submission deadline:<span style="color:red"> [CLOSED]</span>
-- Notification of acceptance: <span style="text-decoration:line-through">August, 13th</span>  [<span style="color:green">DONE</span>]
-- Poster submission deadline: <span style="text-decoration:line-through">August, 27th</span>  [<span style="color:green">DONE</span>]
+- Abstract submission deadline:<span style="color:green"> [SOON!]</span>
+- Notification of acceptance: 
+- Poster submission deadline: 
 
 ---
 
 ### Keynote Talks 
-
->![keynote](/conferences/sajib2021/adrianweb.png)
-> **Aprendizaje de Máquinas en Química Computacional** 
->- [More Info](https://drive.google.com/file/d/1HKD2nuPkb94yQjYlMSmljYYQshoUt73K/view?usp=sharing)
----
->![keynote](/conferences/sajib2021/luciaweb.png)
-> **Motivos Lineales candidatos en el mecanismo de entrada celular de SARS-CoV-2 y sus implicaciones terapéuticas**
->- [More Info](https://drive.google.com/file/d/1P6GzfGxeHTl_hzwRPno1yN3-4wIsBbm4/view?usp=sharing)
-
-### Workshops
->![teacher](/conferences/sajib2021/anaweb.png)
-> **Primeros pasos en programación Web**
->- [More Info](https://drive.google.com/file/d/19ommZyt6KQlyctbtz-mVARJnnwf6Tltb/view?usp=sharing)
----
->![teacher](/conferences/sajib2021/marciaweb.png)
-> **Introducción a GNU/Linux**
->- [More Info](https://drive.google.com/file/d/1tRLW1CrjmC4sbBwfBWN66508N0ajrTK6/view?usp=sharing)
+SOON!
 
 ## Social Media
 - [Twitter](https://twitter.com/rsgargentina)
