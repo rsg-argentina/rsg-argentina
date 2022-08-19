@@ -10,7 +10,7 @@ abstract: ""
 
 #  Talk start and end times.
 #  End time can optionally be hidden by prefixing the line with `#`.
-date: 2022-09-05T09:00:00-19:00
+date: 2022-10-05T09:00:00-19:00
 #date_end: 2019-07-2T09:00:00-17:00
 all_day: false
 
