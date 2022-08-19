@@ -4,7 +4,7 @@
 title: "7mo Simposio Argentino de Jóvenes Investigadores en Bioinformática"
 event: "7SAJIB"
 event_url: ""
-location: Hybrid event
+location: Hybrid conference
 summary: ""
 abstract: ""
 
@@ -15,7 +15,7 @@ date: 2022-10-05T09:00:00-19:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2022-09-18T13:48:21-03:00
+publishDate: 2022-08-17T13:48:21-03:00
 
 
 #authors: []
