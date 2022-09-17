@@ -61,31 +61,56 @@ slides: ""
 projects: [""]
 ---
 
+### 7SAJIB deck :computer:
+SOON!
+The official language of the 7SAJIB is Spanish
+
+### Key Dates
+- Registration opens: <span style="color:green"> August, 20th</span>  
+- Abstracts opens:<span style="color:green"> week of August, 22th</span>  
+- Fellowship and travel financing application deadline:<span style="color:green"> September, 12th</span>  [<span style="color:red">CLOSED</span>]
+- Abstract submission deadline:<span style="color:green"> September, 19th</span>  
+- Acceptance notification: <span style="color:green">Until September, 26th</span> 
+
+---
+### Registration and submitting Abstracts
+Fees (*Values expressed in Pesos Argentinos)
+- Estudiante de Secundaria: <span style="color:green"> FREE</span>
+- Estudiante de Pregrado y Grado: <span style="color:green"> $500*</span>
+- Estudiante de Posgrado: <span style="color:green"> $750*</span>
+- Postdoc o Investigador/Industria: <span style="color:green"> $1000*</span>
 
 
+You can apply for registration fellowships in the following form
+- [Registration_form](https://forms.gle/ArJ7yPixooHecd3m9)
+
+Check the instructions for submitting abstracts and the template model. [Here](https://docs.google.com/document/d/1-jM1ru1KkI2zQBQusVP1xCHmSFyVOYd9DGPc_uD3l1c/edit?usp=sharing)
+
+Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
+
+---
 ### Symposium Topics
 - Drug Discovery
 - Bioinformatics and Diseases
 - Bioinformatics Tools & Algorithms
 - Structural Bioinformatics
 - Genomics and Evolution
-
-### Inscription
-- [Inscription] SOON!
+- Education
 
 ### Poster session 
 - [Poster Instructions] SOON!
 
 ---
-### Important Dates
-- Abstract submission deadline:<span style="color:green"> [SOON!]</span>
-- Notification of acceptance: 
-- Poster submission deadline: 
-
----
-
 ### Keynote Talks 
 SOON!
+
+### Workshops
+SOON!
+
+---
+### Certificates
+- Workshop attendance certificates
+- Certificate of participation in 7SAJIB
 
 ## Social Media
 - [Twitter](https://twitter.com/rsgargentina)
