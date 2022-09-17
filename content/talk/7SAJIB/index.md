@@ -62,9 +62,12 @@ projects: [""]
 ---
 
 ### 7SAJIB deck :computer:
-SOON!
 The official language of the 7SAJIB is Spanish
+- Program [Here](https://rsg-argentina.netlify.app/conferences/sajib2022/#)
+- Organizing committee
+- Sponsors and collaborators
 
+---
 ### Key Dates
 - Registration opens: <span style="color:green"> August, 20th</span>  
 - Abstracts opens:<span style="color:green"> week of August, 22th</span>  
