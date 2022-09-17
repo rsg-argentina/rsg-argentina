@@ -66,6 +66,7 @@ The official language of the 7SAJIB is Spanish
 - Program [Here](https://rsg-argentina.netlify.app/conferences/sajib2022/#)
 - Organizing committee SOON!
 - Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c), [WBDS-LA](https://wbds.la/), [FBQyF-UNT](https://www.fbqf.unt.edu.ar/), [CUEBQyF](https://www.instagram.com/frenteestudiantilfbqf/)
+![Img](/static/conferences/sajib2022/index_files/sponsors.jpg)
 ---
 ### Key Dates
 - Registration opens: <span style="color:green"> August, 20th</span>  
