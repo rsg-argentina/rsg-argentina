@@ -102,9 +102,9 @@ Besides registration and attendance, participation in this event requires accept
 
 ---
 ### Keynote Talks 
-- Perspectivas de las simulaciones de dinámica molecular en sistemas biológicos seleccionados - **Dr. Monica Pickholz** 
-- Buscando familias de proteínas en redes de similitud de secuencias (SSN) - **Dr. Javier González**
-- Secuenciación en tiempo real y lecturas largas. Desde el SARS-CoV-2 a metagenomas - **Dr. Ariel Amadio**
+- Perspectivas de las simulaciones de dinámica molecular en sistemas biológicos seleccionados - **Dr. Monica Pickholz** (More info) 
+- Buscando familias de proteínas en redes de similitud de secuencias (SSN) - **Dr. Javier González** (More info)
+- Secuenciación en tiempo real y lecturas largas. Desde el SARS-CoV-2 a metagenomas - **Dr. Ariel Amadio** (More info)
 
 ### Workshops
 - Introducción a la programación en R - **MSc. Lucia Zarbá** (More info)
