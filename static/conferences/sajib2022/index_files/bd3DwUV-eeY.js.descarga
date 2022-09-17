@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["\/6nCfBG"]); }
+
+__d("relay-runtime/util/withDuration",[],(function(a,b,c,d,e,f){"use strict";var g=a.performance!=null&&typeof a.performance.now==="function";function h(){return g?a.performance.now():Date.now()}function b(a){var b=h();a=a();return[h()-b,a]}e.exports=b}),null);
