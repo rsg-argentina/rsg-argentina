@@ -68,7 +68,7 @@ The official language of the 7SAJIB is Spanish
 ### Key Dates
 - Registration opens: <span style="color:green"> August, 20th</span>  
 - Abstracts opens:<span style="color:green"> week of August, 22th</span>  
-- Fellowship and travel financing application deadline:<span style="color:green"> September, 12th</span>  [<span style="color:red">CLOSED</span>]
+- Fellowship and travel financing application deadline:<span style="color:red"> ~~September, 12th~~</span>[<span style="color:red">CLOSED</span>]
 - Abstract submission deadline:<span style="color:green"> September, 19th</span>  
 - Acceptance notification: <span style="color:green">Until September, 26th</span> 
 
@@ -102,10 +102,12 @@ Besides registration and attendance, participation in this event requires accept
 
 ---
 ### Keynote Talks 
-SOON!
+Dr. Monica
+Dr. Javier
+Dr. Ariel
 
 ### Workshops
-SOON!
+´
 
 ---
 ### Certificates
