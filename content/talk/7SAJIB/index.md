@@ -102,14 +102,14 @@ Besides registration and attendance, participation in this event requires accept
 
 ---
 ### Keynote Talks 
-- Perspectivas de las simulaciones de dinámica molecular en sistemas biológicos seleccionados - Dr. Monica Pickholz 
-- Buscando familias de proteínas en redes de similitud de secuencias (SSN) - Dr. Javier González
-- Secuenciación en tiempo real y lecturas largas. Desde el SARS-CoV-2 a metagenomas - Dr. Ariel Amadio
+- Perspectivas de las simulaciones de dinámica molecular en sistemas biológicos seleccionados - **Dr. Monica Pickholz** 
+- Buscando familias de proteínas en redes de similitud de secuencias (SSN) - **Dr. Javier González**
+- Secuenciación en tiempo real y lecturas largas. Desde el SARS-CoV-2 a metagenomas - **Dr. Ariel Amadio**
 
 ### Workshops
-- Introducción a la programación en R - MSc. Lucia Zarbá (More info)
-- Metagenómica y metataxonómica: caracterización de comunidades por secuenciación de amplicones - Dr. Daniel Kurth (More info)
-- Herramientas computacionales para la predicción de complejos proteína-ligando  - Eng. Rafael Betanzos San Juan (More info)
+- Introducción a la programación en R - **MSc. Lucia Zarbá** (More info)
+- Metagenómica y metataxonómica: caracterización de comunidades por secuenciación de amplicones - **Dr. Daniel Kurth** (More info)
+- Herramientas computacionales para la predicción de complejos proteína-ligando  - **Eng. Rafael Betanzos San Juan** (More info)
 
 You can register for the workshops in the following form
 - [Workshops_form](https://forms.gle/aDQthXvGxiaFT8FB6)
