@@ -81,7 +81,7 @@ Fees (*Values expressed in Pesos Argentinos)
 - Postdoc o Investigador/Industria: <span style="color:green"> $1000*</span>
 
 
-You can apply for registration fellowships in the following form
+You can register for the Symposium in the following form
 - [Registration_form](https://forms.gle/ArJ7yPixooHecd3m9)
 
 Check the instructions for submitting abstracts and the template model. [Here](https://docs.google.com/document/d/1-jM1ru1KkI2zQBQusVP1xCHmSFyVOYd9DGPc_uD3l1c/edit?usp=sharing)
@@ -102,12 +102,17 @@ Besides registration and attendance, participation in this event requires accept
 
 ---
 ### Keynote Talks 
-Dr. Monica
-Dr. Javier
-Dr. Ariel
+- Perspectivas de las simulaciones de dinámica molecular en sistemas biológicos seleccionados - Dr. Monica Pickholz 
+- Buscando familias de proteínas en redes de similitud de secuencias (SSN) - Dr. Javier González
+- Secuenciación en tiempo real y lecturas largas. Desde el SARS-CoV-2 a metagenomas - Dr. Ariel Amadio
 
 ### Workshops
-´
+- Introducción a la programación en R - MSc. Lucia Zarbá (More info)
+- Metagenómica y metataxonómica: caracterización de comunidades por secuenciación de amplicones - Dr. Daniel Kurth (More info)
+- Herramientas computacionales para la predicción de complejos proteína-ligando  - Eng. Rafael Betanzos San Juan (More info)
+
+You can register for the workshops in the following form
+- [Workshops_form](https://forms.gle/aDQthXvGxiaFT8FB6)
 
 ---
 ### Certificates
