@@ -101,7 +101,8 @@ Besides registration and attendance, participation in this event requires accept
 - Education
 
 ### Poster session 
-- [Poster Instructions] SOON!
+You can find the instructions for preparation and presentation posters in the following link:
+- [Poster Instructions](https://docs.google.com/document/d/1nCv6ovbNbLv0QvfLYC6GMVsfH9LgaJOYKU-I1ILPPys/edit?usp=sharing) 
 
 ---
 ### Keynote Talks 
