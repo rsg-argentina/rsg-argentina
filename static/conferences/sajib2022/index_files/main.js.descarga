@@ -42,7 +42,7 @@ $( function() {
         $("#day-0").css("display","none")  
         $("#day-1").css("display","block")
         $("#day-2").css("display","block")
-        $("#poster").css("display","none")              
+        $("#poster").css("display","block")              
 
     });
 
