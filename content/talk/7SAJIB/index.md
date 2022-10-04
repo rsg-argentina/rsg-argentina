@@ -63,8 +63,9 @@ projects: [""]
 
 ### 7SAJIB deck :computer:
 The official language of the 7SAJIB is Spanish
-- Program [Here](https://rsg-argentina.netlify.app/conferences/sajib2022/#)
-- Organizing committee SOON!
+- Full Program & Poster session [Here](https://rsg-argentina.netlify.app/conferences/sajib2022/#)
+- Organizing committee
+![Img](/img/organizadores.jpg)
 - Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c), [WBDS-LA](https://wbds.la/), [FBQyF-UNT](https://www.fbqf.unt.edu.ar/), [ABT](http://www.asobioltuc.com/), [CUEBQyF](https://www.instagram.com/frenteestudiantilfbqf/)
 ![Img](/img/sponsors.jpg)
 ---
