@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Gonzalo Parra"
+title = "Gonzalo Parra"
 
 # Author weight -- for sort purposes
 weight = 10

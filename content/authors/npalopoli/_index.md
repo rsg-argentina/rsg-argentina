@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Nicolas Palopoli"
+title = "Nicolas Palopoli"
 
 # Author weight -- for sort purposes
 weight = 10

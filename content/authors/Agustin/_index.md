@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Agustin Baricalla"
+title = "Agustin Baricalla"
 
 # Author weight -- for sort purposes
 weight = 10

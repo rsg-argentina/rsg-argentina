@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "María Clara Miserendino"
+title = "María Clara Miserendino"
 
 # Author weight -- for sort purposes
 weight = 10

@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Lionel Urán Landaburu"
+title = "Lionel Urán Landaburu"
 
 # Author weight -- for sort purposes
 weight = 10

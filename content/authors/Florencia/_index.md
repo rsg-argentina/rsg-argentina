@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "María Florencia Martínez"
+title = "María Florencia Martínez"
 
 # Author weight -- for sort purposes
 weight = 10

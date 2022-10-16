@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Ariel Berenstein"
+title = "Ariel Berenstein"
 
 # Author weight -- for sort purposes
 weight = 10

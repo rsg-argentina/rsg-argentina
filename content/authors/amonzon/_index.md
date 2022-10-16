@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Alexander Monzon"
+title = "Alexander Monzon"
 
 # Author weight -- for sort purposes
 weight = 10

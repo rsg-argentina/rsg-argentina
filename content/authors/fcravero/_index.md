@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Fiorella Cravero"
+title = "Fiorella Cravero"
 
 # Author weight -- for sort purposes
 weight = 10

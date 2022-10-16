@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Ana Julia Velez Rueda"
+title = "Ana Julia Velez Rueda"
 
 # Author weight -- for sort purposes
 weight = 10
