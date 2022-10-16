@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Carla Luciana Padilla Franzotti"
+title = "Carla Luciana Padilla Franzotti"
 
 # Author weight -- for sort purposes
 weight = 10
