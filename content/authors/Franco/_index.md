@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Franco Simonetti"
+title = "Franco Simonetti"
 
 # Author weight -- for sort purposes
 weight = 10

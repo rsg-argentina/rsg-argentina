@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Mercedes Didier Garnham"
+title = "Mercedes Didier Garnham"
 
 # Author weight -- for sort purposes
 weight = 10
@@ -35,12 +35,12 @@ user_groups = ["Authorities"]
 [[education.courses]]
   course = "BSc. in Biotechnology"
   institution = "Universidad Nacional de Hurlingham"
-  year = "2020"
+# year = "2020"
 
 [[education.courses]]
 course = "PhD Student"
 institution = "Universidad Nacional de San Martin"
-year = 2021
+# year = 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

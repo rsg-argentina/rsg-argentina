@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Juliana Glavina"
+title = "Juliana Glavina"
 
 # Author weight -- for sort purposes
 weight = 10
@@ -31,12 +31,12 @@ user_groups = ["Authorities"]
 [[education.courses]]
   course = "BSc. in Biology"
   institution = "Universidad de Buenos Aires"
-  year = 2009
+# year = 2009
 
 [[education.courses]]
   course = "PhD"
   institution = "Universidad de Buenos Aires"
-  year = 2019
+# year = 2019
 
 
 # Social/Academic Networking

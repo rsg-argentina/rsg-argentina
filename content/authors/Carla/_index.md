@@ -35,12 +35,12 @@ user_groups = ["Authorities"]
 [[education.courses]]
   course = "BSc. in Biotechnology"
   institution = "Facultad de Bioquimica, Quimica y Farmacia- Universidad Nacional de Tucuman (FBQyF-UNT)"
-  year = 2020
+# year = 2020
 
 [[education.courses]]
 course = "PhD Student"
 institution = "Universidad Nacional de Quilmes"
-year = 2021
+# year = 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
