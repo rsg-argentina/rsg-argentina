@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Nicolás Nahuel Moreyra"
+title = "Nicolás Nahuel Moreyra"
 
 # Author weight -- for sort purposes
 weight = 10
@@ -35,10 +35,10 @@ user_groups = ["Authorities"]
 [[education.courses]]
   course = "BSc. in Bioinformatics"
   institution = "Universidad Nacional de Entre Ríos"
-  year = 2014
+# year = 2014
 [[education.courses]]
   course = "PhD in Biological Sciences"
-  year = 2021
+# year = 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
