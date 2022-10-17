@@ -33,11 +33,11 @@ user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Student"
+  course = "Technician in Information Technologies student"
 institution = "Facultad de Ciencias Exactas, Químicas y Naturales-UNAM"
 
 [[education.courses]]
-course = "Student"
+course = "Biochemistry student"
 institution = "Facultad de Ciencias Exactas, Químicas y Naturales-UNAM"
 
 
