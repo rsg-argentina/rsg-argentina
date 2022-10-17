@@ -40,7 +40,7 @@ course = "PhD Student"
 institution = "Universidad Nacional de Quilmes"
 
 [[education.courses]]
-course = "Teacher in Introducción a la Química / Química General"
+course = "Teacher in Introduction to Chemistry / General Chemistry"
 institution = "Universidad Nacional de La Plata, Buenos Aires"
 
 # Social/Academic Networking
