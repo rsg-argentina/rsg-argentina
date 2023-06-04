@@ -12,7 +12,7 @@ authors = ["jglavina"]
 jglavina = [""]
 
 # Role/position
-role = "Vice-President"
+role = "Academic Advisor"
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Post-Doc, bioinformatician and volunteer in science outreach programs"
@@ -25,7 +25,7 @@ interests = ["Viral Proteins", "Disordered Proteins", "Linear Motifs","Evolution
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"]
+user_groups = ["Academic Advisors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
