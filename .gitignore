@@ -5,3 +5,6 @@ hugo.exe
 resources/
 assets/scss/scss/main.scss_76ac6956597c32fec7ddf60d408db3ab.content
 themes/academic
+
+# Local Netlify folder
+.netlify

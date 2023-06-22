@@ -26,10 +26,10 @@ featured: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-#image:
-#  caption: "Flyer"
-#  focal_point: "center"
-#  preview_only: false
+image:
+  caption: "Flyer"
+  focal_point: "center"
+  preview_only: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -64,32 +64,10 @@ projects: [""]
 ### 8SAJIB deck :computer:
 The official language of the 8SAJIB is Spanish
 - Full Program & Poster session: SOON!
-# - Full Program & Poster session [Here](https://rsg-argentina.netlify.app/conferences/sajib2022/#)
+# - Full Program & Poster session [Here](https://rsgargentina.netlify.app/conferences/sajib2023/#)
 - Organizing committee
 ![Img](/img/organizadores.jpg)
-- Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c), [WBDS-LA](https://wbds.la/), [FBQyF-UNT](https://www.fbqf.unt.edu.ar/), [ABT](http://www.asobioltuc.com/), [CUEBQyF](https://www.instagram.com/frenteestudiantilfbqf/)
-![Img](/img/sponsors.jpg)
----
-### Key Dates
-- Registration opens: <span style="color:green"> June, 1st</span>  
-- Abstracts opens:<span style="color:green"> June, 1st</span>  
-_ - Fellowship and travel financing application deadline:<span style="color:green">  July, 3rd</span>  
-# - Fellowship and travel financing application deadline:<span style="color:red"> ~~September, 12th~~</span>[<span style="color:red">CLOSED</span>]
-- Abstract submission deadline:<span style="color:green"> June, 30th
-- Acceptance notification: <span style="color:green"> July, 21th
----
-### Registration and submitting Abstracts
-Fees (*Values expressed in Pesos Argentinos) SOON!
-# - Estudiante de Secundaria: <span style="color:green"> FREE</span>
-# - Estudiante de Pregrado y Grado: <span style="color:green"> $500*</span>
-# - Estudiante de Posgrado: <span style="color:green"> $750*</span>
-# - Postdoc o Investigador/Industria: <span style="color:green"> $1000*</span>
-
-
-You can register for the Symposium in the following form: SOON!
-# - [Registration_form](https://forms.gle/ArJ7yPixooHecd3m9)
-
-# Check the instructions for submitting abstracts and the template model. [Here](https://docs.google.com/document/d/1-jM1ru1KkI2zQBQusVP1xCHmSFyVOYd9DGPc_uD3l1c/edit?usp=sharing)
+- Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c), [WBDS-LA](https://wbds.la/)
 
 Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
 
@@ -102,24 +80,6 @@ Besides registration and attendance, participation in this event requires accept
 - Genomics and Evolution
 - Education
 
-### Poster session 
-# You can find the instructions for preparation and presentation posters in the following link:
-- [Poster Instructions](https://docs.google.com/document/d/1nCv6ovbNbLv0QvfLYC6GMVsfH9LgaJOYKU-I1ILPPys/edit?usp=sharing) 
-
----
-### Keynote Talks 
-# - Perspectivas de las simulaciones de dinámica molecular en sistemas biológicos seleccionados - **Dr. Monica Pickholz** (More info) 
-# - Buscando familias de proteínas en redes de similitud de secuencias (SSN) - **Dr. Javier González** (More info)
-# - Secuenciación en tiempo real y lecturas largas. Desde el SARS-CoV-2 a metagenomas - **Dr. Ariel Amadio** (More info)
-
-### Workshops
-# - Introducción a la programación en R - **MSc. Lucia Zarbá** (More info)
-# - Metagenómica y metataxonómica: caracterización de comunidades por secuenciación de amplicones - **Dr. Daniel Kurth** (More info)
-# - Herramientas computacionales para la predicción de complejos proteína-ligando  - **Eng. Rafael Betanzos San Juan** (More info)
-
-You can register for the workshops in the following form: SOON!
-# - [Workshops_form](https://forms.gle/aDQthXvGxiaFT8FB6)
-
 ---
 ### Certificates
 - Workshop attendance certificates
@@ -127,7 +87,7 @@ You can register for the workshops in the following form: SOON!
 
 ## Social Media
 - [Twitter](https://twitter.com/rsgargentina)
-- [Linkedin](https://www.linkedin.com/in/iscb-sc-rsg-argentina-053599214/)
+- [Linkedin](https://www.linkedin.com/in/iscb-sc-rsgargentina-053599214/)
 - [Instagram](https://www.instagram.com/rsg_arg/)
 - [Facebook](https://www.facebook.com/RSGArgentina/)
 - [Youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
