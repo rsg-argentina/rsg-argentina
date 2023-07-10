@@ -10,8 +10,8 @@ abstract: ""
 
 #  Talk start and end times.
 #  End time can optionally be hidden by prefixing the line with `#`.
-date: 2023-8-02T09:00:00-19:00
-date_end: 2023-8-3T09:00:00-17:00
+date: 2023-08-02T09:00:00-19:00
+lastmod: 2023-08-02T09:00:00-19:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -63,10 +63,6 @@ projects: [""]
 
 ### 8SAJIB deck :computer:
 The official language of the 8SAJIB is Spanish
-- Full Program & Poster session: SOON!
-# - Full Program & Poster session [Here](https://rsgargentina.netlify.app/conferences/sajib2023/#)
-- Organizing committee
-![Img](/img/organizadores.jpg)
 - Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c), [WBDS-LA](https://wbds.la/)
 
 Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
