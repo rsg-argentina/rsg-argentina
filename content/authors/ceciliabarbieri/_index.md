@@ -1,68 +1,76 @@
 +++
 # Display name
-title = "Nataya Soledad Flores"
+title = "Cecilia Luján Barbieri"
 
 # Author weight -- for sort purposes
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["nataya"]
+authors = ["ceciliabarbieri"]
 
 # Author name (this is required for people without content)
-nataya = [""]
+ceciliabarbieri = [""]
 
 # Role/position
-role = "Academic Advisor"
+role = "Volunteer - Events Comittee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = " Facultad de Ciencias Exactas, Químicas y Naturales-UNAM", url = "https://www.fceqyn.unam.edu.ar/"}]
+organizations = [{ name = "QUIAMM, INBIOTEC/UNMdP", url = "https://inbiotec-conicet.gob.ar/laboratorio/quiamml" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "natayafs@gmail.com"
+email = "ceciliabarbieri@live.com.ar"
 
 # List (academic) interests or hobbies
-interests = ["Proteins structures, genomics, artificial intelligence, statistics"]
+interests = ["Molecular modelling, Drug design"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Academic Advisor"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Technician in Information Technologies student"
-institution = "Facultad de Ciencias Exactas, Químicas y Naturales-UNAM"
+  course = "Bioquímica"
 
 [[education.courses]]
-course = "Biochemistry student"
-institution = "Facultad de Ciencias Exactas, Químicas y Naturales-UNAM"
+course = "Docente de Farmacología"
+institution = "FCEyN, UNMdP, Bs As"
 
+[[education.courses]]
+course = "Docente de Fisicoquímica"
+institution = "FCEyN, UNMdP, Bs As"
+
+[[education.courses]]
+course = "PhD Student"
+institution = "iQUIAMM, INBIOTEC/UNMdP"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   https://fontawesome.com/icons
 
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:natayafs@gmail.com"
+  link = "mailto:ceciliabarbieri@live.com.ar"
 
-
-  [[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/natayadev"
 
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/natayadev/"
+  link = "https://www.linkedin.com/in/cecilia-barbieri-/"
+
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/ce_barbieri"
+
 +++
 
 # About me 
-
-Hi! I'm Nata, a very curious and nerdy person. Actually, I'm data engineer and university student. Also, I'm co-founder of the Misiones IT tech community. From time to time, I like to give talks at programming events and volunteering in organizations.
+I am currently a CONICET doctoral fellow and I am working on the search for new compounds obtained from plants that are effective in reversing resistance to chemotherapeutics, mediated by P-gp.

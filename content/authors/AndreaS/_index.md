@@ -3,16 +3,16 @@
 title = "Andrea Sarmiento"
 
 # Author weight -- for sort purposes
-weight = 10
+weight = 20
 
 # Username (this should match the folder name)
-authors = ["Andrea"]
+authors = ["AndreaS"]
 
 # Author name (this is required for people without content)
-BarbaraNogar = ["Andrea Sarmiento"]
+AndreaS = ["Andrea Sarmiento"]
 
 # Role/position
-role = "Volunteer"
+role = "Volunteer - Web Comittee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -29,7 +29,7 @@ interests = ["Science, technology, programming, volunteering, organizations, Mol
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"] 
+user_groups = ["Volunteers"] 
 
 # List qualifications (such as academic degrees)
 [[education.courses]]

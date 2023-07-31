@@ -1,41 +1,46 @@
 +++
 # Display name
-title = "Barbara Nogar"
+title = "Lucía Oviedo Bustos "
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
-authors = ["BarbaraNogar"]
+authors = ["luciaoviedobustos"]
 
 # Author name (this is required for people without content)
-BarbaraNogar = [""]
+luciaoviedobustos = [""]
 
 # Role/position
-role = "Secretary"
+role = "Volunteer - Events Comittee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Systems Biology Group (IFLYSIB - UNLP - CONICET)", url = "https://sysbioiflysib.wordpress.com" }]
+organizations = [{ name = "Instituto de Fisiología Experimental - CONICET"}]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "fjbarbi@gmail.com"
+email = "luciaoviedobustos@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Molecular Dynamics", "Structural Biology", "Biostatistics", "Data Science", "Systems Biology"]
+interests = ["Bioinformatics"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"] 
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Bioinformatics and Biotechnology Student"
-  institution = "UADE"
+  course = "Médica"
 
+[[education.courses]]
+course = "MSc in psychoneuroimmunoendocrinology"
+
+[[education.courses]]
+course = "PhD Student"
+institution = "Instituto de Fisiología Experimental - CONICET"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -45,10 +50,16 @@ user_groups = ["Authorities"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:fjbarbi@gmail.com"
+  link = "mailto:luciaoviedobustos@gmail.com"
+
+
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/lucia-oviedo-bustos-7a03b9196"
 
 +++
 
 # About me 
 
-Barbara Nogar is a Bioinformatic student currently working in Molecular Dynamics and Structural Biology
+Hi! I'm Lucía. I'm 29 years old and I live in Rosario, Argentina. I´m a medical doctor, I have a masters degree in psychoneuroimmunoendocrinology and im getting a phD in Biological Sciences. In 2023 I also started studying bioinformatics and joined RSG Argentina.

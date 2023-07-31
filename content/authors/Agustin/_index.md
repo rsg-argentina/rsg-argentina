@@ -3,13 +3,13 @@
 title = "Agustin Baricalla"
 
 # Author weight -- for sort purposes
-weight = 10
+weight = 20
 
 # Username (this should match the folder name)
 authors = ["Agustin"]
 
 # Author name (this is required for people without content)
-BarbaraNogar = [""]
+Agustin = [""]
 
 # Role/position
 role = "Vice-President"
@@ -47,4 +47,3 @@ user_groups = ["Authorities"]
 +++
 
 # About me 
-

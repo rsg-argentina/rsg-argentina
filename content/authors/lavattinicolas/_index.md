@@ -1,54 +1,54 @@
 +++
 # Display name
-title = "Barbara Nogar"
+title = "Nicolás Lavatti"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 50
 
 # Username (this should match the folder name)
-authors = ["BarbaraNogar"]
+authors = ["lavattinicolas"]
 
 # Author name (this is required for people without content)
-BarbaraNogar = [""]
+lavattinicolas = [""]
 
 # Role/position
-role = "Secretary"
+role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Systems Biology Group (IFLYSIB - UNLP - CONICET)", url = "https://sysbioiflysib.wordpress.com" }]
+organizations = [{ name = "Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA)", url = "https://www.unnoba.edu.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "fjbarbi@gmail.com"
+email = "lavatti.nicolas@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Molecular Dynamics", "Structural Biology", "Biostatistics", "Data Science", "Systems Biology"]
+interests = ["Genomics, Transcriptomics, Programming"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"] 
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Bioinformatics and Biotechnology Student"
-  institution = "UADE"
-
+course = "Licenciatura en Genética student"
+institution = "Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA)"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   https://fontawesome.com/icons
 
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:fjbarbi@gmail.com"
+  link = "mailto:lavatti.nicolas@gmail.com"
+
 
 +++
 
 # About me 
-
-Barbara Nogar is a Bioinformatic student currently working in Molecular Dynamics and Structural Biology
+Almost finishing a Bachelor's Degree in Genetics. Working on Transcriptomics and Insect neuropeptides through embryonic development for my thesis project. Lab intern at Trebe Biotech, developing recombinant proteins using the Baculovirus Expression Vector System in lepidopteran larvae.
