@@ -93,6 +93,7 @@ Besides registration and attendance, participation in this event requires accept
   </iframe>
 </div>
 
+- [Libro de resúmenes](https://doi.org/10.5281/zenodo.8225159)
 
 ## Social Media
 - [Twitter](https://twitter.com/rsgargentina)
