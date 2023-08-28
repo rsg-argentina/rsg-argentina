@@ -64,7 +64,7 @@ projects: [""]
 
 ### 8SAJIB deck :computer:
 The official language of the 8SAJIB is Spanish
-- Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c), [WBDS-LA](https://wbds.la/)
+- Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c), [SF500](https://sf500.com.ar/), [Darwin](https://cervezadarwin.com/)
 
 Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
 
@@ -84,7 +84,7 @@ Besides registration and attendance, participation in this event requires accept
 - Certificate of participation in 8SAJIB
 
 ---
-### 8SAJIB recap
+### 8SAJIB Recap
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">
