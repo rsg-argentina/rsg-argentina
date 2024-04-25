@@ -1,6 +1,6 @@
 +++
 # Display name
-title = "Mercedes Didier Garnham"
+title = "Mercedes M. Didier Garnham"
 
 # Author weight -- for sort purposes
 weight = 10
