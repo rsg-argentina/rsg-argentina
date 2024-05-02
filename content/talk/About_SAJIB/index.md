@@ -21,7 +21,7 @@ publishDate: 2024-06-22T13:48:21-03:00
 tags: ["Symposium"]
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
