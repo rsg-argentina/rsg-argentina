@@ -62,7 +62,7 @@ slides: ""
 projects: [""]
 ---
 
-### 8SAJIB deck :computer:
+### 9SAJIB deck :computer:
 The official language of the 9SAJIB is Spanish
 - Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c)
 
