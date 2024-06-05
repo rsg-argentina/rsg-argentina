@@ -28,8 +28,8 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: https://drive.google.com/file/d/1l4Yjblsj6NbQFzNvhi2re6gjD3fMB36R/view?usp=sharing
-url_guide: https://drive.google.com/file/d/15fIGkZt4MFAid6TeKjl3fSSHhA9yPIiH/view?usp=sharing
+url_slides: 
+url_guide: 
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -47,7 +47,39 @@ url_guide: https://drive.google.com/file/d/15fIGkZt4MFAid6TeKjl3fSSHhA9yPIiH/vie
 projects: [""]
 ---
 
-Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
+[Slides](https://drive.google.com/file/d/1l4Yjblsj6NbQFzNvhi2re6gjD3fMB36R/view?usp=sharing)
+
+[Guía](https://drive.google.com/file/d/15fIGkZt4MFAid6TeKjl3fSSHhA9yPIiH/view?usp=sharing)
+
+Taller del 29/05:
+
+![flyer_img](flyer_2905.jpg)
+
+[Video](https://youtu.be/4yy6DLH7k7A)
+
+[Certificados](https://drive.google.com/drive/folders/18k-nYmg-1c9hHXhbTE7vOkwcGFx1mZJw?usp=sharing)
+
+![Zoom_img](2905.jpg)
+
+Taller del 30/05:
+
+![flyer_img](flyer_3005.jpg)
+
+[Video](https://youtu.be/IqtwV0JI-mo )
+
+[Certificados](https://drive.google.com/drive/folders/13j7QZFDl8ETNm-U_45RHYaAeh5DwQfv_?usp=sharing)
+
+![Zoom_img](3005.jpg)
+
+Taller del 31/05:
+
+![flyer_img](flyer_3105.jpg)
+
+[Video](https://youtu.be/XXZqvY6etHA)
+
+[Certificados](https://drive.google.com/drive/folders/1Ovnn2s5m9FREcFUzQesBbtfCRAySMNux?usp=sharing)
+
+![Zoom_img](3105.jpg)
 
 
 ## Social Media
