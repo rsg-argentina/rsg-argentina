@@ -25,20 +25,20 @@ image:
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
 
 <div style="padding: 10px;">
-<a href="introduccion_a_bash/">
+<a href="rsg-argentina.netlify.app/workshops/introduccion_a_bash/">
     <img src="Bash.png" alt="Imagen 1" style="width: 100%; height: auto; border-radius: 5px;">
 </a>
 <p>Introducción a Bash</p>
 </div>
 
 <div style="padding: 10px;">
-<a href="https://rsg-argentina.netlify.app/workshops/">
+<a href="rsg-argentina.netlify.app/workshops/">
     <img src="blank.png" alt="Imagen 2" style="width: 100%; height: auto; border-radius: 5px;">
 </a>
 </div>
 
 <div style="padding: 10px;">
-<a href="https://rsg-argentina.netlify.app/workshops/">
+<a href="rsg-argentina.netlify.app/workshops/">
     <img src="blank.png" alt="Imagen 3" style="width: 100%; height: auto; border-radius: 5px;">
 </a>
 </div>
