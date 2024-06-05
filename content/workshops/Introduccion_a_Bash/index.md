@@ -46,12 +46,14 @@ url_guide:
 #   Otherwise, set `projects = []`.
 projects: [""]
 ---
+## Material
 
 [Slides](https://drive.google.com/file/d/1l4Yjblsj6NbQFzNvhi2re6gjD3fMB36R/view?usp=sharing)
 
 [Guía](https://drive.google.com/file/d/15fIGkZt4MFAid6TeKjl3fSSHhA9yPIiH/view?usp=sharing)
 
-Taller del 29/05:
+---
+## Taller del 29/05:
 
 ![flyer_img](flyer_2905.png)
 
@@ -61,7 +63,8 @@ Taller del 29/05:
 
 ![Zoom_img](2905.jpg)
 
-Taller del 30/05:
+---
+## Taller del 30/05:
 
 ![flyer_img](flyer_3005.png)
 
@@ -71,7 +74,8 @@ Taller del 30/05:
 
 ![Zoom_img](3005.jpg)
 
-Taller del 31/05:
+---
+## Taller del 31/05:
 
 ![flyer_img](flyer_3105.png)
 
@@ -81,7 +85,7 @@ Taller del 31/05:
 
 ![Zoom_img](3105.jpg)
 
-
+---
 ## Social Media
 - [Twitter](https://twitter.com/rsgargentina)
 - [Linkedin](https://www.linkedin.com/in/iscb-sc-rsgargentina-053599214/)
