@@ -53,7 +53,7 @@ projects: [""]
 
 Taller del 29/05:
 
-![flyer_img](flyer_2905.jpg)
+![flyer_img](flyer_2905.png)
 
 [Video](https://youtu.be/4yy6DLH7k7A)
 
@@ -63,7 +63,7 @@ Taller del 29/05:
 
 Taller del 30/05:
 
-![flyer_img](flyer_3005.jpg)
+![flyer_img](flyer_3005.png)
 
 [Video](https://youtu.be/IqtwV0JI-mo )
 
@@ -73,7 +73,7 @@ Taller del 30/05:
 
 Taller del 31/05:
 
-![flyer_img](flyer_3105.jpg)
+![flyer_img](flyer_3105.png)
 
 [Video](https://youtu.be/XXZqvY6etHA)
 

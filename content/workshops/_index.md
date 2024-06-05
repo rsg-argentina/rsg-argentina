@@ -1,5 +1,5 @@
 ---
-title: workshops
+title: Workshops
 
 # View.
 #   1 = List
