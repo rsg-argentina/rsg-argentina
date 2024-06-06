@@ -14,7 +14,7 @@ tags: ["Workshops"]
 ---
 <div style="display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px;">
 
-# Introducción a Bash
+# Introducción a Bash 
 
 </div>
 
