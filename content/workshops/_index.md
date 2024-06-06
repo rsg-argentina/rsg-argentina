@@ -6,7 +6,7 @@ title: Workshops
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-# view: 4
+view: 4
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
