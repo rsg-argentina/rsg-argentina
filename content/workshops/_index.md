@@ -18,9 +18,9 @@ image:
 
 # Optional header image (relative to `static/img/` folder).
 #header:
-#  caption: ""
-#  image: ""
-#---
+caption: ""
+image: ""
+---
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
 
