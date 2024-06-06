@@ -1,7 +1,7 @@
 ---
 title: Workshops
 date: 2024-06-05
-type: "workshops"
+type: "talk"
 ---
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 20px;">
 
