@@ -66,26 +66,30 @@ projects: [""]
 The official language of the 9SAJIB is Spanish
 - Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c)
 
-### Important Dates
+### Important Dates :computer:
 
 #### Day 1: Workshops (5/11)
-On this day we'll have two presential workshops during the afternoon
-[Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
+On this day we'll have two presential workshops during the afternoon.
+
+- [Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
+
 
 #### Day 2: Symposium (6/11)
-This year symposiom will be about Bioinformatics and Artificial Inteligence
-On this day we'll two keynoes, a panel, a poster session and abstracts talks
-[Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
+This year symposiom will be about Bioinformatics and Artificial Inteligence.
+On this day we'll have two keynotes, a panel of experts, a poster session and abstracts talks.
+
+- [Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
+
 
 #### Abstract submission 
-[Abstract form](https://forms.gle/LhGGQzpqcNSAbHDY7)
+Send your abstract for poster or talk presentation
 
 - Abstract submission deadline: August, 2th
 - Notification of acceptance: August, 30th
 - Poster submission deadline: October, 1st
 
-Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
 
+- [Abstract form](https://forms.gle/LhGGQzpqcNSAbHDY7)
 
 ---
 ### Symposium Topics
@@ -104,6 +108,10 @@ Besides registration and attendance, participation in this event requires accept
 ### Certificates
 - Workshop attendance certificates
 - Certificate of participation in 9SAJIB
+
+---
+### Code of conduct
+Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
 
 
 ## Social Media
