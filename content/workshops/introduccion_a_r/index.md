@@ -57,7 +57,7 @@ En esta sección encontrarás las diapositivas y la guía de ejercicios usados e
         <a href="https://drive.google.com/file/d/1Apx-grJMdMsvASWlnwgjpS40vVD6McRd/view?usp=sharing">
             <img src="https://img.icons8.com/ios-glyphs/30/000000/document.png" alt="Instalación de R y Rstudio" style="width: 60px; height: 60px;">
         </a>
-        <a href="https://drive.google.com/file/d/1Apx-grJMdMsvASWlnwgjpS40vVD6McRd/view?usp=sharing" style="margin-top: 5px;">Guía</a>
+        <a href="https://drive.google.com/file/d/1Apx-grJMdMsvASWlnwgjpS40vVD6McRd/view?usp=sharing" style="margin-top: 5px;">Instalación de R y Rstudio</a>
     </div>
 </div>
 
