@@ -83,10 +83,10 @@ En esta sección encontrarás los videos de los dos talleres
 </div>
 
 <div style="padding: 20px; border-radius: 5px; position: relative; text-align: center;">
-    <a href="https://drive.google.com/file/d/1Y_SlFOrRdDftP4cz7XStVYU4TEpzAyAi/view?usp=sharing" style="display: block;">
-        <img src="img.png" alt="Miniatura del Video" style="width: 100%; height: auto; border-radius: 5px;">
+    <a href="https://youtu.be/KYxrX-O7AVw" style="display: block;">
+        <img src="https://youtu.be/KYxrX-O7AVw/mqdefault.jpg" alt="Miniatura del Video" style="width: 100%; height: auto; border-radius: 5px;">
         <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.5); color: white; display: flex; align-items: center; justify-content: center;">
-            <p style="margin: 5px 0;">Video del 30/07 (próximamente)</p>
+            <p style="margin: 5px 0;">Video del 30/07</p>
         </div>
     </a>
 </div>
