@@ -60,7 +60,10 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: [""]
 ---
-Agre# 5SAJIB
+# 5SAJIB
+
+### :red_circle: 5SAJIB deck :computer:
+The event program, workshops and keynotes information is on the [Conference Deck](https://rsg-argentina.netlify.app/conferences/sajib2020/).
 
 ## [12-08] RSG Argentina - 10 years of stories 
 

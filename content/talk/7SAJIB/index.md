@@ -62,6 +62,8 @@ projects: [""]
 ---
 
 ### 7SAJIB deck :computer:
+The event program, workshops and keynotes information is on the [Conference Deck](https://rsg-argentina.netlify.app/conferences/sajib2022/).
+
 The official language of the 7SAJIB is Spanish
 - Full Program & Poster session [Here](https://rsg-argentina.netlify.app/conferences/sajib2022/#)
 - Organizing committee

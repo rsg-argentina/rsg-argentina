@@ -63,6 +63,8 @@ projects: [""]
 ---
 
 ### 9SAJIB deck :computer:
+The event program, workshops and keynotes information is on the [Conference Deck](https://rsg-argentina.netlify.app/conferences/sajib2024/).
+
 The official language of the 9SAJIB is Spanish
 - Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c)
 
