@@ -83,7 +83,7 @@ En esta sección encontrarás los videos de los tres talleres
 
 <div style="padding: 20px; border-radius: 5px; position: relative; text-align: center;">
     <a href="https://youtu.be/oCZyiSQoTDk" style="display: block;">
-        <img src="https://youtu.be/oCZyiSQoTDk/mqdefault.jpg" alt="Miniatura del Video" style="width: 100%; height: auto; border-radius: 5px;">
+        <img src="https://img.youtube.com/vi/oCZyiSQoTDk/mqdefault.jpg" alt="Miniatura del Video" style="width: 100%; height: auto; border-radius: 5px;">
         <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.5); color: white; display: flex; align-items: center; justify-content: center;">
             <p style="margin: 5px 0;">Video del 28/08 </p>
         </div>
@@ -92,7 +92,7 @@ En esta sección encontrarás los videos de los tres talleres
 
 <div style="padding: 20px; border-radius: 5px; position: relative; text-align: center;">
     <a href="https://youtu.be/a4y7qiyZNhk" style="display: block;">
-        <img src="https://youtu.be/a4y7qiyZNhk/mqdefault.jpg" alt="Miniatura del Video" style="width: 100%; height: auto; border-radius: 5px;">
+        <img src="https://img.youtube.com/vi/a4y7qiyZNhk/mqdefault.jpg" alt="Miniatura del Video" style="width: 100%; height: auto; border-radius: 5px;">
         <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.5); color: white; display: flex; align-items: center; justify-content: center;">
             <p style="margin: 5px 0;">Video del 30/08</p>
         </div>
