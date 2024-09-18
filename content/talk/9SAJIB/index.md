@@ -86,12 +86,8 @@ On this day we'll have two keynotes, a panel of experts, a poster session and ab
 #### Abstract submission 
 Send your abstract for poster or talk presentation
 
-- Abstract submission deadline: August, 2th
-- Notification of acceptance: August, 30th
-- Poster submission deadline: October, 1st
-
-
-- [Abstract form](https://forms.gle/LhGGQzpqcNSAbHDY7)
+- Abstract submission deadline: <span style="color:red"> ~~August, 16th~~</span>[<span style="color:red">CLOSED</span>]  
+- Notification of acceptance: <span style="color:red"> ~~August, 30th~~</span>[<span style="color:green">DONE</span>]   
 
 ---
 ### Symposium Topics
