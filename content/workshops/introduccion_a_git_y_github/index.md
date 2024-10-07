@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Introducción a Git y Github"
+title: "5. Introducción a Git y Github"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual
@@ -37,7 +37,7 @@ Ideal para principiantes que buscan mejorar su flujo de trabajo en desarrollo.
 
 ## Material
 
-En esta sección encontrarás las diapositivas y la guía de ejercicios usados en el taller
+En esta sección encontrarás la guía del taller
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
@@ -54,7 +54,7 @@ En esta sección encontrarás las diapositivas y la guía de ejercicios usados e
 
 ## Videos
 
-En esta sección encontrarás lel video del taller
+En esta sección encontrarás del video del taller
 </div>
 
 <div style="padding: 20px; border-radius: 5px; position: relative; text-align: center;">

@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Introducción a Python"
+title: "2. Introducción a Python"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual

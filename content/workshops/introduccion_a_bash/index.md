@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Introducción a Bash"
+title: "1. Introducción a Bash"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual
