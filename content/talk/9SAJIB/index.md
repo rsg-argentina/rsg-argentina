@@ -73,6 +73,11 @@ The official language of the 9SAJIB is Spanish
 #### Day 1: Workshops (5/11)
 On this day we'll have two presential workshops during the afternoon.
 
+📚 Workshops list:
+
+- Modelos fundacionales para secuencias biológicas
+- Modelos de clasificación de datos
+
 - [Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
 
 
