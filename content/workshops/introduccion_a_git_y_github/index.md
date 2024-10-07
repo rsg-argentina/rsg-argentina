@@ -42,7 +42,7 @@ En esta sección encontrarás la guía del taller
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
     <a href="https://github.com/WomenBioinfoDataScLA/Workshops/blob/master/Git_%26GitHub/%5BES%5D1.Git_and_GitHub_setup.md">
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/document.png" alt="Slides" style="width: 60px; height: 60px;">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/document.png" alt="Guía" style="width: 60px; height: 60px;">
     </a>
     <a href="https://github.com/WomenBioinfoDataScLA/Workshops/blob/master/Git_%26GitHub/%5BES%5D1.Git_and_GitHub_setup.md" style="margin-top: 5px;">Slides</a>
 </div>
