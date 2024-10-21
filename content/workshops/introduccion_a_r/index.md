@@ -77,7 +77,7 @@ En esta sección encontrarás los videos de los dos talleres
     <a href="https://youtu.be/eQMLGqPkRNU" style="display: block;">
         <img src="https://youtu.be/eQMLGqPkRNU/mqdefault.jpg" alt="Miniatura del Video" style="width: 100%; height: auto; border-radius: 5px;">
         <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.5); color: white; display: flex; align-items: center; justify-content: center;">
-            <p style="margin: 5px 0;">Video del 29/07 (próximamente)</p>
+            <p style="margin: 5px 0;">Video del 29/07</p>
         </div>
     </a>
 </div>
