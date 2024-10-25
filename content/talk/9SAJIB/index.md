@@ -75,8 +75,8 @@ On this day we'll have two presential workshops during the afternoon.
 
 📚 Workshops:
 <div style="display: flex; gap: 10px;">
-    <img src="/conferences/sajib2024/index_files/Taller_Leandro.png" alt="Taller Leandro" style="width: 1080px;">
-    <img src="/conferences/sajib2024/index_files/Taller_Mariano.png" alt="Taller Mariano" style="width: 1080px;">
+    <img src="/conferences/sajib2024/index_files/Taller_Leandro.png" alt="Taller Leandro" style="width: 500px;">
+    <img src="/conferences/sajib2024/index_files/Taller_Mariano.png" alt="Taller Mariano" style="width: 500px;">
 </div>
 
 📝[Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
@@ -89,13 +89,13 @@ This year symposiom will be about Bioinformatics and Artificial Inteligence.
 On this day we'll have two keynotes, a panel of experts, a poster session and abstracts talks.
 
 <div style="display: flex; gap: 10px;">
-    <img src="/conferences/sajib2024/index_files/Keynote_Alan_1.png" alt="Taller Leandro" style="width: 1080px;">
-    <img src="/conferences/sajib2024/index_files/Keynote_Alan_2.png" alt="Taller Mariano" style="width: 1080px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Alan_1.png" alt="Taller Leandro" style="width: 500px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Alan_2.png" alt="Taller Mariano" style="width: 500px;">
 </div>
 
 <div style="display: flex; gap: 10px;">
-    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_1.png" alt="Taller Leandro" style="width: 1080px;">
-    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_2.png" alt="Taller Mariano" style="width: 1080px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_1.png" alt="Taller Leandro" style="width: 500px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_2.png" alt="Taller Mariano" style="width: 500px;">
 </div>
 
 📝[Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
