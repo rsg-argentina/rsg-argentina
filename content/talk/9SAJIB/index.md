@@ -62,8 +62,8 @@ slides: ""
 projects: [""]
 ---
 
-### 9SAJIB deck :computer:
-The event program, workshops and keynotes information is on the [Conference Deck](https://rsg-argentina.netlify.app/conferences/sajib2024/).
+### :red_circle: 9SAJIB deck :computer:
+- [Link](https://rsg-argentina.netlify.app/conferences/sajib2024/) :point_left: :point_left:
 
 The official language of the 9SAJIB is Spanish
 - Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c)
@@ -75,8 +75,9 @@ On this day we'll have two presential workshops during the afternoon.
 
 📚 Workshops list:
 
-- Modelos fundacionales para secuencias biológicas
-- Modelos de clasificación de datos
+>![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Leandro.png)
+
+>![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Mariano.png)
 
 📝[Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
 
@@ -85,6 +86,11 @@ On this day we'll have two presential workshops during the afternoon.
 #### Day 2: Symposium (6/11)
 This year symposiom will be about Bioinformatics and Artificial Inteligence.
 On this day we'll have two keynotes, a panel of experts, a poster session and abstracts talks.
+>![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Alan_1.png)
+>![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Alan_2.png)
+
+>![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Georgina_1.png)
+>![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Georgina_2.png)
 
 📝[Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
 
