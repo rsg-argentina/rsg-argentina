@@ -75,9 +75,9 @@ On this day we'll have two presential workshops during the afternoon.
 
 📚 Workshops list:
 
->![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Leandro.png)
+>![keynote](/content/talk/9SAJIB/images/Keynote_Leandro.png)
 
->![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Mariano.png)
+>![keynote](/content/talk/9SAJIB/images/Keynote_Mariano.png)
 
 📝[Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
 
@@ -86,11 +86,11 @@ On this day we'll have two presential workshops during the afternoon.
 #### Day 2: Symposium (6/11)
 This year symposiom will be about Bioinformatics and Artificial Inteligence.
 On this day we'll have two keynotes, a panel of experts, a poster session and abstracts talks.
->![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Alan_1.png)
->![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Alan_2.png)
+>![keynote](/content/talk/9SAJIB/images/Keynote_Alan_1.png)
+>![keynote](/content/talk/9SAJIB/images/Keynote_Alan_2.png)
 
->![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Georgina_1.png)
->![keynote](/workspaces/rsg-argentina/content/talk/9SAJIB/images/Keynote_Georgina_2.png)
+>![keynote](/content/talk/9SAJIB/images/Keynote_Georgina_1.png)
+>![keynote](/content/talk/9SAJIB/images/Keynote_Georgina_2.png)
 
 📝[Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
 
