@@ -75,26 +75,28 @@ On this day we'll have two presential workshops during the afternoon.
 
 📚 Workshops list:
 
->![keynote](/content/talk/9SAJIB/images/Keynote_Leandro.png)
+>![Taller](/conferences/sajib2024/index_files/Taller_Leandro.png)
 
->![keynote](/content/talk/9SAJIB/images/Keynote_Mariano.png)
+>![Taller](/conferences/sajib2024/index_files/Taller_Mariano.png)
 
 📝[Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
 
-📍Location: Centro de Posgrado – Edificio Sergio Karakachoff – 48 entre 7 y 8 551-599, La Plata Bs As. Argentina [Ubicación](https://maps.app.goo.gl/EZMT1mv9Aup7gM947)
+📍Location: Centro de Posgrado – Edificio Sergio Karakachoff – 48 entre 7 y 8 551-599, La Plata Bs As. Argentina 
+🗺️[Ubicación](https://maps.app.goo.gl/EZMT1mv9Aup7gM947)
 
 #### Day 2: Symposium (6/11)
 This year symposiom will be about Bioinformatics and Artificial Inteligence.
 On this day we'll have two keynotes, a panel of experts, a poster session and abstracts talks.
->![keynote](/content/talk/9SAJIB/images/Keynote_Alan_1.png)
->![keynote](/content/talk/9SAJIB/images/Keynote_Alan_2.png)
+>![keynote](/conferences/sajib2024/index_files/Keynote_Alan_1.png)
+>![keynote](/conferences/sajib2024/index_files/Keynote_Alan_2.png)
 
->![keynote](/content/talk/9SAJIB/images/Keynote_Georgina_1.png)
->![keynote](/content/talk/9SAJIB/images/Keynote_Georgina_2.png)
+>![keynote](/conferences/sajib2024/index_files/Keynote_Georgina_1.png)
+>![keynote](/conferences/sajib2024/index_files/Keynote_Georgina_2.png)
 
 📝[Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
 
-📍 Location: CONICET La Plata – Calle 8 1467, La Plata Bs As. Argentina [Ubicación](https://maps.app.goo.gl/aYuNXegh6Dd1Ymn7A)
+📍Location: CONICET La Plata – Calle 8 1467, La Plata Bs As. Argentina 
+🗺️[Ubicación](https://maps.app.goo.gl/aYuNXegh6Dd1Ymn7A)
 
 ---
 ### Symposium Topics
