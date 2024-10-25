@@ -67,7 +67,7 @@ The event program, workshops and keynotes information is on the [Conference Deck
 
 The official language of the 9SAJIB is Spanish
 - Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/), [A2B2C](https://twitter.com/a2b2c)
-
+---
 ### Important Dates :computer:
 
 #### Day 1: Workshops (5/11)
@@ -78,17 +78,17 @@ On this day we'll have two presential workshops during the afternoon.
 - Modelos fundacionales para secuencias biológicas
 - Modelos de clasificación de datos
 
-- [Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
+📝[Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
 
-Location: Centro de Posgrado – Edificio Sergio Karakachoff – 48 entre 7 y 8 551-599, La Plata Bs As. Argentina [Ubicación](https://maps.app.goo.gl/EZMT1mv9Aup7gM947)
+📍Location: Centro de Posgrado – Edificio Sergio Karakachoff – 48 entre 7 y 8 551-599, La Plata Bs As. Argentina [Ubicación](https://maps.app.goo.gl/EZMT1mv9Aup7gM947)
 
 #### Day 2: Symposium (6/11)
 This year symposiom will be about Bioinformatics and Artificial Inteligence.
 On this day we'll have two keynotes, a panel of experts, a poster session and abstracts talks.
 
-- [Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
+📝[Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
 
-Location: CONICET La Plata – Calle 8 1467, La Plata Bs As. Argentina [Ubicación](https://maps.app.goo.gl/aYuNXegh6Dd1Ymn7A)
+📍 Location: CONICET La Plata – Calle 8 1467, La Plata Bs As. Argentina [Ubicación](https://maps.app.goo.gl/aYuNXegh6Dd1Ymn7A)
 
 ---
 ### Symposium Topics
