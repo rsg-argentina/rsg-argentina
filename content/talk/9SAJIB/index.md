@@ -73,11 +73,11 @@ The official language of the 9SAJIB is Spanish
 #### Day 1: Workshops (5/11)
 On this day we'll have two presential workshops during the afternoon.
 
-📚 Workshops list:
-
->![Taller](/conferences/sajib2024/index_files/Taller_Leandro.png)
-
->![Taller](/conferences/sajib2024/index_files/Taller_Mariano.png)
+📚 Workshops:
+<div style="display: flex; gap: 10px;">
+    <img src="/conferences/sajib2024/index_files/Taller_Leandro.png" alt="Taller Leandro" style="width: 200px;">
+    <img src="/conferences/sajib2024/index_files/Taller_Mariano.png" alt="Taller Mariano" style="width: 200px;">
+</div>
 
 📝[Workshop form](https://forms.gle/fKAjNgf2TV3TqzCS9)
 
@@ -87,11 +87,16 @@ On this day we'll have two presential workshops during the afternoon.
 #### Day 2: Symposium (6/11)
 This year symposiom will be about Bioinformatics and Artificial Inteligence.
 On this day we'll have two keynotes, a panel of experts, a poster session and abstracts talks.
->![keynote](/conferences/sajib2024/index_files/Keynote_Alan_1.png)
->![keynote](/conferences/sajib2024/index_files/Keynote_Alan_2.png)
 
->![keynote](/conferences/sajib2024/index_files/Keynote_Georgina_1.png)
->![keynote](/conferences/sajib2024/index_files/Keynote_Georgina_2.png)
+<div style="display: flex; gap: 10px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Alan_1.png" alt="Taller Leandro" style="width: 200px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Alan_2.png" alt="Taller Mariano" style="width: 200px;">
+</div>
+
+<div style="display: flex; gap: 10px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_1.png" alt="Taller Leandro" style="width: 200px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_2.png" alt="Taller Mariano" style="width: 200px;">
+</div>
 
 📝[Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
 
