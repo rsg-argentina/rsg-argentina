@@ -131,6 +131,16 @@ On this day we'll have two keynotes, a panel of experts, a poster session and ab
 ### Code of conduct
 Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
 
+---
+### Handbook
+<div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGVgOmLhrg/XGUPCHoHpvkm-5Ejr7cmKQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGVgOmLhrg&#x2F;XGUPCHoHpvkm-5Ejr7cmKQ&#x2F;view?utm_content=DAGVgOmLhrg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Handbook 9SAJIB</a> de RSG Argentina
 
 ## Social Media
 - [Twitter](https://twitter.com/rsgargentina)
