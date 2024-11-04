@@ -90,13 +90,17 @@ This year symposiom will be about Bioinformatics and Artificial Inteligence.
 On this day we'll have two keynotes, a panel of experts, a poster session and abstracts talks.
 
 <div style="display: flex; gap: 10px;">
-    <img src="/conferences/sajib2024/index_files/Keynote_Alan_1.png" alt="Taller Leandro" style="width: 500px;">
-    <img src="/conferences/sajib2024/index_files/Keynote_Alan_2.png" alt="Taller Mariano" style="width: 500px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Alan_1.png" alt="Charla Alan" style="width: 500px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Alan_2.png" alt="Charla Alan" style="width: 500px;">
 </div>
 
 <div style="display: flex; gap: 10px;">
-    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_1.png" alt="Taller Leandro" style="width: 500px;">
-    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_2.png" alt="Taller Mariano" style="width: 500px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_1.png" alt="Charla Georgina" style="width: 500px;">
+    <img src="/conferences/sajib2024/index_files/Keynote_Georgina_2.png" alt="Charla Georgina" style="width: 500px;">
+</div>
+
+<div style="display: flex; gap: 10px;">
+    <img src="/conferences/sajib2024/index_files/mesa_redonda.png" alt="Mesa Redonda" style="width: 1000px;">
 </div>
 
 📝[Registration form](https://forms.gle/LgdxXMtTjYYjHGfR8)
