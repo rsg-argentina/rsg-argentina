@@ -17,7 +17,7 @@ role = "Volunteer - Web Comittee"
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [{ name = " Laboratorio de Biotecnología Molecular, Instituto de Biotecnología Misiones (InBioMis)", url = "https://inbiomis.unam.edu.ar/" }, {name=" Consejo Nacional de Investigaciones
-Científicas y Técnicas (CONICET)", url="https://www.conicet.gov.ar/new_scp/detalle.php?id=52008&datos_academicos=yes"}
+Científicas y Técnicas (CONICET)", url="https://www.conicet.gov.ar/new_scp/detalle.php?id=52008&datos_academicos=yes"}]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "I am a Doctor in Applied Sciences, graduated from the “Universidad Nacional de Misiones” (UNaM) where I also obtained a degree in Genetics. Additionally, I am a specialist in bioinformatics and university teaching. I am a Teacher in the Molecular Biology and Genetics subject in the Biochemistry degree program at UNaM. I specialize in genomic, transcriptomic, and proteomic analyses of white rot fungi and their use in bioremediation."
