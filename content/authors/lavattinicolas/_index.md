@@ -3,7 +3,7 @@
 title = "Nicolás Lavatti"
 
 # Author weight -- for sort purposes
-weight = 50
+weight = 30
 
 # Username (this should match the folder name)
 authors = ["lavattinicolas"]
@@ -12,7 +12,7 @@ authors = ["lavattinicolas"]
 lavattinicolas = [""]
 
 # Role/position
-role = "Volunteer"
+role = "Secretary"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -25,15 +25,15 @@ bio = "..."
 email = "lavatti.nicolas@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Genomics, Transcriptomics, Programming"]
+interests = ["Genomics, Transcriptomics, Programming, Nerdy Stuff"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Volunteers"]
+user_groups = ["Authorities"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-course = "Licenciatura en Genética student"
+course = "Licenciado en Genética"
 institution = "Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA)"
 
 # Social/Academic Networking
@@ -47,8 +47,12 @@ institution = "Universidad Nacional del Noroeste de la provincia de Buenos Aires
   icon_pack = "fas"
   link = "mailto:lavatti.nicolas@gmail.com"
 
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = [https://www.linkedin.com/in/nicol%C3%A1s-lavatti-14706a264/]
 
 +++
 
 # About me 
-Almost finishing a Bachelor's Degree in Genetics. Working on Transcriptomics and Insect neuropeptides through embryonic development for my thesis project. Lab intern at Trebe Biotech, developing recombinant proteins using the Baculovirus Expression Vector System in lepidopteran larvae.
+BSc. degree in Genetics from the Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA), Argentina. Currently taking a Master’s Degree in Bioinformatics and Systems Biology (UNNOBA-UNQ). Experience in Transcriptomics, Insect neuropeptides and embryonic development. R&D Analyst at Trebe Biotech, developing recombinant proteins using the Baculovirus Expression Vector System in lepidopteran larvae.
