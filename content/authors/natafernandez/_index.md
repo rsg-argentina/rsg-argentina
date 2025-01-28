@@ -3,7 +3,7 @@
 title = "Natalia Fernandez"
 
 # Author weight -- for sort purposes
-weight = 10
+weight = 20
 
 # Username (this should match the folder name)
 authors = ["natafernandez"]
@@ -12,7 +12,7 @@ authors = ["natafernandez"]
 natafernandez = [""]
 
 # Role/position
-role = "Volunteer - Events Comittee"
+role = "Vice-President"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -25,11 +25,11 @@ bio = "..."
 email = "nata.fernandez77@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Machine Learning, statistics, genomics, proteins, Python, R"]
+interests = ["Machine Learning, statistics, genomics, Python, R, LLMs"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Volunteers"]
+user_groups = ["Authorities"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
@@ -55,4 +55,4 @@ institution = "UTN FRRO Postgrado"
 +++
 
 # About me 
-I am fascinated by the opportunity to combine my computing expertise with the vast possibilities of biology and data science. Although I am currently in the early stages of my bioinformatics studies, I am dedicated to acquiring the necessary skills and knowledge to excel in this field. 
+I like the opportunity to combine my informatic background with biology and data science. I am currently studying bioinformatics and am dedicated to acquiring the skills and knowledge necessary to excel in this field.
