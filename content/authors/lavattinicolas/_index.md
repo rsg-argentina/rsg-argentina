@@ -50,7 +50,7 @@ institution = "Universidad Nacional del Noroeste de la provincia de Buenos Aires
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = [https://www.linkedin.com/in/nicol%C3%A1s-lavatti-14706a264/]
+  link = "https://www.linkedin.com/in/nicol%C3%A1s-lavatti-14706a264/"
 
 +++
 
