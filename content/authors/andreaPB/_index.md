@@ -25,7 +25,7 @@ bio = "..."
 email = "andrepballesteros@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Transcriptomics,, Biostatistics, Programming, Plant-pathogen interaction"]
+interests = ["Transcriptomics, Biostatistics, Programming, Plant-pathogen interaction"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
