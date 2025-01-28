@@ -62,8 +62,12 @@ institution = "Universidad Nacional de San Martin"
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/mercedes-didier-garnham-67242a151"
 
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = " https://github.com/mercedesgarnham"
 +++
 
 # About me 
 
-Mercedes Didier Garnham holds an BSc. degree in Biotechnology from the National University of Hurlingham, Argentina. She is currently a CONICET doctoral fellow using computer science and programming to analize chemogenomic information, looking for new compounds that might be useful to treat Chagas disease at IIBIO-CONICET, National University of San Martín, Argentina.
+Currently, I am a doctoral fellow at the Trypanosomatics Lab, IIB-UNSAM (National University of San Martín), where I specialize in leveraging computational tools and Python programming to analyze chemical data. My research focuses on drug repositioning, with the goal of identifying novel compounds that could offer potential treatments for Chagas disease. In addition to my work in chemogenomics, I am passionate about applying cutting-edge bioinformatics techniques to advance our understanding of neglected diseases and contribute to the discovery of new therapeutic strategies.
