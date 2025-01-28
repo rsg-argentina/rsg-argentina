@@ -65,7 +65,7 @@ institution = "Universidad Nacional de San Martin"
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = " https://github.com/mercedesgarnham"
+  link = "https://github.com/mercedesgarnham"
 +++
 
 # About me 
