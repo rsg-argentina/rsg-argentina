@@ -55,7 +55,7 @@ user_groups = ["Authorities"]
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = " https://github.com/aabaricalla"
+  link = "https://github.com/aabaricalla"
 
 [[social]]
   icon = "google-scholar"
