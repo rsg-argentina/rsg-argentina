@@ -34,11 +34,8 @@ user_groups = ["Authorities"]
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "Licenciado en genética"
-  institution = ""
 
   course = "Master en bioinformática y Biología de sistemas"
-  institution = ""
-
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
