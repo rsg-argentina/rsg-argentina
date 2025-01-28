@@ -9,7 +9,7 @@ weight = 50
 authors = ["fernando"]
 
 # Author name (this is required for people without content)
-andrea = [""]
+fernando = [""]
 
 # Role/position
 role = "Volunteer"
