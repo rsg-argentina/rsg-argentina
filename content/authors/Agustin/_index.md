@@ -34,7 +34,8 @@ user_groups = ["Authorities"]
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "Licenciado en genética"
-
+  
+[[education.courses]]
   course = "Master en bioinformática y Biología de sistemas"
 
 # Social/Academic Networking
