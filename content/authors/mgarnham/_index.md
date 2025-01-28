@@ -3,7 +3,7 @@
 title = "Mercedes M. Didier Garnham"
 
 # Author weight -- for sort purposes
-weight = 10
+weight = 40
 
 # Username (this should match the folder name)
 authors = ["mgarnham"]
@@ -12,7 +12,7 @@ authors = ["mgarnham"]
 mgarnham = [""]
 
 # Role/position
-role = "President"
+role = "Treasurer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
