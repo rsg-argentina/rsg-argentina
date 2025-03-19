@@ -1,31 +1,31 @@
 +++
 # Display name
-title = "Lucía Oviedo Bustos "
+title = "Fernando Oderigo"
 
 # Author weight -- for sort purposes
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["luciaoviedobustos"]
+authors = ["fernando"]
 
 # Author name (this is required for people without content)
-luciaoviedobustos = [""]
+fernando = [""]
 
 # Role/position
-role = "Volunteer - Events Comittee"
+role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Instituto de Fisiología Experimental - CONICET"}]
+organizations = []
 
 # Short bio (displayed in user profile at end of posts)
-bio = "..."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "luciaoviedobustos@gmail.com"
+email = "foderigo@hotmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Bioinformatics"]
+interests = [""]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -33,14 +33,8 @@ user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Médica"
-
-[[education.courses]]
-course = "MSc in psychoneuroimmunoendocrinology"
-
-[[education.courses]]
-course = "PhD Student"
-institution = "Instituto de Fisiología Experimental - CONICET"
+course = "Ingeniería en Sistemas de Información"
+institution = "UTN-FRBA"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -50,16 +44,10 @@ institution = "Instituto de Fisiología Experimental - CONICET"
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:luciaoviedobustos@gmail.com"
-
-
-[[social]]
-  icon = "linkedin"
-  icon_pack = "fab"
-  link = "https://www.linkedin.com/in/lucia-oviedo-bustos-7a03b9196"
+  link = "mailto:foderigo@hotmail.com"
 
 +++
 
 # About me 
 
-Hi! I'm Lucía. I'm 29 years old and I live in Rosario, Argentina. I´m a medical doctor, I have a masters degree in psychoneuroimmunoendocrinology and im getting a phD in Biological Sciences. In 2023 I also started studying bioinformatics and joined RSG Argentina.
+I´m Systems Information Engineer from the Universidad Tecnológica Nacional, Argentina.
