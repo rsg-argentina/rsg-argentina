@@ -22,7 +22,7 @@ organizations = [ { name = "" }]
 bio = "..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "agus.3260@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [""]
