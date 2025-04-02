@@ -6,10 +6,10 @@ title = "Francisco Pisciottano"
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["Francisco Pisciottano"]
+authors = ["Francisco_Pisciottano"]
 
 # Author name (this is required for people without content)
-simonkraemer = [""]
+Francisco_Pisciottano = [""]
 
 # Role/position
 role = "Networking Comittee Coordinator"
