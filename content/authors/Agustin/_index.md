@@ -45,7 +45,7 @@ user_groups = ["Authorities"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:andrepballesteros@gmail.com"
+  link = "mailto:agus.3260@gmail.com"
 
 [[social]]
   icon = "linkedin"
