@@ -1,31 +1,31 @@
 +++
 # Display name
-title = "Cecilia Luján Barbieri"
+title = "Francisco Pisciottano"
 
 # Author weight -- for sort purposes
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["ceciliabarbieri"]
+authors = ["Francisco_Pisciottano"]
 
 # Author name (this is required for people without content)
-ceciliabarbieri = [""]
+Francisco_Pisciottano = [""]
 
 # Role/position
-role = "Volunteer - Events Comittee"
+role = "Networking Comittee Coordinator"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "QUIAMM, INBIOTEC/UNMdP", url = "https://inbiotec-conicet.gob.ar/laboratorio/quiamml" }]
+organizations = [{ name = "IBYME-CONICET ", url = "https://ibyme.org.ar/investigacion/laboratorios/regulacion-hormonal-del-tracto-reproductivo-femenino/" }]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "..."
+bio = "Como a muches de mi generación, de chico Jurasic Park me generó amor e interés por los dinosaurios y demás criaturas antiguas y tiempos remotos. Paleontólogo fallido devenido en biólogo evolutivo disfrazado de bioinformático."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "ceciliabarbieri@live.com.ar"
+email = "fpisciottano@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Molecular modelling, Drug design"]
+interests = ["Evolutionary Biology, Comparative Genomics, Population Genomics"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -33,44 +33,25 @@ user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Bioquímica"
-
-[[education.courses]]
-course = "Docente de Farmacología"
-institution = "FCEyN, UNMdP, Bs As"
-
-[[education.courses]]
-course = "Docente de Fisicoquímica"
-institution = "FCEyN, UNMdP, Bs As"
-
-[[education.courses]]
-course = "PhD Student"
-institution = "iQUIAMM, INBIOTEC/UNMdP"
+course = "Dr. Cs. Biológicas "
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#   https://fontawesome.com/icons
 
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:ceciliabarbieri@live.com.ar"
+  link = "fpisciottano@gmail.com"
 
 
 [[social]]
-  icon = "linkedin"
+  icon = "google-scholar"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/cecilia-barbieri-/"
-
-
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/ce_barbieri"
+  link = "https://scholar.google.es/citations?user=Jv5OW5MAAAAJ&hl=es"
 
 +++
 
 # About me 
-I am currently a CONICET doctoral fellow and I am working on the search for new compounds obtained from plants that are effective in reversing resistance to chemotherapeutics, mediated by P-gp.
+"Nothing in Biology makes sense except in the light on evolution"
