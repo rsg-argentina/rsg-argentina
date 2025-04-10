@@ -12,7 +12,7 @@ authors = ["lavattivalentino"]
 lavattivalentino = [""]
 
 # Role/position
-role = "Volunteers"
+role = "Volunteer - Web Comittee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -46,7 +46,7 @@ institution = "Universidad Tecnológica Nacional"
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "www.linkedin.com/in/valelavatti"
+  link = "https://www.linkedin.com/in/valelavatti"
 
 [[social]]
   icon = "github"
