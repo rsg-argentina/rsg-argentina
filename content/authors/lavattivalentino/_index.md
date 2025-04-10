@@ -46,7 +46,7 @@ institution = "Universidad Tecnológica Nacional"
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "www.linkedin.com/in/valelavatti"
+  link = "https://www.linkedin.com/in/valelavatti"
 
 [[social]]
   icon = "github"
