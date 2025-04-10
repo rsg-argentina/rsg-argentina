@@ -3,7 +3,7 @@
 title = "Carla Luciana Padilla Franzotti"
 
 # Author weight -- for sort purposes
-weight = 40
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["Carla"]
@@ -12,7 +12,7 @@ authors = ["Carla"]
 Carla = [""]
 
 # Role/position
-role = "Treasurer"
+role = "Academic Advisor"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -29,7 +29,7 @@ interests = ["Structural Bioinformatics", "Protein Molecular Dynamics", "Linear 
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"]
+user_groups = ["Academic Advisors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]

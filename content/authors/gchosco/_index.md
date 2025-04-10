@@ -1,44 +1,41 @@
 +++
 # Display name
-title = "Nataya Soledad Flores"
+title = "Gabriela Silvana Chosco"
 
 # Author weight -- for sort purposes
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["nataya"]
+authors = ["gchosco"]
 
 # Author name (this is required for people without content)
-nataya = [""]
+gchosco = [""]
 
 # Role/position
-role = "Academic Advisor"
+role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = " Facultad de Ciencias Exactas, Químicas y Naturales-UNAM", url = "https://www.fceqyn.unam.edu.ar/"}]
+organizations = [{ name = "Universidad Nacional de Córdoba", url = "https://www.unc.edu.ar" }]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "..."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "natayafs@gmail.com"
+email = "gabriela.chosco@mi.unc.edu.ar"
 
 # List (academic) interests or hobbies
-interests = ["Proteins structures, genomics, artificial intelligence, statistics"]
+interests = ["Data analysis", "Python", "Java"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Academic Advisors"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Technician in Information Technologies student"
-institution = "Facultad de Ciencias Exactas, Químicas y Naturales-UNAM"
+course = "Lic. en Ciencias Biológicas"
+institution = "Universidad Nacional de Córdoba"
 
-[[education.courses]]
-course = "Biochemistry student"
-institution = "Facultad de Ciencias Exactas, Químicas y Naturales-UNAM"
 
 
 # Social/Academic Networking
@@ -49,20 +46,15 @@ institution = "Facultad de Ciencias Exactas, Químicas y Naturales-UNAM"
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:natayafs@gmail.com"
+  link = "gabriela.chosco@mi.unc.edu.ar"
 
-
-  [[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/natayadev"
 
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/natayadev/"
+  link = "https://www.linkedin.com/in/biol-gabriela-silvana-chosco/"
+
 +++
 
 # About me 
-
-Hi! I'm Nata, a very curious and nerdy person. Actually, I'm data engineer and university student. Also, I'm co-founder of the Misiones IT tech community. From time to time, I like to give talks at programming events and volunteering in organizations.
+Biologist graduated from the Universidad Nacional de Córdoba.
