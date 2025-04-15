@@ -3,7 +3,7 @@
 title = "Juan Felix Orlowski"
 
 # Author weight -- for sort purposes
-weight = 20
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["juanfelix"]
@@ -12,11 +12,11 @@ authors = ["juanfelix"]
 juanfelix = [""]
 
 # Role/position
-role = "Vice-President"
+role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "NANOBIOTEC", url = "https://nanobiotec.conicet.gov.ar/" }, {name="Facultad de Farmacia y Bioquímica, Universidad de Buenos Aires", url="https://www.ffyb.uba.ar/"}, { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }]
+organizations = [{ name = "NANOBIOTEC", url = "https://nanobiotec.conicet.gov.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
@@ -29,11 +29,11 @@ interests = ["Metagenomics, Phylogeny, Immunoinformatics, Genomics, Transcriptom
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Agronomic Engineer"
+course = "Agronomic Engineer"
 
 [[education.courses]]
 course = "PhD Candidate"
@@ -57,11 +57,15 @@ institution = "Facultad de Farmacia y Bioquímica de la Universidad de Buenos Ai
   icon_pack = "fas"
   link = "mailto:juanorlowski@gmail.com"
 
-
-  [[social]]
+[[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/Unn_frid"
+
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/juan-felix-orlowski-824485187/"
 
 +++
 

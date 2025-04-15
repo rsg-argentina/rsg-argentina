@@ -25,7 +25,7 @@ bio = "..."
 email = "alducepeda99@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Genomics, Proteomics, Genome Anotation"]
+interests = ["Genomics, Proteomics, Genome Anotation, Transcriptomics,  Functional Genomics, Comparative Genomics, Structural Genomics, Gene Expression Analysis"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -40,6 +40,10 @@ institution = "Universidad Nacional de San Martin (UNSAM)"
 course = "PhD Student"
 institution = "Instituto de Investigaciones Biotecnológicas (UNSAM - CONICET)"
 
+[[education.courses]]
+course = "Docente de Introducción a la ciencia y tecnología (ICyT)"
+institution = "UNSAM, Buenos Aires"
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -51,7 +55,6 @@ institution = "Instituto de Investigaciones Biotecnológicas (UNSAM - CONICET)"
   icon_pack = "fas"
   link = "mailto:alducepeda99@gmail.com"
 
-
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
@@ -62,7 +65,16 @@ institution = "Instituto de Investigaciones Biotecnológicas (UNSAM - CONICET)"
   icon_pack = "fab"
   link = "https://www.instagram.com/aldana.cepeda/"
 
+  [[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://x.com/aldanacepeda7"
+
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/AldanaCepedaDean"
 +++
 
 # About me 
-PhD student, in constant learning process. I would love to share the beauty of bioinformatics.
+I am a PhD student in bioinformatics, engaged in a constant learning process. I am passionate about sharing the beauty of bioinformatics and strive to inspire others with the fascinating insights and discoveries this field has to offer.

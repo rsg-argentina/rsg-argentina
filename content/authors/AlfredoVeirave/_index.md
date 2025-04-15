@@ -1,40 +1,41 @@
 +++
 # Display name
-title = "Nicolás Lavatti"
+title = "Alfredo Veiravé"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 40
 
 # Username (this should match the folder name)
-authors = ["lavattinicolas"]
+authors = ["AlfredoVeirave"]
 
 # Author name (this is required for people without content)
-lavattinicolas = [""]
+AlfredoVeirave = [""]
 
 # Role/position
-role = "Secretary"
+role = "Volunteer - Social Networks Comittee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA)", url = "https://www.unnoba.edu.ar/" }]
+organizations = [{ name = "Facultad de Ingenieria - UNER", url = "ingenieria.uner.edu.ar" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "lavatti.nicolas@gmail.com"
+email = "a.veirave.0@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Genomics, Transcriptomics, Programming, Nerdy Stuff"]
+interests = ["Metagenomics, inmuno-epitote prediction, drug repurposing"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-course = "Licenciado en Genética"
-institution = "Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA)"
+course = "Licenciatura en bioinformatica"
+institution = "FIUNER"
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -45,14 +46,14 @@ institution = "Universidad Nacional del Noroeste de la provincia de Buenos Aires
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:lavatti.nicolas@gmail.com"
+  link = "mailto:a.veirave.0@gmail.com"
 
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/nicol%C3%A1s-lavatti-14706a264/"
+  link = "www.linkedin.com/in/alfredo-veiravé"
 
 +++
 
 # About me 
-BSc. degree in Genetics from the Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA), Argentina. Currently taking a Master’s Degree in Bioinformatics and Systems Biology (UNNOBA-UNQ). Experience in Transcriptomics, Insect neuropeptides and embryonic development. R&D Analyst at Trebe Biotech, developing recombinant proteins using the Baculovirus Expression Vector System in lepidopteran larvae.
+My name is Alfredo Veiravé, advanced student of the licenciature in bioinformatics from the Facultad de Ingenieria de la Universidad Nacional de Entre Rios. I'm interested in scientific divulgation of data science and celular biology. Currently I'm working on my thesis about the prediction of scorpion venon inmuno-epitopes.
