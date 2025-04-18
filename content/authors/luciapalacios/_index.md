@@ -1,58 +1,59 @@
 +++
 # Display name
-title = "Natalia Fernandez"
+title = "Lucia Palacios"
 
 # Author weight -- for sort purposes
-weight = 20
+weight = 30
 
 # Username (this should match the folder name)
-authors = ["natafernandez"]
+authors = ["luciapalacios"]
 
 # Author name (this is required for people without content)
-natafernandez = [""]
+luciapalacios = [""]
 
 # Role/position
-role = "Vice-President"
+role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Ingeniera en Sistemas de Información", url = "https://www.frro.utn.edu.ar/" }]
+organizations = [ { name = "Facultad de ciencias Quimicas Universidad Nacional de Cordoba", url = "https://www.fcq.unc.edu.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "..."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "nata.fernandez77@gmail.com"
+email = "lupalacios@unc.edu.ar"
 
 # List (academic) interests or hobbies
-interests = ["Machine Learning, statistics, genomics, Python, R, LLMs"]
+interests = ["Molecular Dynamics Simulations", "Peptides", "Clustering Methods"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-course = "Bioinformatic Student"
-institution = "UTN"
 
 [[education.courses]]
-course = "Docente de Programación"
-institution = "UTN FRRO Postgrado"
+course = "Licenciatura en biotecnología "
+institution = "Facultad de ciencias Quimicas Universidad Nacional de Cordoba"
+# year = 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#   https://fontawesome.com/icons
 
 [[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "mailto:nata.fernandez77@gmail.com"
+  icon = ""
+  icon_pack = ""
+  link = ""
 
-
+[[social]]
+  icon = ""
+  icon_pack = ""
+  link = ""
 +++
 
 # About me 
-I like the opportunity to combine my informatic background with biology and data science. I am currently studying bioinformatics and am dedicated to acquiring the skills and knowledge necessary to excel in this field.
+
+I’m a biotechnology graduate from the Universidad Nacional de Córdoba (UNC) in Argentina. In April 2022, I started a CONICET Doctoral fellowship. My research focuses on Accelerated Molecular Dynamics. My goal is to contribute to a method called TAMD and study peptides and their interactions within proteins and membranes.

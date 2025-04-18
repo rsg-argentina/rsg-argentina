@@ -1,44 +1,46 @@
 +++
 # Display name
-title = "Natalia Fernandez"
+title = "Agustín Nava"
 
 # Author weight -- for sort purposes
-weight = 20
+weight = 30
 
 # Username (this should match the folder name)
-authors = ["natafernandez"]
+authors = ["NavaAgu"]
 
 # Author name (this is required for people without content)
-natafernandez = [""]
+joacmerlo = [""]
 
 # Role/position
-role = "Vice-President"
+role = "Volunteer - Workshops Comittee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Ingeniera en Sistemas de Información", url = "https://www.frro.utn.edu.ar/" }]
+organizations = [{ name = "Instituto de Investigaciones Bioquímicas de Buenos Aires (IIBBA)", url = "https://www.conicet.gov.ar/new_scp/detalle.php?id=05544&info_general=yes&inst=yes" }]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "..."
+bio = "Physician currently doing his phD in scRNA-seq annotation methods. Statistics applied to health sciences specialist."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "nata.fernandez77@gmail.com"
+email = "agx.nava@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Machine Learning, statistics, genomics, Python, R, LLMs"]
+interests = ["scRNA-seq applied to oncology"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-course = "Bioinformatic Student"
-institution = "UTN"
 
 [[education.courses]]
-course = "Docente de Programación"
-institution = "UTN FRRO Postgrado"
+course = " PhD student"
+institution = "(IIBBA - Fundación Instituto Leloir)"
+
+[[education.courses]]
+course = "Docente de Inmunología Humana"
+institution = "Universidad de Buenos Aires (UBA)"
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -49,10 +51,10 @@ institution = "UTN FRRO Postgrado"
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:nata.fernandez77@gmail.com"
+  link = "mailto:agx.nava@gmail.com"
 
 
 +++
 
 # About me 
-I like the opportunity to combine my informatic background with biology and data science. I am currently studying bioinformatics and am dedicated to acquiring the skills and knowledge necessary to excel in this field.
+Physician currently doing his phD in scRNA-seq annotation methods. Statistics applied to health sciences specialist.

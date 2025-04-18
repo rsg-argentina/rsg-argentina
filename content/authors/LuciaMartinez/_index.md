@@ -1,44 +1,41 @@
 +++
 # Display name
-title = "Natalia Fernandez"
+title = "Lucia Martinez"
 
 # Author weight -- for sort purposes
-weight = 20
+weight = 40
 
 # Username (this should match the folder name)
-authors = ["natafernandez"]
+authors = ["LuciaMartinez"]
 
 # Author name (this is required for people without content)
-natafernandez = [""]
+LuciaMartinez = [""]
 
 # Role/position
-role = "Vice-President"
+role = "Volunteer - Social Networks Comittee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Ingeniera en Sistemas de Información", url = "https://www.frro.utn.edu.ar/" }]
+organizations = [{ name = "Hospital Garrahan", url = "https://www.garrahan.gov.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "..."
+bio = "Estudio licenciatura en Genetica en la UNNOBA, actualmente estoy como becaria en el Hospital Garrahan."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "nata.fernandez77@gmail.com"
+email = "luciavmartinez0@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Machine Learning, statistics, genomics, Python, R, LLMs"]
+interests = [""]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-course = "Bioinformatic Student"
-institution = "UTN"
+course = "Licenciada en Genetica"
+institution = "UNNOBA"
 
-[[education.courses]]
-course = "Docente de Programación"
-institution = "UTN FRRO Postgrado"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -49,10 +46,14 @@ institution = "UTN FRRO Postgrado"
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:nata.fernandez77@gmail.com"
+  link = "mailto:luciavmartinez0@gmail.com"
 
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/lucia-martinez-licenciadaengenetica/"
 
 +++
 
 # About me 
-I like the opportunity to combine my informatic background with biology and data science. I am currently studying bioinformatics and am dedicated to acquiring the skills and knowledge necessary to excel in this field.
+I’m Lucia Martinez, a Geneticist and a Bioinformatics Fellow at Hospital Garrahan. I specialize in viromics, leveraging bioinformatics tools to analyze viral genomes.

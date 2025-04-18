@@ -3,7 +3,7 @@
 title = "Andrea Peñas Ballesteros"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["andrea"]
@@ -12,11 +12,11 @@ authors = ["andrea"]
 andrea = [""]
 
 # Role/position
-role = "Secretary"
+role = "President"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = " Instituto Nacional de Tecnología Agropecuaria- Estación Experimental Agropecuaria Pergamino  (INTA-EEA Pergamino)", url = "https://inta.gob.ar/eeapergamino" }, {name=" Centro de Investigaciones y Transferencia del Noroeste de la provincia de Buenos Aires (CITNOBA) CONICET-UNNOBA", url="https://www.conicet.gov.ar/new_scp/detalle.php?id=25167&keywords=noba&info_general=yes&inst=yes"}, { name = "Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA)", url = "http://www.unnoba.edu.ar/" }]
+organizations = [{name=" Centro de Investigaciones y Transferencia del Noroeste de la provincia de Buenos Aires (CITNOBA) CONICET-UNNOBA", url="https://www.conicet.gov.ar/new_scp/detalle.php?id=25167&keywords=noba&info_general=yes&inst=yes"}, { name = " Instituto Nacional de Tecnología Agropecuaria- Estación Experimental Agropecuaria Pergamino  (INTA-EEA Pergamino)", url = "https://inta.gob.ar/eeapergamino" }, { name = "Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA)", url = "http://www.unnoba.edu.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
@@ -25,7 +25,7 @@ bio = "..."
 email = "andrepballesteros@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Transcriptomics,, Biostatistics, Programming, Plant-pathogen interaction"]
+interests = ["Transcriptomics, Biostatistics, Programming, Plant-pathogen interaction"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -41,7 +41,7 @@ institution = "UNNOBA-UNQ"
 
 [[education.courses]]
 course = "PhD Student"
-institution = "CONICET"
+institution = "UNNOBA"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -51,7 +51,7 @@ institution = "CONICET"
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:andrepballesteros@gmail.com"
+  link = "mailto:apenasballesteros@comunidad.unnoba.edu.ar"
 
 
 [[social]]
