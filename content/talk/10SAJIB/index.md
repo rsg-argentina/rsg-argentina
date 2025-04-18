@@ -101,7 +101,7 @@ Besides registration and attendance, participation in this event requires accept
 
 ## Social Media
 - [Twitter](https://twitter.com/rsgargentina)
-- [Linkedin](https://www.linkedin.com/in/iscb-sc-rsgargentina-053599214/)
+- [Linkedin](https://www.linkedin.com/in/iscb-sc-rsg-argentina-053599214/)
 - [Instagram](https://www.instagram.com/rsg_arg/)
 - [Facebook](https://www.facebook.com/RSGArgentina/)
 - [Youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
