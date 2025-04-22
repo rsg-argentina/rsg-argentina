@@ -49,15 +49,17 @@ institution = "Universidad Nacional de Quilmes"
   link = "https://www.linkedin.com/in/pchinestrad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
 
 [[social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.com/citations?user=miJKnCEAAAAJ&hl=es"
+
+[[social]]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/patochinestrad"
 +++
 
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.com/citations?user=miJKnCEAAAAJ&hl=es"
+
 
 # About me 
 
