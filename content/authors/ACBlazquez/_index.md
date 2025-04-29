@@ -9,7 +9,7 @@ weight = 10
 authors = ["ACBlazquez"]
 
 # Author name (this is required for people without content)
-simonkraemer = [""]
+ACBlazquez = [""]
 
 # Role/position
 role = "Events Comittee Coordinator"
