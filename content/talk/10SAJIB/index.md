@@ -62,21 +62,26 @@ slides: ""
 projects: [""]
 ---
 
-### :red_circle: 10SAJIB deck :computer:
+### :red_circle: 10SAJIB :computer:
 
 El lenguaje oficial de la 10SAJIB es el Español
-- Sponsors and collaborators: [ISCB-SC](https://iscbsc.org/)
+- Patrocinadores y colaboradores: [ISCB-SC](https://iscbsc.org/)
+
 ---
-### Important Dates :computer:
+### Fechas importantes :computer:
+
+#### Apertura de inscripciones (28/04)
+
+#### Envío de resúmenes (01/07 al 03/07)
+
+#### Comunicación de resultados (01/09)
 
 #### Día 1: Talleres (9/10)
 
-
-#### Día 2: Simposios (10/10)
-
+#### Día 2: Simposio (10/10)
 
 ---
-### Temas de Simposio
+### Temas de simposio
 - Ómicas
 - Ecología y Evolución
 - Bioinformática estructural
@@ -89,19 +94,19 @@ El lenguaje oficial de la 10SAJIB es el Español
 - Quimioinformática
 
 ---
-### Certificates
-- Workshop attendance certificates
-- Certificate of participation in 10SAJIB
+### Certificados
+- Certificados de asistencia a los talleres
+- Certificado de participación en el 10SAJIB
 
 ---
-### Code of conduct
-Besides registration and attendance, participation in this event requires acceptance of the following [Code of Conduct](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
+### Código de conducta
+Además de la inscripción y la asistencia, la participación en este evento requiere la aceptación del siguiente [Código de conducta](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing).
 
 ---
 
-## Social Media
+## Redes sociales
 - [Twitter](https://twitter.com/rsgargentina)
 - [Linkedin](https://www.linkedin.com/in/iscb-sc-rsg-argentina-053599214/)
 - [Instagram](https://www.instagram.com/rsg_arg/)
 - [Facebook](https://www.facebook.com/RSGArgentina/)
-- [Youtube channel](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
+- [Youtube](https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured)
