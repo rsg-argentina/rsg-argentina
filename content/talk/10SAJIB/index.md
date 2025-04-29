@@ -100,7 +100,7 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 ---
 ### Código de conducta
-Además de la inscripción y la asistencia, la participación en este evento requiere la aceptación del siguiente [Código de conducta](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing) (in Spanish).
+Además de la inscripción y la asistencia, la participación en este evento requiere la aceptación del siguiente [Código de conducta](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing).
 
 ---
 
