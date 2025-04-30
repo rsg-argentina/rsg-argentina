@@ -121,6 +121,29 @@ def get_weight_by_role(role):
     # Default weight for volunteers and other roles
     return 0
 
+def get_user_group_by_role(role):
+    """Determine user group based on role"""
+    # Leadership roles go to Authorities group
+    leadership_roles = [
+        "president", "vice-president", "secretary", "treasurer", 
+        "scientific advisor", "faculty advisor"
+    ]
+    
+    # Convert role to lowercase for case-insensitive comparison
+    role_lower = role.lower()
+    
+    # Check for leadership roles (Authorities group)
+    for leadership_role in leadership_roles:
+        if leadership_role in role_lower:
+            return "Authorities"
+    
+    # Academic advisors get no user group (empty array)
+    if "academic advisor" in role_lower:
+        return None
+    
+    # Default user group for everyone else
+    return "Volunteers"
+
 def parse_education(education_text):
     """Parse education from text to structured format"""
     if not education_text:
@@ -276,6 +299,8 @@ for index, row in enumerate(authors):
         role = role.capitalize() if role else "Volunteer"
         # Get weight based on role
         weight = get_weight_by_role(role)
+        # Get user group based on role
+        user_group = get_user_group_by_role(role)
         
         affiliations = parse_affiliations(affiliations_text)
         social_links = parse_social_links(social_links_text)
@@ -345,6 +370,12 @@ for index, row in enumerate(authors):
             about_me_safe = about_me.replace('"', '\\"')
             email_safe = email.replace('"', '\\"')
             
+            # Format user groups based on role
+            if user_group:
+                user_groups_str = f'["{user_group}"]'
+            else:
+                user_groups_str = "[]"  # Empty array for academic advisors
+                
             f.write(f"""+++
 # Display name
 title = "{name_safe}"
@@ -376,7 +407,7 @@ interests = [{formatted_interests_str}]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Volunteers"]
+user_groups = {user_groups_str}
 
 # List qualifications (such as academic degrees)
 
