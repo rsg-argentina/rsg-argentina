@@ -6,17 +6,17 @@ title = "Andrea Peñas Ballesteros"
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["andrea"]
+authors = ["andreaPB"]
 
 # Author name (this is required for people without content)
-andrea = [""]
+andreaPB = [""]
 
 # Role/position
 role = "President"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{name=" Centro de Investigaciones y Transferencia del Noroeste de la provincia de Buenos Aires (CITNOBA) CONICET-UNNOBA", url="https://www.conicet.gov.ar/new_scp/detalle.php?id=25167&keywords=noba&info_general=yes&inst=yes"}, { name = " Instituto Nacional de Tecnología Agropecuaria- Estación Experimental Agropecuaria Pergamino  (INTA-EEA Pergamino)", url = "https://inta.gob.ar/eeapergamino" }, { name = "Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA)", url = "http://www.unnoba.edu.ar/" }]
+organizations = [{name=" Centro de Investigaciones y Transferencia del Noroeste de la provincia de Buenos Aires (CITNOBA) CONICET-UNNOBA", url="https://www.conicet.gov.ar/new_scp/detalle.php?id=25167&keywords=noba&info_general=yes&inst=yes"}, { name = " Instituto Nacional de Tecnología Agropecuaria- Estación Experimental Agropecuaria Pergamino  (INTA-EEA Pergamino)", url = "https://www.argentina.gob.ar/inta/cr-buenosaires-norte/eea-pergamino" }, { name = "Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)", url = "http://www.unnoba.edu.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."

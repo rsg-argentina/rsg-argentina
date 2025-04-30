@@ -3,7 +3,7 @@
 title = "Adriana Gabriela López Guerra "
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["adrianaglg"]

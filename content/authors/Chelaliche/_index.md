@@ -3,16 +3,16 @@
 title = "Anibal Sebastian Chelaliche"
 
 # Author weight -- for sort purposes
-weight = 20
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["Chelaliche"]
 
 # Author name (this is required for people without content)
-Chelaliche = ["Anibal Sebastian Chelaliche"]
+Chelaliche = [""]
 
 # Role/position
-role = "Volunteer - Web Comittee"
+role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
