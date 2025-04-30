@@ -98,6 +98,29 @@ def parse_affiliations(affiliation_text):
     
     return result
 
+def get_weight_by_role(role):
+    """Determine weight based on role"""
+    # Leadership roles get weight 30
+    leadership_roles = [
+        "president", "vice-president", "secretary", "treasurer", 
+        "scientific advisor", "faculty advisor"
+    ]
+    
+    # Convert role to lowercase for case-insensitive comparison
+    role_lower = role.lower()
+    
+    # Check for leadership roles (weight 30)
+    for leadership_role in leadership_roles:
+        if leadership_role in role_lower:
+            return 30
+    
+    # Check for academic advisor (weight 10)
+    if "academic advisor" in role_lower:
+        return 10
+    
+    # Default weight for volunteers and other roles
+    return 0
+
 def parse_education(education_text):
     """Parse education from text to structured format"""
     if not education_text:
@@ -251,6 +274,9 @@ for index, row in enumerate(authors):
         
         # Process structured information
         role = role.capitalize() if role else "Volunteer"
+        # Get weight based on role
+        weight = get_weight_by_role(role)
+        
         affiliations = parse_affiliations(affiliations_text)
         social_links = parse_social_links(social_links_text)
         interests = parse_interests(interests_text)
@@ -314,7 +340,7 @@ for index, row in enumerate(authors):
         # === WRITE _index.md FILE ===
         index_md_path = os.path.join(author_dir, "_index.md")
         with open(index_md_path, "w", encoding="utf-8") as f:
-            # Escape special characters correctly with a single backslash
+            # Escape special characters in content
             name_safe = name.replace('"', '\\"')
             about_me_safe = about_me.replace('"', '\\"')
             email_safe = email.replace('"', '\\"')
@@ -324,7 +350,7 @@ for index, row in enumerate(authors):
 title = "{name_safe}"
 
 # Author weight -- for sort purposes
-weight = {(index + 1) * 10}
+weight = {weight}
 
 # Username (this should match the folder name)
 authors = ["{folder}"]
