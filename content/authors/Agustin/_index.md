@@ -16,7 +16,7 @@ role = "Scientific Advisor"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "IMIBIO-SL, CONICET-UNSL" }]
+organizations = [ { name = "Instituto Multidisciplinario de Investigaciones Biológicas de San Luis (CONICET-UNSL)", url = "https://imibio.conicet.gov.ar/"}, { name = "CONICET San Luis", url = "https://sanluis.conicet.gov.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."

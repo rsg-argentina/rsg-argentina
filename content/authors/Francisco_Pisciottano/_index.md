@@ -16,7 +16,7 @@ role = "Networking Comittee Coordinator"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "IBYME-CONICET ", url = "https://ibyme.org.ar/investigacion/laboratorios/regulacion-hormonal-del-tracto-reproductivo-femenino/" }]
+organizations = [{ name = "Laboratorio de Regulación Hormonal del Tracto Femenino - IBYME", url = "https://ibyme.org.ar/investigacion/laboratorios/regulacion-hormonal-del-tracto-reproductivo-femenino/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Como a muches de mi generación, de chico Jurasic Park me generó amor e interés por los dinosaurios y demás criaturas antiguas y tiempos remotos. Paleontólogo fallido devenido en biólogo evolutivo disfrazado de bioinformático."
@@ -43,7 +43,7 @@ course = "Dr. Cs. Biológicas "
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "fpisciottano@gmail.com"
+  link = "mailto:fpisciottano@gmail.com"
 
 
 [[social]]
