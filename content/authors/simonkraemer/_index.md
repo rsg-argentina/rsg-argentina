@@ -12,11 +12,11 @@ authors = ["simonkraemer"]
 simonkraemer = [""]
 
 # Role/position
-role = "Volunteer - Events Comittee"
+role = "Committee Coordinator"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Laboratorio de Biología de la Conservacion - Centro de Ecología Aplicada del Litoral (CONICET-UNNE)", url = "https://inta.gob.ar/eeapergamino" }]
+organizations = [{ name = "Laboratorio de Biología de la Conservacion - Centro de Ecología Aplicada del Litoral (CONICET-UNNE)", url = "https://cecoal.conicet.gov.ar/biologia-de-la-conservacion/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "When people often ask me to describe myself, I don’t really know where to start. For example, in my line of work I could describe myself as a Geneticist who fortunately has found an interest in birds, but I am also an amateur and passionate birdwatcher who also enjoys adding ecological and behavioral aspects to its research. However, I am also interested in bioinformatics and computational biology. Anyway, as many others passionate biologists I also enjoy myself talking about the wonders of the natural world. Summing it all I believe you could describe me as an actual NERD who is enjoying the most and loves what he is working on."
@@ -29,7 +29,7 @@ interests = ["Evolutionary and Computational Biology, Genome analysis, Behaviour
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Volunteers"]
+user_groups = ["Academic Advisors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]

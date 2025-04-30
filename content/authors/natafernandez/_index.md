@@ -16,7 +16,7 @@ role = "Vice-President"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Ingeniera en Sistemas de Información", url = "https://www.frro.utn.edu.ar/" }]
+organizations = [{ name = "Facultad Regional Rosario (UTN)", url = "https://www.frro.utn.edu.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
