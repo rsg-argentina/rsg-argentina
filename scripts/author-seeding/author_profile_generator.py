@@ -10,9 +10,15 @@ import sys  # Added for command line arguments
 # === CONFIGURATION ===
 # Parse command line arguments
 USE_DEFAULT_IMAGES = False
-if len(sys.argv) > 1 and sys.argv[1] == "-noimg":
-    USE_DEFAULT_IMAGES = True
-    print("Running with default images only (no downloads)")
+DUMP_EXISTING_AUTHORS = False
+
+for arg in sys.argv[1:]:
+    if arg == "-noimg":
+        USE_DEFAULT_IMAGES = True
+        print("Running with default images only (no downloads)")
+    elif arg == "-dump":
+        DUMP_EXISTING_AUTHORS = True
+        print("Will delete existing authors directory before creating new profiles")
 
 # Path to CSV file in the scripts/author-seeding folder
 CSV_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "authors-list.csv")
@@ -103,7 +109,7 @@ def get_weight_by_role(role):
     # Leadership roles get weight 30
     leadership_roles = [
         "president", "vice-president", "secretary", "treasurer", 
-        "scientific advisor", "faculty advisor"
+        "scientific advisor", "faculty advisor", "committee coordinator"
     ]
     
     # Convert role to lowercase for case-insensitive comparison
@@ -137,9 +143,9 @@ def get_user_group_by_role(role):
         if leadership_role in role_lower:
             return "Authorities"
     
-    # Academic advisors get no user group (empty array)
+    # Academic advisors get their own group
     if "academic advisor" in role_lower:
-        return None
+        return "Academic Advisors"
     
     # Default user group for everyone else
     return "Volunteers"
@@ -251,8 +257,8 @@ def parse_interests(interests_text):
     return [interest.strip() for interest in interests_text.split(',') if interest.strip()]
 
 # === SETUP OUTPUT DIRECTORY ===
-# Check if the authors directory already exists and remove it if it does
-if os.path.exists(AUTHORS_DIR):
+# Check if we should remove the existing authors directory
+if DUMP_EXISTING_AUTHORS and os.path.exists(AUTHORS_DIR):
     print(f"Removing existing authors directory: {AUTHORS_DIR}")
     try:
         shutil.rmtree(AUTHORS_DIR)
@@ -260,9 +266,9 @@ if os.path.exists(AUTHORS_DIR):
     except Exception as e:
         print(f"⚠️ Error removing authors directory: {e}")
 
-# Create a fresh authors directory
+# Create authors directory if it doesn't exist
 os.makedirs(AUTHORS_DIR, exist_ok=True)
-print(f"✅ Created authors directory: {AUTHORS_DIR}")
+print(f"✅ Created/confirmed authors directory: {AUTHORS_DIR}")
 
 # === LOAD CSV ===
 authors = []
