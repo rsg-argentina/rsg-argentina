@@ -3,16 +3,16 @@
 title = "Silvana Florencia Benitez"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["BenitezSF"]
 
 # Author name (this is required for people without content)
-BenitezSF = ["Silvana Florencia Benitez"]
+BenitezSF = [""]
 
 # Role/position
-role = "Volunteer - Workshops Comittee"
+role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -55,7 +55,7 @@ user_groups = ["Volunteers"]
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/feed/?trk=404_page"
+  link = "https://www.linkedin.com/in/silvana-florencia-benitez-9691ba10a/"
 
 
 +++
