@@ -3,7 +3,7 @@
 title = "Franco Ismael Casabuena"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["francoic"]
@@ -16,7 +16,7 @@ role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)", url = "https://unnoba.edu.ar/ " }]
+organizations = [ { name = "Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)", url = "https://www.unnoba.edu.ar/ " }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""

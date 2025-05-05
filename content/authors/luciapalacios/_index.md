@@ -3,7 +3,7 @@
 title = "Lucia Palacios"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["luciapalacios"]
@@ -16,7 +16,7 @@ role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Facultad de ciencias Quimicas Universidad Nacional de Cordoba", url = "https://www.fcq.unc.edu.ar/" }]
+organizations = [ { name = "Facultad de Ciencias Químicas - Universidad Nacional de Córdoba", url = "https://www.fcq.unc.edu.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -34,8 +34,8 @@ user_groups = ["Volunteers"]
 # List qualifications (such as academic degrees)
 
 [[education.courses]]
-course = "Licenciatura en biotecnología "
-institution = "Facultad de ciencias Quimicas Universidad Nacional de Cordoba"
+course = "Licenciatura en Biotecnología "
+institution = "Facultad de Ciencias Químicas Universidad Nacional de Córdoba"
 # year = 2021
 
 # Social/Academic Networking

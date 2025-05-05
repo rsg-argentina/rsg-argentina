@@ -3,20 +3,20 @@
 title = "Santiago Luis Britez Carnichi"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
-authors = ["santiagolbc"]
+authors = ["santiagoLBC"]
 
 # Author name (this is required for people without content)
-santiagolbc = [""]
+santiagoLBC = [""]
 
 # Role/position
 role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Universidad Nacional de Misiones (UNaM)", url = "https://www.fceqyn.unam.edu.ar/" }]
+organizations = [ { name = "Facultad de Ciencias Exactas, Químicas y Naturales - Universidad Nacional de Misiones", url = "https://www.fceqyn.unam.edu.ar/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""

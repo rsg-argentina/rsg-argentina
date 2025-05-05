@@ -3,7 +3,7 @@
 title = "Patricio Chinestrad"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["patriciochinestrad"]
@@ -46,7 +46,7 @@ institution = "Universidad Nacional de Quilmes"
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/pchinestrad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+  link = "https://www.linkedin.com/in/pchinestrad/ "
 
 [[social]]
   icon = "google-scholar"
