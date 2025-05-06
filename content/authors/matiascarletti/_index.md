@@ -1,31 +1,31 @@
 +++
 # Display name
-title = "Abigail Stricker"
+title = "Matias Carletti"
 
 # Author weight -- for sort purposes
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["abistricker"]
+authors = ["matiascarletti"]
 
 # Author name (this is required for people without content)
-abistricker = ["Abigail Stricker"]
+matiascarletti = ["Matias Carletti"]
 
 # Role/position
-role = "Volunteer - Web Comittee"
+role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = " SBG - UNQ", url = "http://ufq.unq.edu.ar/sbg/" }, { name = " UVEM - Hospital Juan P. Garrahan"}]
+organizations = [{ name = "Universidad Nacional de Quilmes - Departamento de Ciencia y Tecnología - UNQ"}]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "abigailmstricker@gmail.com"
+email = "matias.carletti@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Metagenomics, Multiomics, Proteome, Microbiology, Diagnostics"]
+interests = ["Ancestral Protein Resurrection, Protein Disorder, Evolution"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -33,12 +33,9 @@ user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Degree in Biotechnology"
+  course = "PhD in Science and Technology"
   institution = "Universidad Nacional de Quilmes"
 
-[[education.courses]]
-  course = "MS in Bioinformatics"
-  institution = "Universidad Nacional de Quilmes"
 
 
 # Social/Academic Networking
@@ -49,22 +46,18 @@ user_groups = ["Volunteers"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:abigailmstricker@gmail.com"
+  link = "mailto:matias.carletti@gmail.com"
 
 
 
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/abigail-stricker/"
+  link = "https://www.linkedin.com/in/mat%C3%ADas-carletti-10164271/"
 
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/Abibsb"
 
 +++
 
 # About me 
 
-I hold a Licenciate degree in Biotechnology from the University of Quilmes (UNQ) and I am completing a Master’s in Bioinformatics. My experience includes working in Microbiology at UNQ’s Biocatalysis Lab, developing biosensors at Aplife Biotech, and serving as a bioinformatician at Garrahan Hospital. Currently, I focus on metagenomics in clinical research and protein–RNA interactions. I am driven by impactful and challenging projects.
+I'm Matías, passionate about science and technology. With a Bachelor's degree in Biological Sciences and currently pursuing a PhD in Science and Technology, my focus is on scientific research projects in the field of protein structural bioinformatics. In my daily work, I employ programming, data analysis, and statistics skills. At 37, I'm constantly learning. I love exploring new areas, such as web development and machine learning, and I'm ready to dive into exciting challenges and continually learn.
