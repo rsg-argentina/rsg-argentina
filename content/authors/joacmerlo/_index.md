@@ -9,14 +9,14 @@ weight = 30
 authors = ["joacmerlo"]
 
 # Author name (this is required for people without content)
-joacmerlo = ["Joaquin Merlo"]
+joacmerlo = [""]
 
 # Role/position
 role = "Volunteer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "Laboratorio de Glicómica Funcional y Molecular, IBYME", url = "http://rabinovich-lab.com/es/equipo/)" }]
+organizations = [{ name = "Laboratorio de Glicómica Funcional y Molecular - IBYME" , url ="https://ibyme.org.ar/investigacion/laboratorios/glicomica-funcional-y-molecular/" }, {name = "RABINOVICH LAB" , url = "http://rabinovich-lab.com/)" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My name is Joaquín Merlo, I am a Biotechnologist and Bioinformatician from Buenos Aires, Argentina. My goal as scientist is to further the understanding of biomarkers that conceal many molecular mechanisms and may be the key to achieve accurate diagnosis for advanced melanoma patients. The aim of my PhD is to study how distinct patterns of glycosylation may be involved in the modulation of the immune system, leading to response or failure to immunotherapies."
@@ -53,7 +53,7 @@ user_groups = ["Volunteers"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "joacmerlo@gmail.com"
+  link = "mailto:joacmerlo@gmail.com"
 
 
 [[social]]

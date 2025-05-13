@@ -9,7 +9,7 @@ weight = 10
 authors = ["ACBlazquez"]
 
 # Author name (this is required for people without content)
-simonkraemer = [""]
+ACBlazquez = [""]
 
 # Role/position
 role = "Events Comittee Coordinator"
@@ -29,7 +29,7 @@ interests = ["Single-cell RNA sequencing, Transcriptomics, Genomics, Metagenomic
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Volunteers"]
+user_groups = ["Academic Advisors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
@@ -52,7 +52,7 @@ institution = "Departamento de Biología, Bioquímica y Farmacia, Universidad Na
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "blazquez.a.catalina@gmail.com"
+  link = "mailto:blazquez.a.catalina@gmail.com"
 
 
 [[social]]
