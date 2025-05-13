@@ -1,31 +1,31 @@
 +++
 # Display name
-title = "Sabrina Nicole Presa"
+title = "Priscila Ayelén Kuhn"
 
 # Author weight -- for sort purposes
-weight = 30
+weight = 10
 
 # Username (this should match the folder name)
-authors = ["presasn"]
+authors = ["priscilaayelenkuhn"]
 
 # Author name (this is required for people without content)
-presasn = [""]
+priscilaayelenkuhn = [""]
 
 # Role/position
-role = "Volunteer - Workshops Comittee"
+role = "Volunteer - 10SAJIB"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "ECOMA, IEGEBA", url = "https://ege.exactas.uba.ar/investigacion/ecologia-de-comunidades-y-macroecologia-ecoma" }] 
+organizations = [ { name = "Universidad Nacional de Rafaela (UNRaf)", url = "https://www.unraf.edu.ar" }] 
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "snpresa@gmail.com"
+email = "priscila.ayelen.kuhn@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Microbial ecology", "environmental DNA", "development of computational tools for biological research", "all NGS products"]
+interests = ["Ómicas","Pathogen Genomics","Synthetic Biology in Mircobiology"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -34,8 +34,8 @@ user_groups = ["Volunteers"]
 # List qualifications (such as academic degrees)
 
 [[education.courses]]
-course = "Biology"
-institution = "National University of Buenos Aires- UBA"
+course = "Bioinformatics"
+institution = "National University of Rafaela - UNRAF"
 # year = 
 
 
@@ -45,15 +45,11 @@ institution = "National University of Buenos Aires- UBA"
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-[[social]]
-  icon = "linkedin"
-  icon_pack = "fab"
-  link = "https://www.linkedin.com/in/sabrina-presa-4076402aa/ "
 
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:snpresa@gmail.com"
+  link = "mailto:priscila.ayelen.kuhn@gmail.com"
 
 
 
@@ -62,4 +58,4 @@ institution = "National University of Buenos Aires- UBA"
 
 # About me 
 
-I’m a biology student specializing in bioinformatics/computational biology. Currently working on my thesis analyzing microbial belowground communities using a bioinformatics and ecological approach with amplicon sequencing. I have experience teaching introductory programming courses and data analysis courses with Python.  I’m excited to be part of this community to share knowledge and learn from others!
+Advanced  student , joining this fascinating wordl of bioinformatics. Sometimes with doubts and fears, but always with the desire to learn and improve myself. I' m still exploring my interests. 

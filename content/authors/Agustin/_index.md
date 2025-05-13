@@ -3,7 +3,7 @@
 title = "Agustin Baricalla"
 
 # Author weight -- for sort purposes
-weight = 40
+weight = 10
 
 # Username (this should match the folder name)
 authors = ["Agustin"]
@@ -29,7 +29,7 @@ interests = ["Genomics, Transcriptomics, Proteomics, Long read sequencing, genom
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Authorities"] 
+user_groups = ["Academic Advisors"] 
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
