@@ -62,4 +62,4 @@ institution = "Universidad Nacional del Noroeste de la provincia de Buenos Aires
 
 # About me 
 
-Hello, I'm Facu from La Plata. I have been interested in bioinformatics since 2022, and I use it daily, especially for data analysis. I am interested in exploring other areas of bioinformatics that I can also apply in my work.
+I'm currently taking a BSc. degree in Genetics at Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA).
