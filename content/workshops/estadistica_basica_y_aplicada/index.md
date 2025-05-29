@@ -35,7 +35,7 @@ En este taller, a cargo de la Lic. Andrea Peñas Ballesteros y del Lic. Juan Pab
 
 ## Material
 
-En esta sección encontrarás la guía del taller (Proximamente)
+En esta sección encontrarás la guía del taller
 
 - Script R: [link](https://drive.google.com/file/d/1rQ-axN1OXTL0qCcKX9_jUnvZaq1laj_9/view?usp=drive_link)
 
