@@ -72,7 +72,7 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 #### Apertura de inscripciones (28/04)
 
-#### Envío de resúmenes (01/07 al 03/07)
+#### Envío de resúmenes (01/07 al 31/07)
 
 #### Comunicación de resultados (01/09)
 
