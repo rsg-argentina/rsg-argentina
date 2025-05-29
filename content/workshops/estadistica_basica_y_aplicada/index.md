@@ -36,9 +36,12 @@ En este taller, a cargo de la Lic. Andrea Peñas Ballesteros y del Lic. Juan Pab
 ## Material
 
 En esta sección encontrarás la guía del taller (Proximamente)
-Script R: [link](https://drive.google.com/file/d/1rQ-axN1OXTL0qCcKX9_jUnvZaq1laj_9/view?usp=drive_link)
-Script Python: [link](https://drive.google.com/file/d/1tlyI1wjDmc_oE4LM6HIFpzFMGLwlBT_r/view?usp=drive_link)
-Datasets python: [link](https://drive.google.com/drive/folders/1YOJ7hRiIYViWVpaHBr5kQwmQtJK-o3TR?usp=drive_link)
+
+- Script R: [link](https://drive.google.com/file/d/1rQ-axN1OXTL0qCcKX9_jUnvZaq1laj_9/view?usp=drive_link)
+
+- Script Python: [link](https://drive.google.com/file/d/1tlyI1wjDmc_oE4LM6HIFpzFMGLwlBT_r/view?usp=drive_link)
+
+- Datasets python: [link](https://drive.google.com/drive/folders/1YOJ7hRiIYViWVpaHBr5kQwmQtJK-o3TR?usp=drive_link)
 
 
 --- 
