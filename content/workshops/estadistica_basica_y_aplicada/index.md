@@ -50,7 +50,7 @@ En esta sección encontrarás la guía del taller
 
 ## Videos
 
-En esta sección encontrarás del video del taller
+En esta sección encontrarás el video del taller
 </div>
 
 <div style="padding: 20px; border-radius: 5px; position: relative; text-align: center;">
