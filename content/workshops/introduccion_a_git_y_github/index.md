@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "5. Introducción a Git y Github"
+title: "05. Introducción a Git y Github"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual

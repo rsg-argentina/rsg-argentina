@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "4. Visualización de datos en R"
+title: "04. Visualización de datos en R"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual

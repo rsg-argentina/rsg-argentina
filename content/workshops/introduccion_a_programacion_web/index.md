@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "6. Introducción a Programación Web"
+title: "06. Introducción a Programación Web"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual

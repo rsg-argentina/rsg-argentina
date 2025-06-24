@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "3. Introducción a R"
+title: "03. Introducción a R"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual

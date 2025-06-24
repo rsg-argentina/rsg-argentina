@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "8. Análisis multivariado con python"
+title: "08. Análisis multivariado con python"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual

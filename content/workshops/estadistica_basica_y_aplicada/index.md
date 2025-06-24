@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "7. Estadística Básica y Aplicada con herramientas bioinformáticas"
+title: "07. Estadística Básica y Aplicada con herramientas bioinformáticas"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual
