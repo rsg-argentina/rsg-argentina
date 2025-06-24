@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "8. Prácticas de programación efectiva"
+title: "9. Prácticas de programación efectiva"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual
