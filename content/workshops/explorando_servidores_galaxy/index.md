@@ -51,7 +51,16 @@ En esta sección encontrarás el material del taller
 <div style="display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px;">
 
 ## Videos
-
-En esta sección próximamente encontrarás el video del taller
+En esta sección encontrarás el video del taller
 </div>
+
+<div style="padding: 20px; border-radius: 5px; position: relative; text-align: center;">
+    <a href="https://youtu.be/MReZA9YxUhI" style="display: block;">
+        <img src="https://img.youtube.com/vi/MReZA9YxUhI/mqdefault.jpg" alt="Miniatura del Video" style="width: 100%; height: auto; border-radius: 5px;">
+        <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.5); color: white; display: flex; align-items: center; justify-content: center;">
+            <p style="margin: 5px 0;">Video del 19/06</p>
+        </div>
+    </a>
+</div>
+
 
