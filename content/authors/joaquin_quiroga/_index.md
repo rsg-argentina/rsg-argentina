@@ -12,7 +12,7 @@ authors = ["joaquin_quiroga"]
 joaquin_quiroga = [""]
 
 # Role/position
-role = "Volunteer - Web Comittee"
+role = "Volunteer - Web Committee"
 
 # Short bio (displayed in user profile at end of posts)
 bio = "I'm a Product Designer and Creative Coder. My life's goal is to create interfaces at the intersection between bits and atoms to enable people to make sense of themselves and the world."
