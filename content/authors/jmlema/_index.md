@@ -12,7 +12,7 @@ authors = ["jmlema"]
 jmlema = ["Jose Martin Lema"]
 
 # Role/position
-role = "Volunteer"
+role = "Volunteer - Workshops Committee - Networking Committee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
