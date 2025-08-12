@@ -93,7 +93,7 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 💰 El transporte estará disponible para la comunidad y cada persona deberá cubrir el costo de su pasaje.
 
-🎓 Además, ¡podés solicitar becas de transporte!
+🎓 **Además, ¡podés solicitar becas de transporte!**
 
 🔗 [Formulario de inscripción al transporte](https://docs.google.com/forms/d/e/1FAIpQLSdFaYxYHNVvfUHqejfZkcETYw6A-fiiXJAP_YYAEiHQkRMVQQ/viewform?usp=send_form)
 
@@ -105,13 +105,13 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 Del 2 al 4 de octubre se llevará a cabo una experiencia única. Buscamos proyectos bionformáticos concretos, creativos y colaborativos , que puedan ser desarrollados en solo 2 días junto a estudiantes y jóvenes profesionales de todo el país.
 
-🧬 ¿Qué tipo de ideas podés presentar?
+🧬 **¿Qué tipo de ideas podés presentar?**
 * Pipelines bioinformáticos
 * Análisis de datos ómicos
 * Visualizaciones interactivas
 * ¡Y mucho más!
 
-👩💻 ¿Quiénes pueden postular?
+👩💻 **¿Quiénes pueden postular?**
 
 Investigadores/as, doctorandos/as en etapa avanzada, becarios/as postdoctorales... Si tenés una idea clara, ganas de liderar un equipo y compartir conocimiento, ¡está convocatoria es para vos!.
 
