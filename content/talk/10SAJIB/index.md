@@ -74,7 +74,7 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 📝[Formulario de inscripción](https://forms.gle/zv5YsA5SvposfCmn6)
 
-#### Envío de resúmenes (01/07 al ~~31/07~~ 15/08) (📢 *plazo extendido*)
+#### Envío de resúmenes (01/07 al ~~31/07~~ 25/08) (📢 *plazo extendido*)
 
 📝[Formulario de envío](https://forms.gle/sE5U5ZLqH5D8AYbS9)
 
@@ -134,6 +134,7 @@ Investigadores/as, doctorandos/as en etapa avanzada, becarios/as postdoctorales.
 - Educación y extensión 
 - Modelado y simulación de sistemas biológicos
 - Quimioinformática
+- Ciencia de datos
 
 ---
 ### Certificados
