@@ -43,20 +43,6 @@ Conocimientos mínimos:
 </div>
 </div>
 
-<!-->
-## Material
-
-En esta sección encontrarás el material del taller
-
-<div style="display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px;">
-    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-        <a href="https://drive.google.com/file/d/1ws5Z26AULqbrYckgWcS7RHqmIxTzeTCU/view?usp=sharing">
-            <img src="https://img.icons8.com/ios-glyphs/30/000000/ms-powerpoint.png" alt="Slides" style="width: 60px; height: 60px;">
-        </a>
-        <a href="https://drive.google.com/file/d/1ws5Z26AULqbrYckgWcS7RHqmIxTzeTCU/view?usp=sharing" style="margin-top: 5px;">Slides</a>
-    </div>
-</div>
-<-->
 
 --- 
 
