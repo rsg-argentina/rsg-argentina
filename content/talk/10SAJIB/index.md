@@ -121,6 +121,43 @@ Investigadores/as, doctorandos/as en etapa avanzada, becarios/as postdoctorales.
   <img src="hackaton.jpeg" alt="Flyer hackatón" width="50%">
 </p>
 
+---
+
+### 🧑‍🏫 Talleres
+
+📝 [Formulario](https://forms.gle/EtT9wZD3XHNfEWhg9)
+
+#### 🛠️ Club de Datos: una introducción a la ingeniería de software aplicada a la Ciencia de Datos
+- 🔹 **Tallerista:** Miguel Ángel De Lillo (Club de Datos - FCEN-UBA)  
+- 📍 **Lugar:** Campus UNRaf, C. Colectora, S2300 Rafaela, Santa Fe  
+- 🕐 **Horario:** 14:00 – 18:00
+
+Un taller para descubrir cómo las buenas prácticas de programación pueden transformar tu forma de trabajar en proyectos de Ciencia de Datos.
+
+
+#### 🛠️ Quimioinformática asistida por IA: identificación de compuestos bioactivos
+- 🔹 **Tallerista:** Mercedes Didier Garnham (IIB - EByN - UNSAM)  
+- 📍 **Lugar:** Campus UNRaf, C. Colectora, S2300 Rafaela, Santa Fe  
+- 🕐 **Horario:** 14:00 – 18:00  
+
+Ideal para quienes quieran explorar representaciones moleculares, RDKit, descriptores y fingerprints.
+
+#### 🛠️ Esto no es un taller de Docking con IA
+- 🔹 **Tallerista:** Exequiel Barrera (IHEM-CONICET)  
+- 💻 **Formato:** Virtual  
+- 🕐 **Horario:** 13:00 – 18:00  
+
+
+Un espacio para introducirse al docking molecular: desde la búsqueda de compuestos hasta el uso de Autodock Vina y el análisis de resultados.
+
+
+#### 🛠️ Procesamiento de imágenes con Python
+- 🔹 **Tallerista:** Leandro Matías Sommese (CONICET - UNQ)  
+- 📍 **Lugar:** Campus UNRaf, C. Colectora, S2300 Rafaela, Santa Fe  
+- 🕐 **Horario:** 14:00 – 18:00  
+
+Un recorrido práctico por las herramientas de análisis y manipulación de imágenes digitales aplicadas a bioinformática estructural de proteínas.
+
 
 ---
 ### Temas de simposio
