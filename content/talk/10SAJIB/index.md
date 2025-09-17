@@ -125,6 +125,8 @@ Investigadores/as, doctorandos/as en etapa avanzada, becarios/as postdoctorales.
 
 ### 🧑‍🏫 Talleres
 
+📝 [Formulario](https://forms.gle/EtT9wZD3XHNfEWhg9)
+
 #### 🛠️ Club de Datos: una introducción a la ingeniería de software aplicada a la Ciencia de Datos
 - 🔹 **Tallerista:** Miguel Ángel De Lillo (Club de Datos - FCEN-UBA)  
 - 📍 **Lugar:** Campus UNRaf, C. Colectora, S2300 Rafaela, Santa Fe  
