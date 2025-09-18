@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "16. Análisis y ensamblado de genomas eucariotas en Galaxy"
+title: "17. Análisis de amplicones 16S: del secuenciador al perfil de microbioma"
 event: "Talleres Bioinformáticos"
 event_url: ""
 location: Virtual
@@ -14,7 +14,7 @@ tags: ["Workshops"]
 ---
 <div style="display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px;">
 
-# Análisis y ensamblado de genomas eucariotas en Galaxy
+# Análisis de amplicones 16S: del secuenciador al perfil de microbioma
 
 </div>
 
@@ -24,7 +24,7 @@ tags: ["Workshops"]
 
 # Sobre el taller 
 
-En este taller, a cargo del Dr. Ciencias Aplicadas, Anibal Sebastian Chelaliche, aprenderás sobre análisis de calidad, filtrado, y ensamblado de genomas eucariotas utilizando las herramientas disponibles en el servidor Galaxy. Asimismo, se propone un workflow estándar de genómica tomando como modelo un genoma fúngico, aplicable a otros modelos biológicos.
+En este taller, a cargo del Ing. Agrónomo Juan Félix Orlowski, aprenderás a procesar y analizar datos de secuenciación 16S (Illumina) para estudiar la composición microbiana de distintas muestras. A lo largo de la jornada, abordaremos los conceptos básicos de microbioma y secuenciación de amplicones 16S, control de calidad y preprocesamiento de datos crudos, Inferencia de ASVs y asignación taxonómica y visualización y análisis de diversidad microbiana.
 
 
 </div>
