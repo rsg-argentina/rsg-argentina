@@ -78,7 +78,13 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 ~~📝Formulario de envío~~
 
-#### Comunicación de resultados (📢 **En breve**)
+#### ~~Comunicación de resultados~~
+
+#### Cierre de inscripciones a Hackatón (27/09)
+
+📝[Formulario de inscripción](https://forms.gle/tTLMJiE5tzvczREVA)
+
+#### Hackatón (2 al 4/10)
 
 #### Día 1: Talleres (9/10)
 
@@ -101,25 +107,27 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 ### 🧩 Hackatón
 
-📣 **¡Postulá tu propuesta antes del miércoles 20 de agosto!**
+🚀 ¡Ya abrimos la inscripción para participar en la Hackatón de Bioinformática!
 
-Del 2 al 4 de octubre se llevará a cabo una experiencia única. Buscamos proyectos bionformáticos concretos, creativos y colaborativos , que puedan ser desarrollados en solo 2 días junto a estudiantes y jóvenes profesionales de todo el país.
+El objetivo es reunir a personas con distintas formaciones para colaborar durante dos jornadas intensivas y desarrollar soluciones innovadoras a desafíos como análisis de datos ómicos, desarrollo de pipelines, visualización, entre otros.
 
-🧬 **¿Qué tipo de ideas podés presentar?**
-* Pipelines bioinformáticos
-* Análisis de datos ómicos
-* Visualizaciones interactivas
-* ¡Y mucho más!
+Durante la Hackatón, los equipos trabajarán en proyectos previamente seleccionados, junto a estudiantes de grado y posgrado, con el fin de alcanzar objetivos concretos en un plazo de 3 días.
 
-👩💻 **¿Quiénes pueden postular?**
+📂 Todos los proyectos desarrollados serán publicados en un repositorio de GitHub para que sean accesibles a la comunidad.
 
-Investigadores/as, doctorandos/as en etapa avanzada, becarios/as postdoctorales... Si tenés una idea clara, ganas de liderar un equipo y compartir conocimiento, ¡está convocatoria es para vos!.
+⚡ **Fecha límite de inscripción:** 27 de septiembre  
+💻 **Modalidad:** Virtual  
+📅 **Fechas de la Hackatón:** 2 al 4 de octubre  
 
-📝 [Formulario](https://docs.google.com/forms/d/e/1FAIpQLSdrrb0-ZbE9l4ibtFVHSxSouOwA7N6dPUrqYpBjH2HF-_D68A/viewform)
+👉 **[Inscribite acá](https://forms.gle/tTLMJiE5tzvczREVA)**  
 
-<p align="center">
-  <img src="hackaton.jpeg" alt="Flyer hackatón" width="50%">
-</p>
+🔹 Proyectos disponibles:
+- 1️⃣ **Machine Learning para Predecir la Evolución del Cáncer** 
+- 2️⃣ **paper2table** 
+- 3️⃣ **Uso de imágenes estandarizadas para estudiar caracteres fenotípicos en aves**
+- 4️⃣ **Aplicación web para análisis de datos químicos** 
+
+💡 ¡No te pierdas la oportunidad de sumarte, aprender y crear en equipo!
 
 ---
 
@@ -146,7 +154,6 @@ Ideal para quienes quieran explorar representaciones moleculares, RDKit, descrip
 - 🔹 **Tallerista:** Exequiel Barrera (IHEM-CONICET)  
 - 💻 **Formato:** Virtual  
 - 🕐 **Horario:** 13:00 – 18:00  
-
 
 Un espacio para introducirse al docking molecular: desde la búsqueda de compuestos hasta el uso de Autodock Vina y el análisis de resultados.
 
