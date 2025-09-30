@@ -68,6 +68,19 @@ El lenguaje oficial de la 10SAJIB es el Español
 - Patrocinadores y colaboradores: [ISCB-SC](https://iscbsc.org/)
 
 ---
+
+## Índice
+
+- [Fechas importantes](#fechas-importantes-computer)
+- [Transporte](#transporte)
+- [Keynotes](#keynotes)
+- [Hackatón](#-hackatón)
+- [Talleres](#-talleres)
+- [Temas de simposio](#temas-de-simposio)
+- [Certificados](#certificados)
+- [Código de conducta](#código-de-conducta)
+- [Redes sociales](#redes-sociales)
+
 ### Fechas importantes :computer:
 
 #### Apertura de inscripciones (28/04)
@@ -91,6 +104,37 @@ El lenguaje oficial de la 10SAJIB es el Español
 #### Día 2: Simposio (10/10)
 
 ---
+
+### Keynotes
+
+#### Bioinformática Estructural al Sur del Atardecer
+
+**Oradora:** Ana Julia Velez Rueda (CONICET)
+
+Un recorrido por la bioinformática estructural construida desde el sur del mundo. Una individualidad dentro de un contexto y una comunidad. Desde las profundidades de las subestructuras proteicas hasta el impacto del mundo moderno en la salud humana. A lo largo de esta charla, exploraremos la relación entre la estructura y función proteica, su influencia en el diseño de fármacos y cómo estas conexiones se reflejan en la fisiología celular. 
+
+¿Se puede construir ciencia desde el sur? ¿Se puede construir una carrera científica descolonial, comunitaria y anti-extractivista? Este recorrido busca no solo ofrecer una visión técnica, sino también promover una visión crítica sobre cómo la ciencia puede ser un instrumento para la transformación social y ecológica desde las voces del sur global.
+
+<p align="center">
+  <img src="imgs/keynote-01.jpg" alt="Flyer Keynote 1" style="width:90%; max-width:400px; min-width:200px; height:auto;">
+</p>
+
+
+#### Aplicaciones metagenómica en el sector agroindustrial
+
+**Orador:** Matías Irazoqui
+
+Los avances en las técnicas de secuenciación han revolucionado la microbiología, permitiendo estudiar una gran parte de la diversidad microbiana que no ha sido accesible mediante técnicas basadas en cultivos. La metagenómica no solo ha abierto la puerta a la identificación de nuevas especies microbianas, sino también a comprender su rol en la comunidad microbiana y su relación con el ambiente.
+
+En esta charla se abordarán 2 ejemplos de estudios metagenómicos relacionados con el sector agroindustrial. En primer lugar, el estudio de comunidades microbianas en lagunas de estabilización como fuente de enzimas de interés para la industria láctea. En segundo lugar, el uso de secuenciación en tiempo real para la identificación y caracaterización rápida de patógenos bovinos.
+
+<p align="center">
+  <img src="imgs/keynote-02.jpg" alt="Flyer Keynote 2" style="width:90%; max-width:400px; min-width:200px; height:auto;">
+</p>
+
+
+---
+
 ### Transporte
 
 🚌 Para facilitar la movilidad contaremos con un transporte ida y vuelta desde **CABA** y **Rosario** 
