@@ -69,7 +69,7 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 ---
 
-## Índice
+## Contenido
 
 - [Fechas importantes](#fechas-importantes-computer)
 - [Transporte](#transporte)
