@@ -93,9 +93,9 @@ El lenguaje oficial de la 10SAJIB es el Español
 
 #### ~~Comunicación de resultados~~
 
-#### Cierre de inscripciones a Hackatón (27/09)
+#### Cierre de inscripciones a Hackatón (📢 **Cerrado**)
 
-📝[Formulario de inscripción](https://forms.gle/tTLMJiE5tzvczREVA)
+~~📝Formulario de inscripción~~
 
 #### Hackatón (2 al 4/10)
 
