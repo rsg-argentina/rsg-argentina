@@ -79,14 +79,23 @@ projects: [""]
 </p>
 
 <p align="center">
-<img src="imgs/sponsors/biodev.png" alt="BioDev Network" height="80" style="margin: 0 30px;">
-<img src="imgs/sponsors/gsf3.png" alt="Gobierno de Santa Fe" height="80" style="margin: 0 30px;">
-<img src="imgs/sponsors/iscb.png" alt="ISCB" height="80" style="margin: 0 30px;">
-<img src="imgs/sponsors/iscbsc.png" alt="ISCB Student Council" height="80" style="margin: 0 30px;">
+  <p align="center">
+    <img src="imgs/sponsors/biodev.png" alt="BioDev Network" height="80" style="margin: 0 30px;">
+    <img src="imgs/sponsors/iscb.png" alt="ISCB" height="80" style="margin: 0 30px;">
+    <img src="imgs/sponsors/iscbsc.png" alt="ISCB Student Council" height="80" style="margin: 0 30px;">
+    <img src="imgs/sponsors/zs.png" alt="ZS" height="80" style="margin: 0 30px;">
+    <img src="imgs/sponsors/rstmh.jpg" alt="RSTMH" height="80" style="margin: 0 30px;">
+  </p>
 
-<img src="imgs/sponsors/zs.png" alt="ZS" height="80" style="margin: 0 30px;">
-<img src="imgs/sponsors/rstmh.jpg" alt="RSTMH" height="80" style="margin: 0 30px;">
-</p>
+  <p align="center" style="margin: 30px 0;">
+    <img src="imgs/sponsors/gsf3.png" alt="Gobierno de Santa Fe" height="100" style="margin: 0 30px;">
+  </p>
+
+  <p align="center" style="max-width: 700px; margin: 0 auto;">
+    <sub>
+      <strong>Proyecto financiado por la convocatoria ASACTEI: </strong> "ANR Eventos Científicos, Tecnológicos y de Innovación en el Sistema Productivo" de la Secretaría de Ciencia, Tecnología e Innovación del Ministerio de Desarrollo Productivo, Gobierno de la provincia de Santa Fe.
+    </sub>
+  </p>
 
 ---
 
