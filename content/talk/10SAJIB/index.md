@@ -4,7 +4,7 @@
 title: "10mo Simposio Argentino de Jóvenes Investigadores en Bioinformática"
 event: "10SAJIB"
 event_url: ""
-location: Rafaela, pcia. de Santa Fe, Argentina - Presential event
+location: Campus UNRaf, C. Colectora, S2300 Rafaela, Santa Fe
 summary: ""
 abstract: ""
 
