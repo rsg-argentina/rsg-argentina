@@ -66,29 +66,31 @@ projects: [""]
 
 
 <p align="center">
-  <strong>Organizadores</strong>
+  <strong>Organizan</strong>
 </p>
 
 <p align="center">
-  <img src="imgs/organizadores/rsg_arg.png" alt="RSG Argentina" height="100" style="margin: 0 40px;">
-  <img src="imgs/organizadores/unraf_squared.png" alt="UNRaf" height="100">
+  <img src="imgs/organizadores/rsg_arg.png" alt="RSG Argentina" style="height: 150px !important; margin: 0 40px; display: inline-block !important;">
+  <img src="imgs/organizadores/unraf_squared.png" alt="UNRaf" style="height: 150px !important; display: inline-block !important;">
 </p>
 
 <p align="center">
-  <strong>Sponsors</strong>
+  <strong>Auspician</strong>
 </p>
 
 <p align="center">
   <p align="center">
-    <img src="imgs/sponsors/biodev.png" alt="BioDev Network" height="80" style="margin: 0 30px;">
-    <img src="imgs/sponsors/iscb.png" alt="ISCB" height="80" style="margin: 0 30px;">
-    <img src="imgs/sponsors/iscbsc.png" alt="ISCB Student Council" height="80" style="margin: 0 30px;">
-    <img src="imgs/sponsors/zs.png" alt="ZS" height="80" style="margin: 0 30px;">
-    <img src="imgs/sponsors/rstmh.jpg" alt="RSTMH" height="80" style="margin: 0 30px;">
+    <img src="imgs/sponsors/iscb.png" alt="ISCB" style="height: 100px !important; margin: 0 30px; display: inline-block !important;">
+    <img src="imgs/sponsors/iscbsc.png" alt="ISCB Student Council" style="height: 100px !important; margin: 0 30px; display: inline-block !important;">
+  </p>
+  <p align="center" style="margin: 30px 0;">
+    <img src="imgs/sponsors/biodev.png" alt="BioDev Network" style="height: 100px !important; margin: 0 30px; display: inline-block !important;">
+    <img src="imgs/sponsors/zs.png" alt="ZS" style="height: 100px !important; margin: 0 30px; display: inline-block !important;">
+    <img src="imgs/sponsors/rstmh.jpg" alt="RSTMH" style="height: 100px !important; margin: 0 30px; display: inline-block !important;">
   </p>
 
   <p align="center" style="margin: 30px 0;">
-    <img src="imgs/sponsors/gsf3.png" alt="Gobierno de Santa Fe" height="100" style="margin: 0 30px;">
+    <img src="imgs/sponsors/gsf3.png" alt="Gobierno de Santa Fe"  style="margin: 0 30px; height: 100px !important;">
   </p>
 
   <p align="center" style="max-width: 700px; margin: 0 auto;">
