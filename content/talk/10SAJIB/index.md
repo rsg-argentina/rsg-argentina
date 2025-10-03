@@ -64,8 +64,29 @@ projects: [""]
 
 ### :red_circle: 10SAJIB :computer:
 
-El lenguaje oficial de la 10SAJIB es el Español
-- Patrocinadores y colaboradores: [ISCB-SC](https://iscbsc.org/)
+
+<p align="center">
+  <strong>Organizadores</strong>
+</p>
+
+<p align="center">
+  <img src="imgs/organizadores/rsg_arg.png" alt="RSG Argentina" height="100" style="margin: 0 40px;">
+  <img src="imgs/organizadores/unraf_squared.png" alt="UNRaf" height="100">
+</p>
+
+<p align="center">
+  <strong>Sponsors</strong>
+</p>
+
+<p align="center">
+<img src="imgs/sponsors/biodev.png" alt="BioDev Network" height="80" style="margin: 0 30px;">
+<img src="imgs/sponsors/gsf3.png" alt="Gobierno de Santa Fe" height="80" style="margin: 0 30px;">
+<img src="imgs/sponsors/iscb.png" alt="ISCB" height="80" style="margin: 0 30px;">
+<img src="imgs/sponsors/iscbsc.png" alt="ISCB Student Council" height="80" style="margin: 0 30px;">
+
+<img src="imgs/sponsors/zs.png" alt="ZS" height="80" style="margin: 0 30px;">
+<img src="imgs/sponsors/rstmh.jpg" alt="RSTMH" height="80" style="margin: 0 30px;">
+</p>
 
 ---
 
