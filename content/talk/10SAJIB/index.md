@@ -129,7 +129,7 @@ projects: [""]
 
 ~~📝Formulario de inscripción~~
 
-#### Hackatón (2 al 4/10)
+#### ~~Hackatón (2 al 4/10)~~
 
 #### Día 1: Talleres (9/10)
 
@@ -241,6 +241,23 @@ Un espacio para introducirse al docking molecular: desde la búsqueda de compues
 
 Un recorrido práctico por las herramientas de análisis y manipulación de imágenes digitales aplicadas a bioinformática estructural de proteínas.
 
+---
+
+### Mesa redonda
+
+En esta edición, contaremos con una Mesa Redonda sobre Educación y Bioinformática 🧬📚, un espacio de reflexión y debate sobre la formación en nuestra disciplina y sus desafíos a futuro.
+
+Nos acompañarán tres destacadxs referentes:
+
+- 👩‍🔬 Carolina Cerrudo (UNQ) - Bioinformática y Virología
+- 🧑‍🔬 Juan Bizzotto (UBA-CONICET) - Oncología Molecular
+- 👨‍🏫 Ariel Amadio (UNRaf - CONICET-INTA) - Genómica y Bioinformática
+
+💡 Será una oportunidad única para escuchar sus experiencias, miradas y propuestas sobre los desafíos de la bioinformática en la formación académica y científica.
+
+<p align="center">
+  <img src="imgs/mesa_redonda/banner.jpeg" alt="Flyer Mesa Redonda" style="width:90%; max-width:400px; min-width:200px; height:auto;">
+</p>
 
 ---
 ### Temas de simposio

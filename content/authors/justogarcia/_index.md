@@ -50,7 +50,7 @@ user_groups = ["Volunteers"]
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "www.linkedin.com/in/justo-garcia-150703303"
+  link = "https://www.linkedin.com/in/justo-garciam"
 
 [[social]]
   icon = "github"
