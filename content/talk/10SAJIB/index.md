@@ -229,7 +229,7 @@ Ideal para quienes quieran explorar representaciones moleculares, RDKit, descrip
 #### 🛠️ Esto no es un taller de Docking con IA
 - 🔹 **Tallerista:** Exequiel Barrera (IHEM-CONICET)  
 - 💻 **Formato:** Virtual  
-- 🕐 **Horario:** 13:00 – 18:00  
+- 🕐 **Horario:** 14:00 – 18:00  
 
 Un espacio para introducirse al docking molecular: desde la búsqueda de compuestos hasta el uso de Autodock Vina y el análisis de resultados.
 
