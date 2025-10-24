@@ -6,7 +6,7 @@ title = "Maria Agustina Ortiz"
 weight = 10
 
 # Username (this should match the folder name)
-authors = [maria_agustina_ortiz]
+authors = ["maria_agustina_ortiz"]
 
 # Author name (this is required for people without content)
 perfil_de_prueba = [""]
@@ -29,7 +29,7 @@ interests = ["Biological data analysis", "Genomics and transcriptomics", "Struct
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Volunteer"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
@@ -52,10 +52,7 @@ user_groups = ["Volunteer"]
   icon_pack = "fab"
   link = ""
 
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = ""
+
 +++
 
 # About me 

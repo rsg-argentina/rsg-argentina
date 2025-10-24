@@ -6,13 +6,13 @@ title = "Daiana Jazmín Echenique"
 weight = 10
 
 # Username (this should match the folder name)
-authors = [daiana_jazmín_echenique]
+authors = ["daiana_jazmín_echenique"]
 
 # Author name (this is required for people without content)
 perfil_de_prueba = [""]
 
 # Role/position
-role = "Volunteer"
+role = "Volunteer - Web Committee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -29,7 +29,7 @@ interests = ["Big data", "Machine learning", "Metagenomic", "Data analysis", "De
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Web"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]

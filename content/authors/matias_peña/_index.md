@@ -6,7 +6,7 @@ title = "Matias Peña"
 weight = 10
 
 # Username (this should match the folder name)
-authors = [matias_peña]
+authors = ["matias_peña"]
 
 # Author name (this is required for people without content)
 perfil_de_prueba = [""]
@@ -29,7 +29,7 @@ interests = []
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Volunteer"]
+user_groups = ["Volunteers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
