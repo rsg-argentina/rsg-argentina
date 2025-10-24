@@ -6,7 +6,7 @@ title = "Matias Carletti"
 weight = 10
 
 # Username (this should match the folder name)
-authors = ["matias_carletti"]
+authors = ["_matias_carletti"]
 
 # Author name (this is required for people without content)
 perfil_de_prueba = [""]
