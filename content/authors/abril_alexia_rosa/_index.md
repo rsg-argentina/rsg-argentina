@@ -25,7 +25,7 @@ bio = "Mi nombre es Alexia, tengo 24 años, soy Técnica Química y Extraccionis
 email = "alexiaabrilrosa@gmail.com"
 
 # List (academic) interests or hobbies
-interests = ["Genome and proteome analysis" Protein structure and function ", " Computational biology", "Biological data mining", "Development of algorithms for biological analysis", "Biological data visualization", "Gene expression and regulation analysis", "Applications of artificial intelligence in biology", "Analysis of DNA sequencing data", "Study of molecular evolution", "Development of bioinformatics tools", "Synthetic biology and gene design", "Analysis of microarray and RNA sequencing data", "Development of methods for protein function prediction", "Analysis of genetic variability and its relationship to diseases", "Applications of bioinformatics in personalized medicine"]
+interests = ["Genome and proteome analysis", "Protein structure and function", " Computational biology", "Biological data mining", "Development of algorithms for biological analysis", "Biological data visualization", "Gene expression and regulation analysis", "Applications of artificial intelligence in biology", "Analysis of DNA sequencing data", "Study of molecular evolution", "Development of bioinformatics tools", "Synthetic biology and gene design", "Analysis of microarray and RNA sequencing data", "Development of methods for protein function prediction", "Analysis of genetic variability and its relationship to diseases", "Applications of bioinformatics in personalized medicine"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -56,10 +56,7 @@ user_groups = ["Volunteers"]
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/alexia-rosa-878768208"
 
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = ""
+
 +++
 
 # About me 
