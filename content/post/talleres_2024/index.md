@@ -1,8 +1,8 @@
 ---
 title: "Bioinformatics Workshops 2024"
 authors: ["admin"]
-date: 2025-12-31T09:00:00-03:00
-lastmod: 2025-12-31T18:00:00-03:00
+date: 2024-12-31T09:00:00-03:00
+lastmod: 2024-12-31T18:00:00-03:00
 featured: true
 draft: false
 
@@ -18,12 +18,12 @@ In 2024 we offered a series of **bioinformatics workshops** covering programming
 
 Here are the workshops with links to their pages:
 
-- **[Introducción a Bash](https://rsg-argentina.netlify.app/workshops/introduccion-a-bash)** – Fundamentals of command line and automation. :contentReference[oaicite:1]{index=1}
-- **[Introducción a Python](https://rsg-argentina.netlify.app/workshops/introduccion-a-python)** – Python basics for data manipulation and scripting. :contentReference[oaicite:2]{index=2}
-- **[Introducción a R](https://rsg-argentina.netlify.app/workshops/introduccion-a-r)** – R programming foundations and data analysis. :contentReference[oaicite:3]{index=3}
-- **[Visualización de datos en R](https://rsg-argentina.netlify.app/workshops/visualizacion-de-datos-en-r)** – Data visualization techniques using R. :contentReference[oaicite:4]{index=4}
-- **[Introducción a Git y Github](https://rsg-argentina.netlify.app/workshops/introduccion-a-git-y-github)** – Version control with Git and GitHub. :contentReference[oaicite:5]{index=5}
-- **[Introducción a Programación Web](https://rsg-argentina.netlify.app/workshops/introduccion_a_programacion_web/)** – Generá tu primera página web. :contentReference[oaicite:5]{index=6}
+- **[Introducción a Bash](https://rsg-argentina.netlify.app/workshops/introduccion-a-bash)** – Fundamentals of command line and automation. 
+- **[Introducción a Python](https://rsg-argentina.netlify.app/workshops/introduccion-a-python)** – Python basics for data manipulation and scripting. 
+- **[Introducción a R](https://rsg-argentina.netlify.app/workshops/introduccion-a-r)** – R programming foundations and data analysis. 
+- **[Visualización de datos en R](https://rsg-argentina.netlify.app/workshops/visualizacion-de-datos-en-r)** – Data visualization techniques using R. 
+- **[Introducción a Git y Github](https://rsg-argentina.netlify.app/workshops/introduccion-a-git-y-github)** – Version control with Git and GitHub.
+- **[Introducción a Programación Web](https://rsg-argentina.netlify.app/workshops/introduccion_a_programacion_web/)** – Generá tu primera página web.
 
 📌 For more details about each workshop (materials, videos, exercises), visit the **RSG Argentina Workshops page**:  
-https://rsg-argentina.netlify.app/workshops/ :contentReference[oaicite:6]{index=6}
+https://rsg-argentina.netlify.app/workshops/ 

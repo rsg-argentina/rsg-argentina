@@ -1,5 +1,5 @@
 ---
-title: "1st Argentinian Bioinformatics Summer BootCamp (2nd B2AV)"
+title: "1st Argentinian Bioinformatics Summer BootCamp (1st B2AV)"
 authors: ["admin"]
 date: 2024-02-03T09:00:00-03:00
 lastmod: 2024-02-04T18:00:00-03:00
@@ -12,7 +12,7 @@ image:
   preview_only: false
 ---
 
-## About the 2nd B2AV
+## About the 1st B2AV
 The **1st Argentinian Bioinformatics Summer BootCamp (1st B2AV)** was held on **February, 2024**, at the **University of Buenos Aires (UBA)**, bringing together around **50 participants** interested in bioinformatics and computational biology.
 
 During the event, we participated in **postgraduate courses**, delivering the **introductory programming module**, aimed at providing essential computational skills for students beginning their training in bioinformatics.

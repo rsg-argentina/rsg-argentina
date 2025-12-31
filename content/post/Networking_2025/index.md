@@ -17,5 +17,5 @@ image:
 
 We hosted **two in-person networking events**, aimed at fostering connections between students, researchers, and professionals interested in bioinformatics.
 
-Some highlights:
+Some highlights cooming soon!
 

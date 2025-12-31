@@ -14,8 +14,7 @@ image:
 
 ## Bioinformatics Workshops in 2025
 
-Here are the workshops held in 2025 with links to their sections on the RSG Argentina workshops page:  
-https://rsg-argentina.netlify.app/workshops/ :contentReference[oaicite:0]{index=0}
+Here are the workshops held in 2025 with links to their sections on the RSG Argentina workshops:
 
 1. **[Estadística Básica y Aplicada con herramientas bioinformáticas](https://rsg-argentina.netlify.app/workshops/estadistica-basica-y-aplicada)** – Learn basic and applied statistics with R/RStudio and Python.  
 2. **[Análisis multivariado con Python](https://rsg-argentina.netlify.app/workshops/analisis_multiv_python/)** – Conceptual and practical introduction to multivariate analysis for biological data.  
@@ -30,5 +29,5 @@ https://rsg-argentina.netlify.app/workshops/ :contentReference[oaicite:0]{index=
 11. **[Análisis de amplicones 16S: del secuenciador al perfil de microbioma](https://rsg-argentina.netlify.app/workshops/metabarcoding/)** – Process 16S sequencing data for microbiome profiling.  
 12. **[Bioinformática y Drug discovery: De la estructura 3D al fármaco](https://rsg-argentina.netlify.app/workshops/drug_discovery/)** – Basics of drug discovery from 3D structure to docking.
 
-📌 *Note:* Each link jumps to the workshop section on the **RSG Argentina 2025 workshops page**. :contentReference[oaicite:1]{index=1}
+
 

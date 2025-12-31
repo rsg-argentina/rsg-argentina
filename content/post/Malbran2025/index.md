@@ -19,4 +19,4 @@ The **Workshop on Bioinformatics Applied to Public Health** was held across mult
 We provided **specialized in-person programming training** at **ANLIS Malbrán**, a **world-renowned institute** in infectious disease diagnostics and public health, focusing on computational tools and methods relevant to public health surveillance and research.
 
 Highlights from the workshop:
-![Event photo](image.jpg)
+![Event photo](image.jpeg)
