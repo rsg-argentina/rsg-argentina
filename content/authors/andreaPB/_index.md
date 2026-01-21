@@ -63,4 +63,4 @@ institution = "UNNOBA"
 
 # About me 
 
-I´m geneticist from the Universidad Nacional del Noroeste de la provincia de Buenos Aires (UNNOBA), Argentina. I´ve finished a master's degree in Bioinformatics and Systems Biology (UNNOBA-UNQ). In april 2022, I started a CONICET Doctoral fellowship. My research focuses in plant-pathogen interaction in corn ear, specifically on decoding genes and metabolic pathways involved in multiple disease resistance to maize ear rots.
+I am a geneticist from the Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA), Argentina, and I hold a Master’s degree in Bioinformatics and Systems Biology (UNNOBA–UNQ). Since April 2022, I have been a CONICET doctoral fellow. My research focuses on plant–pathogen interactions in maize ears, with particular emphasis on identifying genes and metabolic pathways involved in resistance to multiple maize ear rot diseases.
