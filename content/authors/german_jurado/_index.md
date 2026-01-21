@@ -12,7 +12,7 @@ authors = ["german_jurado"]
 perfil_de_prueba = [""]
 
 # Role/position
-role = "Volunteer - Events Committee, Streaming Committee - Social Network Committee"
+role = "Volunteer - Social Network Committee Coordinator - Events Committee, Streaming Committee"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
