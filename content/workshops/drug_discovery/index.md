@@ -40,4 +40,4 @@ Los requerimientos especiales para realizar el taller son tener conocimientos b�
 ## Videos
 En esta sección encontrarás el video del taller
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ItAGiw9lOW8?si=WuMqq7VOTsQKXcAL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T63zFF1HfZo?si=nDGbj2K3X-r-HeTW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
