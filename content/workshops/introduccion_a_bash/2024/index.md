@@ -1,24 +1,23 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "01. Introducción a Bash"
+title: "Introducción a Bash - Edición 2024"
+date: 2024-05-29T09:00:00-03:00
+course: "introduccion_a_bash"
+year: 2024
 event: "Talleres Bioinformáticos"
-event_url: ""
 location: Virtual
 summary: ""
 abstract: ""
-
-#authors: []
+layout: workshop_edition
 tags: ["Workshops"]
-
 ---
+
 <div style="display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px;">
 
-# Introducción a Bash 
+# Introducción a Bash
 
 </div>
 
---- 
+---
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px;">
 
@@ -30,7 +29,7 @@ En este taller, hablamos sobre fundamentos de la línea de comandos, navegación
 
 </div>
 
---- 
+---
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px;">
 
@@ -54,8 +53,7 @@ En esta sección encontrarás las diapositivas y la guía de ejercicios usados e
     </div>
 </div>
 
-
---- 
+---
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px;">
 
