@@ -1,0 +1,350 @@
+{{- define "main" -}}
+
+{{ $currentDir := path.Base (trim .File.Dir "/") }}
+
+{{ if eq $currentDir "workshops" }}
+  {{ partial "page_header.html" . }}
+
+  {{ $tracks := site.Data.workshops.trayectos | default (slice) }}
+  {{ $allPages := .RegularPages.ByTitle }}
+  {{ $seen := newScratch }}
+
+  <div class="universal-wrapper workshops-page">
+    {{ range $tracks }}
+      <section class="workshops-section">
+        <div class="workshops-section__header">
+          <h2>{{ .title }}</h2>
+          {{ with .description }}
+            <p>{{ . }}</p>
+          {{ end }}
+        </div>
+        <div class="workshops-grid">
+          {{ range .courses }}
+            {{ $courseEntry := . }}
+            {{ $slug := $courseEntry.slug }}
+            {{ $href := "" }}
+
+            {{ with site.GetPage (printf "/workshops/%s" $slug) }}
+              {{ $href = .RelPermalink }}
+
+              {{ $editions := $courseEntry.editions | default (slice) }}
+              {{ if gt (len $editions) 0 }}
+                {{ $firstEdition := index $editions 0 }}
+                {{ $href = printf "/workshops/%s/%s/" $slug $firstEdition.slug | relURL }}
+              {{ end }}
+
+              {{ $seen.SetInMap "pages" .RelPermalink true }}
+              {{ partial "workshop_card.html" (dict "page" . "href" $href) }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ range $allPages }}
+      {{ if and (not .Params.course) (not (isset ($seen.Get "pages") .RelPermalink)) }}
+        {{ $.Scratch.SetInMap "other_pages" .RelPermalink . }}
+      {{ end }}
+    {{ end }}
+
+    {{ $otherPages := $.Scratch.GetSortedMapValues "other_pages" }}
+    {{ if $otherPages }}
+      <section class="workshops-section">
+        <div class="workshops-section__header">
+          <h2>Otros</h2>
+          <p>Cursos que todavía no están clasificados dentro de un trayecto.</p>
+        </div>
+        <div class="workshops-grid">
+          {{ range $otherPages }}
+            {{ partial "workshop_card.html" (dict "page" . "href" .RelPermalink) }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  </div>
+
+  <style>
+    .workshops-page {
+      padding-bottom: 3rem;
+    }
+
+    .workshops-section {
+      margin-top: 2rem;
+    }
+
+    .workshops-section__header {
+      max-width: 52rem;
+      margin-bottom: 1rem;
+    }
+
+    .workshops-section__header h2 {
+      margin: 0 0 0.35rem;
+      font-size: 1.4rem;
+      color: #16324f;
+    }
+
+    .workshops-section__header p {
+      margin: 0;
+      color: rgba(22, 50, 79, 0.8);
+      line-height: 1.6;
+    }
+
+    .workshops-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 260px));
+      justify-content: center;
+      gap: 1.25rem;
+    }
+
+    .workshop-card {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      min-height: 100%;
+      overflow: hidden;
+      border-radius: 18px;
+      background: #fbfdff;
+      color: #16324f;
+      text-decoration: none;
+      box-shadow: 0 14px 34px rgba(43, 148, 195, 0.18);
+      border: 1px solid rgba(43, 148, 195, 0.28);
+      transition: transform 160ms ease, box-shadow 160ms ease;
+    }
+
+    .workshop-card:hover,
+    .workshop-card:focus-visible {
+      color: #16324f;
+      transform: translateY(-4px);
+      box-shadow: 0 20px 48px rgba(43, 148, 195, 0.24);
+      text-decoration: none;
+    }
+
+    .workshop-card__media {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      background: linear-gradient(135deg, #4bb4e3, #2b94c3);
+    }
+
+    .workshop-card__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .workshop-card__body {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      padding: 1rem 1rem 1.1rem;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 1));
+    }
+
+    .workshop-card__eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #2b94c3;
+    }
+
+    .workshop-card h3 {
+      margin: 0;
+      font-size: 1.02rem;
+      line-height: 1.35;
+      color: #16324f;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      min-height: 2.7em;
+    }
+
+    @media (max-width: 575.98px) {
+      .workshops-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+    }
+  </style>
+{{ else }}
+  <article class="article">
+    {{ partial "page_header" . }}
+
+    <div class="article-container workshop-course-page">
+      {{ if .Params.course }}
+        {{ with site.GetPage (printf "/workshops/%s" .Params.course) }}
+          <p class="workshop-edition-back">
+            <a href="{{ .RelPermalink }}">Volver al curso: {{ .Title }}</a>
+          </p>
+        {{ end }}
+      {{ end }}
+
+      {{ with .Content }}
+        <div class="article-style workshop-course-copy">
+          {{ . }}
+        </div>
+      {{ end }}
+
+      {{ if .Params.course }}
+        {{ $courseSlug := .Params.course }}
+        {{ $currentSlug := path.Base (trim .File.Dir "/") }}
+        {{ $courseEntry := false }}
+        {{ $courseTitle := $courseSlug }}
+
+        {{ with site.GetPage (printf "/workshops/%s" $courseSlug) }}
+          {{ $courseTitle = .Title }}
+        {{ end }}
+
+        {{ range site.Data.workshops.trayectos }}
+          {{ if not $courseEntry }}
+            {{ range .courses }}
+              {{ if not $courseEntry }}
+                {{ if eq .slug $courseSlug }}
+                  {{ $courseEntry = . }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ if $courseEntry }}
+          {{ $editions := index $courseEntry "editions" | default (slice) }}
+          {{ if gt (len $editions) 1 }}
+            <section class="workshop-edition-others">
+              <h2>Otras ediciones</h2>
+              <div class="workshop-edition-others__grid">
+                {{ range $editions }}
+                  {{ if ne .slug $currentSlug }}
+                    {{ $editionCard := dict "href" (printf "/workshops/%s/%s/" $courseSlug .slug | relURL) "title" .title "year" .year "course_title" $courseTitle }}
+                    {{ partial "workshop_edition_card.html" $editionCard }}
+                  {{ end }}
+                {{ end }}
+              </div>
+            </section>
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ $courseSlug := $currentDir }}
+        {{ $courseEntry := false }}
+
+        {{ range site.Data.workshops.trayectos }}
+          {{ if not $courseEntry }}
+            {{ range .courses }}
+              {{ if not $courseEntry }}
+                {{ if eq .slug $courseSlug }}
+                  {{ $courseEntry = . }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ $editions := slice }}
+        {{ if $courseEntry }}
+          {{ $editions = index $courseEntry "editions" | default (slice) }}
+        {{ end }}
+
+        {{ if gt (len $editions) 0 }}
+          <section class="workshop-course-editions">
+            <h2>Ediciones</h2>
+            <div class="workshop-course-editions__grid">
+              {{ range $editions }}
+                {{ $editionCard := dict "href" (printf "/workshops/%s/%s/" $courseSlug .slug | relURL) "title" .title "year" .year "course_title" $.Title }}
+                {{ partial "workshop_edition_card.html" $editionCard }}
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+      {{ end }}
+
+      {{ partial "page_footer" . }}
+    </div>
+  </article>
+
+  <style>
+    .workshop-course-page {
+      padding-bottom: 3rem;
+    }
+
+    .workshop-course-copy {
+      margin-bottom: 2rem;
+    }
+
+    .workshop-course-editions {
+      margin-top: 2rem;
+    }
+
+    .workshop-course-editions h2 {
+      margin: 0 0 1rem;
+      font-size: 1.4rem;
+      color: #16324f;
+    }
+
+    .workshop-course-editions__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .workshop-edition-card {
+      display: block;
+      min-height: 100%;
+      overflow: hidden;
+      border-radius: 16px;
+      background: #fbfdff;
+      color: #16324f;
+      text-decoration: none;
+      border: 1px solid rgba(43, 148, 195, 0.24);
+      box-shadow: 0 10px 24px rgba(43, 148, 195, 0.12);
+      transition: transform 160ms ease, box-shadow 160ms ease;
+    }
+
+    .workshop-edition-card:hover,
+    .workshop-edition-card:focus-visible {
+      color: #16324f;
+      transform: translateY(-3px);
+      box-shadow: 0 16px 34px rgba(43, 148, 195, 0.18);
+      text-decoration: none;
+    }
+
+    .workshop-edition-card__body {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      padding: 1rem 1rem 1.05rem;
+    }
+
+    .workshop-edition-card__eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #2b94c3;
+    }
+
+    .workshop-edition-card h3 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.35;
+      color: #16324f;
+    }
+
+    .workshop-edition-card p,
+    .workshop-edition-card__course {
+      margin: 0;
+      color: rgba(22, 50, 79, 0.78);
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 575.98px) {
+      .workshop-course-editions__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+{{ end }}
+
+{{- end -}}

@@ -1,0 +1,39 @@
+{{- $page := .page | default false -}}
+{{- $href := .href | default "" -}}
+{{- $title := .title | default "" -}}
+{{- $year := .year | default "" -}}
+{{- $courseTitle := .course_title | default "" -}}
+
+{{- if $page -}}
+  {{- if not $href -}}
+    {{- $href = $page.RelPermalink -}}
+  {{- end -}}
+  {{- if not $title -}}
+    {{- $title = $page.Title -}}
+  {{- end -}}
+  {{- if not $year -}}
+    {{- $year = $page.Params.year -}}
+  {{- end -}}
+  {{- if not $courseTitle -}}
+    {{- with site.GetPage (printf "/workshops/%s" $page.Params.course) -}}
+      {{- $courseTitle = .Title -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<a class="workshop-edition-card" href="{{ $href }}">
+  <div class="workshop-edition-card__body">
+    <span class="workshop-edition-card__eyebrow">
+      {{ with $year }}Edición {{ . }}{{ else }}Edición{{ end }}
+    </span>
+    <h3>{{ $title }}</h3>
+    {{ with $page }}
+      {{ with .Params.location }}
+        <p>{{ . }}</p>
+      {{ end }}
+    {{ end }}
+    {{ with $courseTitle }}
+      <span class="workshop-edition-card__course">{{ . }}</span>
+    {{ end }}
+  </div>
+</a>

@@ -1,0 +1,170 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+{{ $tracks := site.Data.workshops.trayectos | default (slice) }}
+{{ $allPages := .RegularPages.ByTitle }}
+{{ $seen := newScratch }}
+
+<div class="universal-wrapper workshops-page">
+  {{ range $tracks }}
+    <section class="workshops-section">
+      <div class="workshops-section__header">
+        <h2>{{ .title }}</h2>
+        {{ with .description }}
+          <p>{{ . }}</p>
+        {{ end }}
+      </div>
+      <div class="workshops-grid">
+        {{ range .courses }}
+          {{ $courseEntry := . }}
+          {{ $slug := $courseEntry.slug }}
+          {{ $href := "" }}
+
+          {{ with site.GetPage (printf "/workshops/%s" $slug) }}
+            {{ $href = .RelPermalink }}
+
+            {{ $editions := $courseEntry.editions | default (slice) }}
+            {{ if gt (len $editions) 0 }}
+              {{ $firstEdition := index $editions 0 }}
+              {{ with site.GetPage (printf "/workshops/%s/%s" $slug $firstEdition.slug) }}
+                {{ $href = .RelPermalink }}
+              {{ end }}
+            {{ end }}
+
+            {{ $seen.SetInMap "pages" .RelPermalink true }}
+            {{ partial "workshop_card.html" (dict "page" . "href" $href) }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ range $allPages }}
+    {{ if and (not .Params.course) (not (isset ($seen.Get "pages") .RelPermalink)) }}
+      {{ $.Scratch.SetInMap "other_pages" .RelPermalink . }}
+    {{ end }}
+  {{ end }}
+
+  {{ $otherPages := $.Scratch.GetSortedMapValues "other_pages" }}
+  {{ if $otherPages }}
+    <section class="workshops-section">
+      <div class="workshops-section__header">
+        <h2>Otros</h2>
+        <p>Cursos que todavía no están clasificados dentro de un trayecto.</p>
+      </div>
+      <div class="workshops-grid">
+        {{ range $otherPages }}
+          {{ partial "workshop_card.html" (dict "page" . "href" .RelPermalink) }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</div>
+
+<style>
+  .workshops-page {
+    padding-bottom: 3rem;
+  }
+
+  .workshops-section {
+    margin-top: 2rem;
+  }
+
+  .workshops-section__header {
+    max-width: 52rem;
+    margin-bottom: 1rem;
+  }
+
+  .workshops-section__header h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.4rem;
+    color: #16324f;
+  }
+
+  .workshops-section__header p {
+    margin: 0;
+    color: rgba(22, 50, 79, 0.8);
+    line-height: 1.6;
+  }
+
+  .workshops-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 420px));
+    justify-content: center;
+    gap: 1.25rem;
+  }
+
+  .workshop-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    border-radius: 18px;
+    background: #fbfdff;
+    color: #16324f;
+    text-decoration: none;
+    box-shadow: 0 14px 34px rgba(43, 148, 195, 0.18);
+    border: 1px solid rgba(43, 148, 195, 0.28);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+
+  .workshop-card:hover,
+  .workshop-card:focus-visible {
+    color: #16324f;
+    transform: translateY(-4px);
+    box-shadow: 0 20px 48px rgba(43, 148, 195, 0.24);
+    text-decoration: none;
+  }
+
+  .workshop-card__media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: linear-gradient(135deg, #4bb4e3, #2b94c3);
+  }
+
+  .workshop-card__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .workshop-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1rem 1rem 1.1rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 1));
+  }
+
+  .workshop-card__eyebrow {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #2b94c3;
+  }
+
+  .workshop-card h3 {
+    margin: 0;
+    font-size: 1.02rem;
+    line-height: 1.35;
+    color: #16324f;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 8.1em;
+  }
+
+  @media (max-width: 575.98px) {
+    .workshops-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+</style>
+
+{{- end -}}

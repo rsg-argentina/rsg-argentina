@@ -1,0 +1,24 @@
+{{- $page := .page -}}
+{{- $href := .href | default $page.RelPermalink -}}
+{{- $display_title := replaceRE "^[0-9]+\\.\\s*" "" $page.Title -}}
+{{- $image := $page.Resources.GetMatch "featured.png" -}}
+{{- if not $image -}}
+  {{- $image = $page.Resources.GetMatch "img.png" -}}
+{{- end -}}
+{{- if not $image -}}
+  {{- $image = $page.Resources.GetMatch "flyer_*.png" -}}
+{{- end -}}
+
+<a class="workshop-card" href="{{ $href }}">
+  <div class="workshop-card__media">
+    {{- if $image -}}
+      <img src="{{ $image.RelPermalink }}" alt="{{ $display_title }} thumbnail" loading="lazy" decoding="async">
+    {{- else -}}
+      <img src="{{ "/img/workshops.png" | relURL }}" alt="{{ $display_title }} thumbnail" loading="lazy" decoding="async">
+    {{- end -}}
+  </div>
+  <div class="workshop-card__body">
+    <span class="workshop-card__eyebrow">Workshop</span>
+    <h3>{{ $display_title }}</h3>
+  </div>
+</a>
