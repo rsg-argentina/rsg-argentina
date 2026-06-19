@@ -20,9 +20,21 @@ En esta edición repasamos los fundamentos de la línea de comandos, navegación
 
 ## Material
 
-- Slides: [link](https://drive.google.com/file/d/1l4Yjblsj6NbQFzNvhi2re6gjD3fMB36R/view?usp=sharing)
-- Guía: [link](https://drive.google.com/file/d/15fIGkZt4MFAid6TeKjl3fSSHhA9yPIiH/view?usp=sharing)
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px;">
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+        <a href="https://docs.google.com/presentation/d/1fVFJ5m9oGcEznAWFJ3QKoBJsbmx36VNFKXh_FvXRwuk/edit?usp=sharing">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/ms-powerpoint.png" alt="Slides" style="width: 60px; height: 60px;">
+        </a>
+        <a href="https://docs.google.com/presentation/d/1fVFJ5m9oGcEznAWFJ3QKoBJsbmx36VNFKXh_FvXRwuk/edit?usp=sharing" style="margin-top: 5px;">Slides</a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+        <a href="https://github.com/justog220/rsg-bash-course">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="Guía" style="width: 60px; height: 60px;">
+        </a>
+        <a href="https://github.com/justog220/rsg-bash-course" style="margin-top: 5px;">Guía</a>
+    </div>
+</div>
 
-## Video
+<!-- ## Video -->
 
-- Video de la edición 2026: [YouTube](https://youtu.be/4yy6DLH7k7A)
+<!-- - Video de la edición 2026: [YouTube](https://youtu.be/4yy6DLH7k7A) -->
