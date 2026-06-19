@@ -23,18 +23,23 @@
             {{ $courseEntry := . }}
             {{ $slug := $courseEntry.slug }}
             {{ $href := "" }}
+            {{ $imagePage := false }}
 
             {{ with site.GetPage (printf "/workshops/%s" $slug) }}
               {{ $href = .RelPermalink }}
+              {{ $imagePage = . }}
 
-              {{ $editions := $courseEntry.editions | default (slice) }}
+              {{ $editions := sort ($courseEntry.editions | default (slice)) "year" "desc" }}
               {{ if gt (len $editions) 0 }}
-                {{ $firstEdition := index $editions 0 }}
-                {{ $href = printf "/workshops/%s/%s/" $slug $firstEdition.slug | relURL }}
+                {{ $newestEdition := index $editions 0 }}
+                {{ with site.GetPage (printf "/workshops/%s/%s" $slug $newestEdition.slug) }}
+                  {{ $href = .RelPermalink }}
+                  {{ $imagePage = . }}
+                {{ end }}
               {{ end }}
 
               {{ $seen.SetInMap "pages" .RelPermalink true }}
-              {{ partial "workshop_card.html" (dict "page" . "href" $href) }}
+              {{ partial "workshop_card.html" (dict "page" . "href" $href "image_page" $imagePage) }}
             {{ end }}
           {{ end }}
         </div>
@@ -65,6 +70,8 @@
 
   <style>
     .workshops-page {
+      width: 100%;
+      max-width: 1400px;
       padding-bottom: 3rem;
     }
 
@@ -91,8 +98,7 @@
 
     .workshops-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 260px));
-      justify-content: center;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       gap: 1.25rem;
     }
 
@@ -121,14 +127,14 @@
 
     .workshop-card__media {
       position: relative;
-      aspect-ratio: 16 / 9;
-      background: linear-gradient(135deg, #4bb4e3, #2b94c3);
+      aspect-ratio: 4 / 5;
+      background: #f4f8fb;
     }
 
     .workshop-card__media img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
     }
 

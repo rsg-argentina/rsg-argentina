@@ -1,12 +1,10 @@
 {{- $page := .page -}}
 {{- $href := .href | default $page.RelPermalink -}}
 {{- $display_title := replaceRE "^[0-9]+\\.\\s*" "" $page.Title -}}
-{{- $image := $page.Resources.GetMatch "featured.png" -}}
-{{- if not $image -}}
-  {{- $image = $page.Resources.GetMatch "img.png" -}}
-{{- end -}}
-{{- if not $image -}}
-  {{- $image = $page.Resources.GetMatch "flyer_*.png" -}}
+{{- $image_page := .image_page | default $page -}}
+{{- $image := $image_page.Resources.GetMatch "featured.*" -}}
+{{- if and (not $image) (ne $image_page.RelPermalink $page.RelPermalink) -}}
+  {{- $image = $page.Resources.GetMatch "featured.*" -}}
 {{- end -}}
 
 <a class="workshop-card" href="{{ $href }}">
