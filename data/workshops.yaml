@@ -1,6 +1,6 @@
 trayectos:
   - id: introduccion
-    title: "Introducción"
+    title: "Primeros pasos en bioinformática"
     description: "Fundamentos de programación y automatización para empezar desde cero."
     courses:
       - slug: introduccion_a_bash
