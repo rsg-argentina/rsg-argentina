@@ -16,9 +16,6 @@
     <section class="workshops-section">
       <div class="workshops-section__header">
         <h2>{{ .title }}</h2>
-        {{ with .description }}
-          <p>{{ . }}</p>
-        {{ end }}
       </div>
       <div class="workshops-grid">
         {{ range .courses }}
@@ -59,7 +56,6 @@
     <section class="workshops-section">
       <div class="workshops-section__header">
         <h2>Otros</h2>
-        <p>Cursos que todavía no están clasificados dentro de un trayecto.</p>
       </div>
       <div class="workshops-grid">
         {{ range $otherPages }}
@@ -94,12 +90,6 @@
     margin: 0 0 0.35rem;
     font-size: 1.4rem;
     color: #16324f;
-  }
-
-  .workshops-section__header p {
-    margin: 0;
-    color: rgba(22, 50, 79, 0.8);
-    line-height: 1.6;
   }
 
   .workshops-grid {
