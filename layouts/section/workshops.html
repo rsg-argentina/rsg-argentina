@@ -1,6 +1,11 @@
 {{- define "main" -}}
 
-{{ partial "page_header.html" . }}
+<div class="universal-wrapper workshops-page workshops-page__title pt-3">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}
+    <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+  {{ end }}
+</div>
 
 {{ $tracks := site.Data.workshops.trayectos | default (slice) }}
 {{ $allPages := .RegularPages.ByTitle }}
@@ -70,6 +75,10 @@
     width: 100%;
     max-width: 1400px;
     padding-bottom: 3rem;
+  }
+
+  .workshops-page__title {
+    padding-bottom: 0;
   }
 
   .workshops-section {
