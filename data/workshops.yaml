@@ -11,8 +11,15 @@ trayectos:
           - slug: "2024"
             year: 2024
             title: "Introducción a Bash - Edición 2024"
-      - slug: introduccion_a_python
       - slug: introduccion_a_r
+        editions:
+          - slug: "2026"
+            year: 2026
+            title: "Introducción a R - Edición 2026"
+          - slug: "2024"
+            year: 2024
+            title: "Introducción a R - Edición 2024"
+      - slug: introduccion_a_python
       - slug: introduccion_a_git_y_github
       - slug: introduccion_a_programacion_web
 

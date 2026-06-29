@@ -35,6 +35,6 @@ En esta edición repasamos los fundamentos de la línea de comandos, navegación
     </div>
 </div>
 
-<!-- ## Video -->
+## Video
 
-<!-- - Video de la edición 2026: [YouTube](https://youtu.be/4yy6DLH7k7A) -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u31l9ycrTjc?si=PY-T4DmtmxSL0jKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
