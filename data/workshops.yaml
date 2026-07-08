@@ -1,7 +1,6 @@
 trayectos:
   - id: introduccion
-    title: "Primeros pasos en bioinformática"
-    description: "Fundamentos de programación y automatización para empezar desde cero."
+    title: "Primeros pasos en programación"
     courses:
       - slug: introduccion_a_bash
         editions:
@@ -20,43 +19,45 @@ trayectos:
             year: 2024
             title: "Introducción a R - Edición 2024"
       - slug: introduccion_a_python
+        editions:
+          - slug: "2026"
+            year: 2026
+            title: "Introducción a Python - Edición 2026"
+          - slug: "2024"
+            year: 2024
+            title: "Introducción a Python - Edición 2024"
       - slug: introduccion_a_git_y_github
       - slug: introduccion_a_programacion_web
+      - slug: sql_bases_biológicas
 
+  - id: introduccion_a_la_bioinformatica
+    title: "Introducción a la Bioinformática"
+    courses:
+      - slug: explorando_servidores_galaxy
+      - slug: abc_bioinformatica
+
+  - id: herramientas_bioinformaticas
+    title: "Herramientas bioinformáticas"
+    courses:
+      - slug: nextflow
 
   - id: estadistica
     title: "Estadística"
-    description: "Herramientas para explorar datos, visualizar patrones y planificar análisis."
     courses:
       - slug: estadistica_basica_y_aplicada
       - slug: visualizacion_de_datos_en_r
       - slug: analisis_multiv_python
 
-  - id: genomica_transcriptomica
-    title: "Genómica y transcriptómica"
-    description: "Análisis de datos NGS, secuencias genómicas y expresión génica."
+  - id: omicas
+    title: "Ómicas"
     courses:
       - slug: genoma_bacteriana
       - slug: genoma_eucariota
       - slug: metabarcoding
-      - slug: nextflow
-
-  - id: biodiversidad_ecologia
-    title: "Biodiversidad y ecología"
-    description: "Cursos para trabajar con datos ecológicos, biodiversidad y metagenómica."
-    courses:
-      - slug: explorando_servidores_galaxy
-
-  - id: herramientas_bioinformaticas
-    title: "Herramientas bioinformáticas"
-    description: "Software y recursos prácticos para resolver problemas bioinformáticos."
-    courses:
-      - slug: sql_bases_biológicas
       - slug: drug_discovery
 
   - id: soft_skills
     title: "Soft skills"
-    description: "Comunicación científica y gestión para trabajo en ciencia."
     courses:
       - slug: habilidades_presentacion_efectiva
       - slug: practicas_programacion_efectiva
