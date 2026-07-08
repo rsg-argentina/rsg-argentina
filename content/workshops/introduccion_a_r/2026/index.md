@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Introducción a R - Edición 2026"
-date: 2026-01-01T09:00:00-03:00
+date: 2026-05-23
 course: "introduccion_a_r"
 year: 2026
 event: "Talleres Bioinformáticos"
@@ -75,7 +75,8 @@ En esta sección encontrarás los videos de los dos talleres
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px;">
 
 <div style="padding: 20px; border-radius: 5px; position: relative; text-align: center;">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WaB1wXPm_E8?si=T4KsL3PVMai1lc0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
 
 </div>
+
