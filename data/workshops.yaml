@@ -44,9 +44,12 @@ trayectos:
   - id: estadistica
     title: "Estadística"
     courses:
+      - slug: primeros_pasos_en_estadistica
       - slug: estadistica_basica_y_aplicada
       - slug: visualizacion_de_datos_en_r
+      - slug: visualizacion_de_datos_en_python
       - slug: analisis_multiv_python
+      - slug: disenio_de_experimentos_en_r
 
   - id: omicas
     title: "Ómicas"
