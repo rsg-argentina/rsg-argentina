@@ -4,9 +4,8 @@
 title: "11vo Simposio Argentino de Jóvenes Investigadores en Bioinformática"
 event: "11SAJIB"
 event_url: ""
-location: UNNOBA
-# TODO: completar con la direccion completa
-summary: ""
+location: UNNOBA, Pergamino, Buenos Aires
+summary: "11vo Simposio Argentino de Jóvenes Investigadores en Bioinformática, organizado por RSG Argentina."
 abstract: ""
 
 #  Talk start and end times.
@@ -16,7 +15,7 @@ lastmod: 2026-10-09T09:00:00-19:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-# publishDate: 2025-04-15T19:26:00-03:00
+publishDate: 2025-04-15T19:26:00-03:00
 
 #authors: []
 tags: ["Symposium"]
@@ -63,37 +62,28 @@ slides: ""
 projects: [""]
 ---
 
-### :red_circle: 11SAJIB :computer:
+# 11SAJIB
 
-
----
+📍 [UNNOBA, Pergamino, Buenos Aires](https://maps.app.goo.gl/67YKYm8o4juitbd97)
 
 ## Contenido
 
-- [Fechas importantes](#fechas-importantes-computer)
-- [Temas de simposio](#temas-de-simposio)
+- [Fechas importantes](#fechas-importantes)
+- [Temas del simposio](#temas-del-simposio)
 - [Certificados](#certificados)
 - [Código de conducta](#código-de-conducta)
 - [Redes sociales](#redes-sociales)
 
-### Fechas importantes :computer:
+## Fechas importantes
 
-#### Apertura de inscripciones (31/08)
+- **31/08** — Apertura de inscripciones — 📝 [Formulario de inscripción](https://forms.gle/)
+- **01/09 al 27/09** — Envío de resúmenes — 📝 [Formulario de envío](https://forms.gle/)
+- **16/10** — Comunicación de resultados
+- **29/10** — Día 1: Talleres
+- **30/10** — Día 2: Simposio
 
-📝[Formulario de inscripción](https://forms.gle/)
+## Temas del simposio
 
-#### Envío de resúmenes (01/09 al 27/09)
-
-📝[Formulario de envío](https://forms.gle/)
-
-#### Comunicación de resultados (16/10)
-
-#### Día 1: Talleres (29/10)
-
-#### Día 2: Simposio (30/10)
-
----
-### Temas de simposio
 - Ómicas
 - Ecología y Evolución
 - Bioinformática estructural
@@ -101,23 +91,22 @@ projects: [""]
 - Aplicaciones de Inteligencia Artificial
 - Desarrollo de algoritmos y herramientas
 - Bioinformática clínica y traslacional
-- Educación y extensión 
+- Educación y extensión
 - Modelado y simulación de sistemas biológicos
 - Quimioinformática
 - Ciencia de datos
 
----
-### Certificados
-- Certificados de asistencia a los talleres
-- Certificado de participación en el 10SAJIB
+## Certificados
 
----
-### Código de conducta
+- Certificados de asistencia a los talleres
+- Certificado de participación en el 10SAJIB *(TODO: revisar si debería decir 11SAJIB)*
+
+## Código de conducta
+
 Además de la inscripción y la asistencia, la participación en este evento requiere la aceptación del siguiente [Código de conducta](https://docs.google.com/document/d/1gmpcx05KAHsSO6MHd4ettlGT5cy7b9Yp4D55CZoN9RA/edit?usp=sharing).
 
----
-
 ## Redes sociales
+
 - [Twitter](https://twitter.com/rsgargentina)
 - [Linkedin](https://www.linkedin.com/in/iscb-sc-rsg-argentina-053599214/)
 - [Instagram](https://www.instagram.com/rsg_arg/)
