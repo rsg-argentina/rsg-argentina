@@ -46,8 +46,8 @@
       * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
     }
 
+    /* margin-top: 70px comes from academic.css, which clears the fixed navbar — don't override it here. */
     body {
-      margin: 0;
       background: var(--paper);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -73,53 +73,21 @@
     .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
 
     /* ---------- hero ---------- */
-    .hero {
-      position: relative;
-      background: var(--ink);
-      color: #EFF3F6;
-      overflow: hidden;
-      padding: 64px 0 56px;
-      background-image:
-        repeating-linear-gradient(180deg, transparent 0 27px, rgba(255,255,255,0.045) 27px 28px),
-        linear-gradient(120deg, #0C1F35 0%, #10263F 55%, #163A56 100%);
-    }
-    .hero::after {
-      content: "";
-      position: absolute; inset: 0;
-      background-image: var(--ladder);
-      opacity: 0.5;
-      pointer-events: none;
-    }
-    .hero-inner { position: relative; max-width: var(--max); margin: 0 auto; padding: 0 24px; }
-    .hero .kicker {
-      font-weight: 500;
-      color: #9FD8CE; font-size: 1.05rem; margin: 0 0 10px;
-      animation: rise 0.6s ease-out 0.05s;
-    }
+    .hero-inner { max-width: var(--max); margin: 0 auto; padding: 48px 24px 32px; }
     .hero h1 {
-      color: #fff;
-      font-size: clamp(3rem, 9vw, 5.5rem);
-      line-height: 0.98;
+      font-size: clamp(2.5rem, 7vw, 4rem);
+      line-height: 1;
       letter-spacing: -0.01em;
-      animation: rise 0.7s ease-out 0.1s;
     }
     .hero .subtitle {
-      max-width: 46ch; margin: 18px 0 0; font-size: 1.15rem; color: #C7D3DD;
-      animation: rise 0.7s ease-out 0.15s;
-    }
-    /* Opacity stays at 1 throughout: the entrance only nudges position,
-       so the hero text is never dependent on the animation to be visible. */
-    @keyframes rise {
-      from { transform: translateY(14px); }
-      to   { transform: translateY(0); }
+      max-width: 46ch; margin: 16px 0 0; font-size: 1.15rem; color: var(--text-muted);
     }
 
     .facts {
       display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
       background: var(--line);
       border: 1px solid var(--line);
-      margin: -34px auto 56px; max-width: var(--max);
-      position: relative; z-index: 1;
+      margin: 0 auto 56px; max-width: var(--max);
     }
     .facts .fact { background: var(--paper-raised); padding: 20px 24px; }
     .facts .fact .label { font-size: 0.82rem; color: var(--text-muted); margin: 0 0 4px; }
@@ -219,7 +187,9 @@
   </style>
 </head>
 
-<body style="--ladder: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22240%22 height=%22240%22><g stroke=%22%234A7A85%22 stroke-width=%221%22 opacity=%220.5%22><line x1=%220%22 y1=%2220%22 x2=%22240%22 y2=%2220%22/><line x1=%220%22 y1=%2260%22 x2=%22240%22 y2=%2260%22/><line x1=%220%22 y1=%22100%22 x2=%22240%22 y2=%22100%22/><line x1=%220%22 y1=%22140%22 x2=%22240%22 y2=%22140%22/><line x1=%220%22 y1=%22180%22 x2=%22240%22 y2=%22180%22/><line x1=%220%22 y1=%22220%22 x2=%22240%22 y2=%22220%22/></g><g fill=%22%23D89A4C%22 opacity=%220.55%22><rect x=%2210%22 y=%2216%22 width=%2222%22 height=%228%22/><rect x=%2270%22 y=%2216%22 width=%2214%22 height=%228%22/><rect x=%22140%22 y=%2216%22 width=%2230%22 height=%228%22/><rect x=%2230%22 y=%2256%22 width=%2216%22 height=%228%22/><rect x=%2290%22 y=%2256%22 width=%2226%22 height=%228%22/><rect x=%22180%22 y=%2256%22 width=%2218%22 height=%228%22/><rect x=%2250%22 y=%2296%22 width=%2228%22 height=%228%22/><rect x=%22120%22 y=%2296%22 width=%2216%22 height=%228%22/><rect x=%22200%22 y=%2296%22 width=%2222%22 height=%228%22/><rect x=%2210%22 y=%22136%22 width=%2218%22 height=%228%22/><rect x=%2280%22 y=%22136%22 width=%2224%22 height=%228%22/><rect x=%22160%22 y=%22136%22 width=%2214%22 height=%228%22/><rect x=%2240%22 y=%22176%22 width=%2220%22 height=%228%22/><rect x=%22110%22 y=%22176%22 width=%2230%22 height=%228%22/><rect x=%22190%22 y=%22176%22 width=%2216%22 height=%228%22/><rect x=%2220%22 y=%22216%22 width=%2226%22 height=%228%22/><rect x=%22100%22 y=%22216%22 width=%2218%22 height=%228%22/><rect x=%22170%22 y=%22216%22 width=%2222%22 height=%228%22/></g></svg>');">
+<body>
+
+  <nav
 
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
     <div class="container">
@@ -263,7 +233,6 @@
 
   <header class="hero">
     <div class="hero-inner">
-      <p class="kicker">10 años convocando a la próxima generación</p>
       <h1>10SAJIB</h1>
       <p class="subtitle">10° Simposio Argentino de Jóvenes Investigadores en Bioinformática, organizado por RSG Argentina.</p>
     </div>
