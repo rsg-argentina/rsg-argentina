@@ -101,8 +101,9 @@
 
     /* ---------- day switcher (no-JS tabs) ---------- */
     .day-input { position: absolute; opacity: 0; pointer-events: none; }
-    .day-tabs { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; margin-bottom: 36px; background: var(--paper-raised); }
+    .day-tabs { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 999px; padding: 3px; margin-bottom: 36px; background: var(--paper-raised); }
     .day-tabs label {
+      display: inline-flex; align-items: center; line-height: 1;
       cursor: pointer; padding: 9px 20px; border-radius: 999px; font-size: 0.92rem; font-weight: 500;
       color: var(--text-muted); transition: color 0.15s ease, background-color 0.2s ease;
       user-select: none;
