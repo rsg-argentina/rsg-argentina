@@ -1,0 +1,74 @@
+/* eslint-disable */
+'use strict';
+
+// Load the embedding script controller/embed.js and css files
+// This is needed for backward compatibility, while old user
+// still use this file to load embedded infographic
+
+// To avoid committing this file and its coupled version file you can run
+// git update-index --assume-unchanged apps/view/src/config/versionsFiles.json
+// git update-index --assume-unchanged apps/view/static/embed/embed.js
+var jsRuntime = '7530bf4d';
+var jsClient = '433a73b7';
+var cssClient = 'f96d4d6e';
+
+(function () {
+  // --- functions to create js and css elements ---//
+  function includeFile(filePath, type, options = {}) {
+    // Make sure we didn't duplicate any of the previously included files
+    if (document.getElementById(filePath)) {
+      return;
+    }
+
+    var docHead = document.getElementsByTagName('head')[0];
+    var src = filePath;
+    var newTag = {};
+
+    if (type === 'js') {
+      newTag = document.createElement('script');
+      newTag.type = 'text/javascript';
+      newTag.src = src;
+      newTag.async = true;
+    } else {
+      // we shouldn't be getting anything else than js
+      newTag = document.createElement('link');
+      newTag.rel = 'stylesheet';
+      newTag.type = 'text/css';
+      newTag.href = src;
+      newTag.media = 'all';
+      newTag.async = true;
+    }
+
+    Object.keys(options).forEach(key => {
+      newTag.setAttribute(key, options[key]);
+    });
+
+    newTag.id = filePath; // add it so that we can check the next time easily
+    docHead.appendChild(newTag);
+  }
+
+  var geniallys = document.getElementsByClassName('genially-embed');
+
+  // Check if DOM has geniallys
+  if (!geniallys.length) {
+    return;
+  }
+
+  // load js
+  includeFile(
+    `https://statics-view.genial.ly/view/static/js/runtime-main.${jsRuntime}.js`,
+    'js'
+  );
+
+  // load js
+  includeFile(
+    `https://statics-view.genial.ly/view/static/js/main.${jsClient}.chunk.js`,
+    'js'
+  );
+
+  // load css
+  includeFile(
+    `https://statics-view.genial.ly/view/static/css/main.${cssClient}.chunk.css`,
+    'css'
+  );
+})();
