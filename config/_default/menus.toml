@@ -39,9 +39,9 @@
   weight = 50
 
 [[main]]
-  name = "SAJIB2025"  # Title of the link.
-  url = "conferences/sajib2025"  # Widget Page folder name.
-  weight = 60  # Position of the link in the navigation bar.  
+  name = "SAJIB2026"  # Title of the link.
+  url = "talk/11sajib"  # Widget Page folder name.
+  weight = 60  # Position of the link in the navigation bar.
 
 #[[main]]
 #  name = "Contact"
