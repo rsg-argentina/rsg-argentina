@@ -58,9 +58,16 @@ trayectos:
       - slug: genoma_eucariota
       - slug: metabarcoding
       - slug: drug_discovery
+      - slug: introduccion_al_procesamiento_de_datos_ngs
 
   - id: soft_skills
     title: "Soft skills"
     courses:
       - slug: habilidades_presentacion_efectiva
       - slug: practicas_programacion_efectiva
+      - slug: gestion_de_proyectos_bioinformaticos
+
+  - id: inteligencia_artificial
+    title: "Inteligencia artificial"
+    courses:
+      - slug: introduccion_al_machine_learning_para_datos_biologicos
