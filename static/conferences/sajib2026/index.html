@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="11° Simposio Argentino de Jóvenes Investigadores en Bioinformática — 29 y 30 de octubre de 2026, UNNOBA, Pergamino, Buenos Aires." />
+  <meta name="theme-color" content="#1389C9" />
+  <link rel="canonical" href="/conferences/sajib2026/" />
+  <link rel="icon" type="image/png" href="/images/icon-32.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon-192.png" />
+
+  <title>11SAJIB · Simposio Argentino de Jóvenes Investigadores en Bioinformática</title>
+
+  <link rel="stylesheet" href="./index_files/academicons.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./index_files/github.min.css" crossorigin="anonymous" title="hl-light" />
+  <link rel="stylesheet" href="./index_files/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled="" />
+  <link rel="stylesheet" href="./index_files/css" />
+  <link rel="stylesheet" href="./index_files/academic.css" />
+  <link rel="stylesheet" href="./index_files/main.css" />
+  <link rel="stylesheet" href="./index_files/css(1)" media="all" />
+
+  <style>
+    /* Paleta tomada del flyer del 11SAJIB (celestes #3DBBED → #1389C9). */
+    :root {
+      --ink: #0B3550;
+      --ink-soft: #145A86;
+      --paper: #F4F9FC;
+      --paper-raised: #FFFFFF;
+      --line: #D4E5F0;
+      --text: #1A2530;
+      --text-muted: #55677A;
+      --blue: #0E6FA8;
+      --blue-soft: #E3F3FC;
+      --accent: #1389C9;
+      --accent-bright: #3DBBED;
+      --accent-soft: #E8F6FD;
+      --max: 980px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+
+    /* margin-top: 70px comes from academic.css, which clears the fixed navbar — don't override it here. */
+    body {
+      background: var(--paper);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      font-family: inherit;
+      color: var(--ink);
+      margin: 0;
+      font-weight: 700;
+    }
+
+    a { color: var(--blue); }
+    a:focus-visible, button:focus-visible, label:focus-within {
+      outline: 2px solid var(--blue);
+      outline-offset: 3px;
+    }
+
+    img { max-width: 100%; display: block; }
+
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+    /* ---------- hero ---------- */
+    .hero { background: linear-gradient(180deg, var(--accent-soft) 0%, var(--paper) 100%); }
+    .hero-inner {
+      max-width: var(--max); margin: 0 auto; padding: 48px 24px 32px;
+      display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center;
+    }
+    .hero-logo { width: 220px; height: auto; }
+    @media (max-width: 640px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-logo { width: 150px; order: -1; }
+    }
+    .hero h1 {
+      font-size: clamp(2.5rem, 7vw, 4rem);
+      line-height: 1;
+      letter-spacing: -0.01em;
+    }
+    .hero .subtitle {
+      max-width: 46ch; margin: 16px 0 0; font-size: 1.15rem; color: var(--text-muted);
+    }
+
+    .facts {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+      margin: 0 auto 56px; max-width: var(--max);
+    }
+    .facts .fact { background: var(--paper-raised); padding: 20px 24px; }
+    .facts .fact .label { font-size: 0.82rem; color: var(--text-muted); margin: 0 0 4px; }
+    .facts .fact .value { font-weight: 700; font-size: 1.15rem; color: var(--ink); }
+    @media (max-width: 640px) { .facts { grid-template-columns: 1fr; } }
+
+    /* ---------- section shell ---------- */
+    section.block { max-width: var(--max); margin: 0 auto; padding: 0 24px 64px; }
+    section.block h2 { font-size: 1.9rem; margin-bottom: 6px; }
+    section.block .lede { color: var(--text-muted); max-width: 60ch; margin: 0 0 32px; }
+
+    /* ---------- day switcher (no-JS tabs) ---------- */
+    .day-input { position: absolute; opacity: 0; pointer-events: none; }
+    .day-tabs { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 999px; padding: 3px; margin-bottom: 36px; background: var(--paper-raised); }
+    .day-tabs label {
+      display: inline-flex; align-items: center; line-height: 1; margin: 0;
+      cursor: pointer; padding: 9px 20px; border-radius: 999px; font-size: 0.92rem; font-weight: 500;
+      color: var(--text-muted); transition: color 0.15s ease, background-color 0.2s ease;
+      user-select: none;
+    }
+    .day-panel { display: none; }
+    #day1:checked ~ #panel-day1,
+    #day2:checked ~ #panel-day2 { display: block; }
+    #day1:checked ~ .day-tabs label[for="day1"],
+    #day2:checked ~ .day-tabs label[for="day2"] {
+      background: var(--accent); color: #fff;
+    }
+
+    /* ---------- when / where strip at the top of each day ---------- */
+    .day-meta {
+      list-style: none; margin: 0 0 8px; padding: 16px 20px;
+      display: flex; flex-wrap: wrap; gap: 14px 40px;
+      background: var(--accent-soft); border: 1px solid #BFE3F6; border-radius: 10px;
+    }
+    .day-meta li { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: 1.08rem; color: var(--ink); }
+    .day-meta i { font-size: 1.2rem; color: var(--accent); width: 1.2rem; text-align: center; }
+
+    /* ---------- workshops (day 1) ---------- */
+    .workshop {
+      display: grid; grid-template-columns: 140px 1fr; gap: 32px;
+      padding: 30px 0; border-top: 1px solid var(--line);
+    }
+    .workshop:last-child { border-bottom: 1px solid var(--line); }
+    .workshop .photos { display: flex; flex-direction: column; gap: 14px; align-self: start; }
+    .workshop .photos img {
+      width: 140px; height: 140px; border-radius: 50%; object-fit: cover; background: var(--line);
+    }
+    .workshop h3 { font-size: 1.25rem; margin-bottom: 8px; }
+    .workshop .who { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 10px; }
+    .workshop .who strong { color: var(--text); font-weight: 600; }
+    .workshop p.desc { margin: 0; color: var(--text); font-size: 0.96rem; }
+    @media (max-width: 600px) {
+      .workshop { grid-template-columns: 1fr; gap: 16px; }
+      .workshop .photos { flex-direction: row; }
+      .workshop .photos img { width: 110px; height: 110px; }
+    }
+
+    /* ---------- timeline (day 2) ---------- */
+    /* Vertical timeline: time column | line with dot | content.
+       All titles share one size and weight; only the dot marks the kind of entry. */
+    .timeline { --time-w: 130px; --gap: 36px; position: relative; margin-top: 28px; }
+    .timeline::before {
+      content: ""; position: absolute; top: 6px; bottom: 6px;
+      left: calc(var(--time-w) + var(--gap) / 2 - 1px); width: 2px; background: var(--line);
+    }
+    .slot {
+      position: relative; display: grid; grid-template-columns: var(--time-w) 1fr;
+      column-gap: var(--gap); padding-bottom: 26px;
+    }
+    .slot:last-child { padding-bottom: 0; }
+    .slot > :not(.time) { grid-column: 2; }
+    .slot::before {
+      content: ""; position: absolute; top: 6px; left: calc(var(--time-w) + var(--gap) / 2 - 6px);
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--paper); border: 2px solid var(--blue);
+    }
+    .slot p { margin: 0; }
+    .slot .time {
+      text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap;
+      font-weight: 600; font-size: 0.95rem; color: var(--ink-soft);
+    }
+    .slot .title { font-weight: 600; font-size: 1.05rem; color: var(--ink); }
+    .slot .sub { color: var(--text-muted); font-size: 0.92rem; margin-top: 4px; }
+
+    .slot.is-highlight::before { background: var(--accent); border-color: var(--accent); }
+
+    .slot.is-note { padding-bottom: 20px; }
+    .slot.is-note::before { width: 8px; height: 8px; top: 8px; left: calc(var(--time-w) + var(--gap) / 2 - 4px); border-color: var(--line); background: var(--line); }
+    .slot.is-note .time, .slot.is-note .title { font-weight: 400; color: var(--text-muted); }
+
+    .slot.is-tbc .title { font-weight: 400; font-style: italic; color: var(--text-muted); }
+
+    @media (max-width: 600px) {
+      .timeline { --time-w: 0px; --gap: 28px; }
+      .timeline::before { left: 5px; }
+      .slot { grid-template-columns: 1fr; padding-left: 28px; column-gap: 0; }
+      .slot > :not(.time) { grid-column: 1; }
+      .slot::before { left: 0; }
+      .slot.is-note::before { left: 2px; }
+      .slot .time { text-align: left; margin-bottom: 4px; }
+    }
+
+    .talk-card { display: grid; grid-template-columns: 110px 1fr; gap: 22px; align-items: start; }
+    .talk-card img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; background: var(--line); }
+    .talk-card h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
+    .talk-card .speaker { font-size: 0.95rem; color: var(--blue); font-weight: 600; }
+
+    @media (max-width: 640px) { .talk-card { grid-template-columns: 1fr; gap: 12px; } .talk-card img { width: 96px; height: 96px; } }
+
+    /* ---------- hero CTA ---------- */
+    .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .btn-cta, .btn-ghost {
+      display: inline-block; padding: 10px 22px; border-radius: 999px; font-weight: 600; font-size: 0.95rem;
+      text-decoration: none; border: 1px solid var(--accent);
+    }
+    .btn-cta { background: var(--accent); color: #fff; }
+    .btn-cta:hover { background: var(--blue); border-color: var(--blue); color: #fff; text-decoration: none; }
+    .btn-ghost { color: var(--blue); }
+    .btn-ghost:hover { background: var(--paper-raised); color: var(--ink); text-decoration: none; }
+
+    /* ---------- important dates ---------- */
+    .dates { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+    .dates li {
+      display: grid; grid-template-columns: 140px 1fr auto; gap: 16px; align-items: baseline;
+      padding: 14px 0; border-bottom: 1px solid var(--line);
+    }
+    .dates .date { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink); }
+    .dates .is-event .date { color: var(--accent); }
+    .dates a { font-size: 0.92rem; font-weight: 600; }
+    @media (max-width: 600px) { .dates li { grid-template-columns: 1fr; gap: 2px; } }
+
+    /* ---------- social ---------- */
+    .social h2 { margin-bottom: 16px; }
+    .social-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+    .social-links a {
+      display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px;
+      border: 1px solid var(--line); background: var(--paper-raised); color: var(--ink);
+      font-weight: 500; font-size: 0.92rem; text-decoration: none;
+    }
+    .social-links a:hover { border-color: var(--blue); color: var(--blue); }
+
+    /* ---------- organizers ---------- */
+    .organizers { text-align: center; padding: 8px 0 56px; }
+    .organizers .label { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 18px; }
+    .organizers .logos { display: flex; align-items: center; justify-content: center; gap: 72px; flex-wrap: wrap; }
+    .organizers img { max-height: 120px; width: auto; }
+    @media (max-width: 600px) { .organizers .logos { gap: 40px; } .organizers img { max-height: 90px; } }
+
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container">
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="https://rsg-argentina.netlify.app/">RSG Argentina</a>
+      </div>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="https://rsg-argentina.netlify.app/">RSG Argentina</a>
+      </div>
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+        <ul class="navbar-nav d-md-inline-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="https://rsg-argentina.netlify.app/#about"><span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rsg-argentina.netlify.app/#people"><span>People</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rsg-argentina.netlify.app/#talks"><span>Meetings</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rsg-argentina.netlify.app/#posts"><span>Posts</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rsg-argentina.netlify.app/#featured"><span>Publications</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rsg-argentina.netlify.app/#workshops"><span>Workshops</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/conferences/sajib2026/"><span>SAJIB2026</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>11SAJIB</h1>
+        <p class="subtitle">11° Simposio Argentino de Jóvenes Investigadores en Bioinformática, organizado por RSG Argentina.</p>
+        <div class="cta">
+          <a class="btn-cta" href="https://forms.gle/MTfsVdqB4vpY7v3M6" target="_blank" rel="noopener">Inscribite</a>
+          <a class="btn-ghost" href="#fechas-h">Fechas importantes</a>
+        </div>
+      </div>
+      <img class="hero-logo" src="./index_files/imgs/logo_11sajib.png" width="392" height="388"
+        alt="Logo del 11° Simposio Argentino de Jóvenes Investigadores en Bioinformática">
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><p class="label">Cuándo</p><p class="value">29 y 30 de octubre</p></div>
+      <div class="fact"><p class="label">Dónde</p><p class="value"><a href="https://maps.app.goo.gl/67YKYm8o4juitbd97" target="_blank" rel="noopener">UNNOBA, Pergamino</a></p></div>
+      <div class="fact"><p class="label">Modalidad</p><p class="value">Presencial</p></div>
+    </div>
+  </div>
+
+  <section class="block" aria-labelledby="fechas-h">
+    <h2 id="fechas-h">Fechas importantes</h2>
+    <p class="lede">Todas las fechas son de 2026.</p>
+    <ol class="dates">
+      <li>
+        <span class="date">01/09</span>
+        <span class="what">Apertura de inscripciones</span>
+        <a href="https://forms.gle/MTfsVdqB4vpY7v3M6" target="_blank" rel="noopener">Formulario de inscripción</a>
+      </li>
+      <li>
+        <span class="date">02/09 – 13/10</span>
+        <span class="what">Envío de resúmenes</span>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSYE5ysKmv0GARj_Pxsndf4yMWAA05gdqmlxG_E4iBIR49ag/viewform" target="_blank" rel="noopener">Formulario de envío</a>
+      </li>
+      <li>
+        <span class="date">16/10</span>
+        <span class="what">Comunicación de resultados</span>
+      </li>
+      <li class="is-event">
+        <span class="date">29/10</span>
+        <span class="what">Día 1: Talleres</span>
+      </li>
+      <li class="is-event">
+        <span class="date">30/10</span>
+        <span class="what">Día 2: Simposio</span>
+      </li>
+    </ol>
+  </section>
+
+  <section class="block" aria-labelledby="cronograma-h">
+    <h2 id="cronograma-h">Cronograma</h2>
+    <p class="lede">Dos días: talleres el 29 de octubre y el simposio el 30, en la UNNOBA. Vamos a ir sumando las actividades a medida que se confirmen.</p>
+
+    <input type="radio" name="day" id="day1" class="day-input" checked>
+    <input type="radio" name="day" id="day2" class="day-input">
+    <div class="day-tabs" role="tablist">
+      <label for="day1" role="tab">Día 1: Talleres</label>
+      <label for="day2" role="tab">Día 2: Simposio</label>
+    </div>
+
+    <div id="panel-day1" class="day-panel" role="tabpanel">
+      <ul class="day-meta">
+        <li><i class="far fa-calendar" aria-hidden="true"></i><span>Jueves 29 de octubre</span></li>
+        <li><i class="far fa-clock" aria-hidden="true"></i><span>15 a 19 hs</span></li>
+        <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span><a href="https://maps.app.goo.gl/67YKYm8o4juitbd97" target="_blank" rel="noopener">UNNOBA, Pergamino</a> · presencial</span></li>
+      </ul>
+
+      <div class="workshop">
+        <div class="photos">
+          <img src="./index_files/talleristas/franco_cuccovia.jpg" alt="Franco Cuccovia" loading="lazy">
+          <img src="./index_files/talleristas/carolina_cerrudo.jpg" alt="Carolina Cerrudo" loading="lazy">
+        </div>
+        <div>
+          <h3>Análisis genómico a partir de datos de NGS</h3>
+          <p class="who"><strong>Franco Cuccovia</strong> — Becario doctoral CONICET, Universidad Nacional de Quilmes<br>
+            <strong>Carolina Cerrudo</strong> — Investigadora adjunta, Universidad Nacional de Quilmes</p>
+          <p class="desc">Un taller práctico sobre el análisis de datos de secuenciación de lecturas cortas (NGS), usando Galaxy, una plataforma en la nube que no requiere instalar software ni gran capacidad de cómputo. A partir de un conjunto reducido de datos se evaluará la calidad de las lecturas y se hará el trimming, para luego ensamblar de novo explorando el efecto de distintos parámetros y evaluando el resultado con distintas herramientas. Por último, se hará la identificación taxonómica y la anotación génica del ensamblado para caracterizar el proteoma predicho, explorando dominios y posibles funciones proteicas, y se discutirán herramientas y estrategias alternativas según los objetivos del análisis.</p>
+        </div>
+      </div>
+
+      <div class="workshop">
+        <div class="photos">
+          <img src="./index_files/talleristas/andrea_penas_ballesteros.jpg" alt="Andrea Peñas Ballesteros" loading="lazy">
+          <img src="./index_files/talleristas/nicolas_lavatti.jpg" alt="Nicolás Lavatti" loading="lazy">
+        </div>
+        <div>
+          <h3>Explorando datos biológicos con R</h3>
+          <p class="who"><strong>Andrea Peñas Ballesteros</strong> — Lic. en Genética y Mg. en Bioinformática y Biología de Sistemas, CITNOBA-UNNOBA<br>
+            <strong>Nicolás Lavatti</strong> — Lic. en Genética, UNNOBA / Trebe Biotech</p>
+          <p class="desc">Una introducción a la programación en R y su aplicación al análisis y visualización de datos biológicos. Se recorrerán conceptos básicos como variables, tipos de datos, funciones y manejo de errores, para luego explorar y visualizar datos con ggplot2, incorporando buenas prácticas de diseño gráfico y estadístico y analizando errores y trampas visuales frecuentes en la comunicación de resultados.</p>
+        </div>
+      </div>
+
+      <div class="workshop">
+        <div class="photos">
+          <img src="./index_files/talleristas/matias_mac_allister.jpg" alt="Matías Mac Allister" loading="lazy">
+          <img src="./index_files/talleristas/diego_peralta.jpg" alt="Diego Peralta" loading="lazy">
+        </div>
+        <div>
+          <h3>Introducción a la genómica de poblaciones: fundamentos teóricos y análisis de SNPs obtenidos con RAD-seq</h3>
+          <p class="who"><strong>Matías Mac Allister</strong> — Becario posdoctoral, CeBio, CITNOBA (UNNOBA-UNSADA-CONICET)<br>
+            <strong>Diego Peralta</strong> — Investigador posdoctoral, Laboratorio de Evolución, Facultad de Ciencias, Universidad de la República</p>
+          <p class="desc">La genómica de poblaciones transformó nuestra capacidad para comprender la historia evolutiva y demográfica y analizar la conectividad genética y la estructura poblacional. Este taller conecta los fundamentos teóricos de la disciplina, apoyados en casos de estudio reales, con las herramientas bioinformáticas necesarias para un estudio genómico. En la parte práctica se trabajará con datos de secuenciación masiva (RAD-seq): desde el control de calidad y la limpieza de secuencias crudas, pasando por el llamado y filtrado de SNPs, hasta la ejecución e interpretación de análisis poblacionales.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-day2" class="day-panel" role="tabpanel">
+      <ul class="day-meta">
+        <li><i class="far fa-calendar" aria-hidden="true"></i><span>Viernes 30 de octubre</span></li>
+        <li><i class="far fa-clock" aria-hidden="true"></i><span>8 a 18:30 hs</span></li>
+        <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span><a href="https://maps.app.goo.gl/67YKYm8o4juitbd97" target="_blank" rel="noopener">UNNOBA, Pergamino</a> · presencial</span></li>
+      </ul>
+
+      <div class="timeline">
+        <div class="slot is-note">
+          <p class="time">8:00 – 8:30</p>
+          <p class="title">Acreditación y colgado de pósters</p>
+        </div>
+
+        <div class="slot is-highlight">
+          <p class="time">8:30 – 9:00</p>
+          <p class="title">Apertura</p>
+        </div>
+
+        <div class="slot is-talk">
+          <p class="time">9:00 – 9:45</p>
+          <p class="title">Presentaciones orales de pósters</p>
+        </div>
+
+        <div class="slot is-note">
+          <p class="time">9:45 – 10:10</p>
+          <p class="title">Coffee break</p>
+        </div>
+
+        <div class="slot is-talk">
+          <p class="time">10:10 – 10:30</p>
+          <p class="title">Mariano Belaich</p>
+        </div>
+
+        <div class="slot is-talk">
+          <p class="time">10:30 – 10:50</p>
+          <div class="talk-card">
+            <img src="./index_files/oradores/cintia_fabbri.jpg" alt="Cintia Fabbri" loading="lazy">
+            <div>
+              <h3>Vigilancia genómica integrada a la vigilancia laboratorial de dengue y otros arbovirus en Argentina: avances y desafíos</h3>
+              <p class="speaker">Cintia Fabbri</p>
+              <p class="sub">Jefa del Departamento de Investigación y Diagnóstico Referencial — Instituto Nacional de Enfermedades Virales Humanas "Dr. J. I. Maiztegui" (INEVH-ANLIS)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slot is-talk is-tbc">
+          <p class="time">10:50 – 11:10</p>
+          <p class="title">Charla a confirmar</p>
+        </div>
+
+        <div class="slot is-note">
+          <p class="time">11:10 – 11:30</p>
+          <p class="title">Preguntas a oradores/as</p>
+        </div>
+
+        <div class="slot is-highlight">
+          <p class="time">11:30 – 12:30</p>
+          <p class="title">Charla estelar: Gustavo Parisi</p>
+        </div>
+
+        <div class="slot is-note">
+          <p class="time">12:30 – 13:30</p>
+          <p class="title">Almuerzo</p>
+        </div>
+
+        <div class="slot is-highlight">
+          <p class="time">13:30 – 15:00</p>
+          <p class="title">Sesión de pósters</p>
+        </div>
+
+        <div class="slot is-talk">
+          <p class="time">15:00 – 15:20</p>
+          <div class="talk-card">
+            <img src="./index_files/oradores/ileana_tossolini.jpg" alt="Ileana Tossolini" loading="lazy">
+            <div>
+              <h3>Integrando genómica, epigenómica y transcriptómica para descubrir el impacto de los elementos transponibles en frutilla silvestre (<em>Fragaria vesca</em>)</h3>
+              <p class="speaker">Ileana Tossolini</p>
+              <p class="sub">Investigadora asistente (CONICET) y profesora titular (FI-UNER) — Instituto de Investigación y Desarrollo en Bioingeniería y Bioinformática (IBB, CONICET-UNER)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slot is-talk is-tbc">
+          <p class="time">15:20 – 15:40</p>
+          <p class="title">Charla a confirmar</p>
+        </div>
+
+        <div class="slot is-talk is-tbc">
+          <p class="time">15:40 – 16:00</p>
+          <p class="title">Charla a confirmar</p>
+        </div>
+
+        <div class="slot is-note">
+          <p class="time">16:00 – 16:20</p>
+          <p class="title">Preguntas a oradores/as</p>
+        </div>
+
+        <div class="slot is-note">
+          <p class="time">16:20 – 16:40</p>
+          <p class="title">Coffee break</p>
+        </div>
+
+        <div class="slot is-talk">
+          <p class="time">16:40 – 17:10</p>
+          <p class="title">Presentaciones orales de pósters</p>
+        </div>
+
+        <div class="slot is-highlight">
+          <p class="time">17:10 – 18:10</p>
+          <p class="title">Mesa redonda: Ciencia desde la trinchera</p>
+        </div>
+
+        <div class="slot is-highlight">
+          <p class="time">18:10 – 18:30</p>
+          <p class="title">Palabras finales y premios</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block social" aria-labelledby="redes-h">
+    <h2 id="redes-h">Seguinos</h2>
+    <ul class="social-links">
+      <li><a href="https://twitter.com/rsgargentina" target="_blank" rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/iscb-sc-rsg-argentina-053599214/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      <li><a href="https://www.instagram.com/rsg_arg/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+      <li><a href="https://www.facebook.com/RSGArgentina/" target="_blank" rel="noopener"><i class="fab fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+      <li><a href="https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured" target="_blank" rel="noopener"><i class="fab fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+    </ul>
+  </section>
+
+  <div class="organizers">
+    <p class="label">Organizan</p>
+    <div class="logos">
+      <img src="./index_files/imgs/organizadores/rsg_arg.png" alt="RSG Argentina">
+      <img src="./index_files/imgs/organizadores/unnoba.png" alt="Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)">
+    </div>
+  </div>
+
+  <script src="./index_files/jquery.min.js.descarga" crossorigin="anonymous"></script>
+  <script src="./index_files/imagesloaded.pkgd.min.js.descarga" crossorigin="anonymous"></script>
+  <script src="./index_files/isotope.pkgd.min.js.descarga" crossorigin="anonymous"></script>
+  <script src="./index_files/instantpage.min.js.descarga" crossorigin="anonymous"></script>
+  <script src="./index_files/academic.min.js.descarga"></script>
+  <script src="./index_files/main.js.descarga"></script>
+
+  <div class="container">
+    <footer class="site-footer">
+      <p class="powered-by">RSG Argentina</p>
+      <p class="powered-by">
+        Powered by the
+        <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a>
+        for
+        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+      </p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
+
