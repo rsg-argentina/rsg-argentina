@@ -1,0 +1,197 @@
+{{- define "main" -}}
+
+<article class="article">
+  {{ partial "page_header" . }}
+
+  <div class="article-container workshop-course-page">
+    {{ if .Params.course }}
+      {{ with site.GetPage (printf "/workshops/%s" .Params.course) }}
+        <p class="workshop-edition-back">
+          <a href="{{ .RelPermalink }}">Volver al curso: {{ .Title }}</a>
+        </p>
+      {{ end }}
+    {{ end }}
+
+    <div class="article-style workshop-course-copy">
+      {{ .Content }}
+    </div>
+
+    {{ if .Params.course }}
+      {{ $courseSlug := .Params.course }}
+      {{ $currentSlug := path.Base (trim .File.Dir "/") }}
+      {{ $courseEntry := false }}
+      {{ $courseTitle := $courseSlug }}
+
+      {{ with site.GetPage (printf "/workshops/%s" $courseSlug) }}
+        {{ $courseTitle = .Title }}
+      {{ end }}
+
+      {{ range site.Data.workshops.trayectos }}
+        {{ if not $courseEntry }}
+          {{ range .courses }}
+            {{ if not $courseEntry }}
+              {{ if eq .slug $courseSlug }}
+                {{ $courseEntry = . }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if $courseEntry }}
+        {{ $editions := index $courseEntry "editions" | default (slice) }}
+        {{ if gt (len $editions) 1 }}
+          <section class="workshop-edition-others">
+            <h2>Otras ediciones</h2>
+            <div class="workshop-edition-others__grid">
+              {{ range $editions }}
+                {{ if ne .slug $currentSlug }}
+                  {{ $editionCard := dict "href" (printf "/workshops/%s/%s/" $courseSlug .slug | relURL) "title" .title "year" .year "course_title" $courseTitle }}
+                  {{ partial "workshop_edition_card.html" $editionCard }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      {{ $courseSlug := path.Base (trim .File.Dir "/") }}
+      {{ $courseEntry := false }}
+
+      {{ range site.Data.workshops.trayectos }}
+        {{ if not $courseEntry }}
+          {{ range .courses }}
+            {{ if not $courseEntry }}
+              {{ if eq .slug $courseSlug }}
+                {{ $courseEntry = . }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ $editions := slice }}
+      {{ if $courseEntry }}
+        {{ $editions = index $courseEntry "editions" | default (slice) }}
+      {{ end }}
+
+      {{ if gt (len $editions) 0 }}
+        <section class="workshop-course-editions">
+          <h2>Ediciones</h2>
+          <div class="workshop-course-editions__grid">
+            {{ range $editions }}
+              {{ $editionCard := dict "href" (printf "/workshops/%s/%s/" $courseSlug .slug | relURL) "title" .title "year" .year "course_title" $.Title }}
+              {{ partial "workshop_edition_card.html" $editionCard }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    {{ end }}
+
+    {{ partial "page_footer" . }}
+  </div>
+</article>
+
+<style>
+  .workshop-course-page {
+    padding-bottom: 3rem;
+  }
+
+  .workshop-course-copy {
+    margin-bottom: 2rem;
+  }
+
+  .workshop-course-editions,
+  .workshop-edition-others {
+    margin-top: 2rem;
+  }
+
+  .workshop-course-editions h2,
+  .workshop-edition-others h2 {
+    margin: 0 0 1rem;
+    font-size: 1.4rem;
+    color: #16324f;
+  }
+
+  .workshop-course-editions__grid,
+  .workshop-edition-others__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .workshop-edition-back {
+    margin: 0 0 1rem;
+  }
+
+  .workshop-edition-back a {
+    color: #2b94c3;
+    font-weight: 700;
+  }
+
+  .workshop-edition-card {
+    display: block;
+    min-height: 100%;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #fbfdff;
+    color: #16324f;
+    text-decoration: none;
+    border: 1px solid rgba(43, 148, 195, 0.24);
+    box-shadow: 0 10px 24px rgba(43, 148, 195, 0.12);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+
+  .workshop-edition-card:hover,
+  .workshop-edition-card:focus-visible {
+    color: #16324f;
+    transform: translateY(-3px);
+    box-shadow: 0 16px 34px rgba(43, 148, 195, 0.18);
+    text-decoration: none;
+  }
+
+  .workshop-edition-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1rem 1rem 1.05rem;
+  }
+
+  .workshop-edition-card__eyebrow {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #2b94c3;
+  }
+
+  .workshop-edition-card h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.35;
+    color: #16324f;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 4.05em;
+  }
+
+  .workshop-edition-card p,
+  .workshop-edition-card__course {
+    margin: 0;
+    color: rgba(22, 50, 79, 0.78);
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  @media (max-width: 575.98px) {
+    .workshop-course-editions__grid,
+    .workshop-edition-others__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+{{- end -}}

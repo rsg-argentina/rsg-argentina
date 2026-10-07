@@ -1,0 +1,73 @@
+trayectos:
+  - id: introduccion
+    title: "Primeros pasos en programación"
+    courses:
+      - slug: introduccion_a_bash
+        editions:
+          - slug: "2026"
+            year: 2026
+            title: "Introducción a Bash - Edición 2026"
+          - slug: "2024"
+            year: 2024
+            title: "Introducción a Bash - Edición 2024"
+      - slug: introduccion_a_r
+        editions:
+          - slug: "2026"
+            year: 2026
+            title: "Introducción a R - Edición 2026"
+          - slug: "2024"
+            year: 2024
+            title: "Introducción a R - Edición 2024"
+      - slug: introduccion_a_python
+        editions:
+          - slug: "2026"
+            year: 2026
+            title: "Introducción a Python - Edición 2026"
+          - slug: "2024"
+            year: 2024
+            title: "Introducción a Python - Edición 2024"
+      - slug: introduccion_a_git_y_github
+      - slug: introduccion_a_programacion_web
+      - slug: sql_bases_biológicas
+
+  - id: introduccion_a_la_bioinformatica
+    title: "Introducción a la Bioinformática"
+    courses:
+      - slug: explorando_servidores_galaxy
+      - slug: abc_bioinformatica
+
+  - id: herramientas_bioinformaticas
+    title: "Herramientas bioinformáticas"
+    courses:
+      - slug: nextflow
+
+  - id: estadistica
+    title: "Estadística"
+    courses:
+      - slug: primeros_pasos_en_estadistica
+      - slug: estadistica_basica_y_aplicada
+      - slug: visualizacion_de_datos_en_r
+      - slug: visualizacion_de_datos_en_python
+      - slug: analisis_multiv_python
+      - slug: disenio_de_experimentos_en_r
+
+  - id: omicas
+    title: "Ómicas"
+    courses:
+      - slug: genoma_bacteriana
+      - slug: genoma_eucariota
+      - slug: metabarcoding
+      - slug: drug_discovery
+      - slug: introduccion_al_procesamiento_de_datos_ngs
+
+  - id: soft_skills
+    title: "Soft skills"
+    courses:
+      - slug: habilidades_presentacion_efectiva
+      - slug: practicas_programacion_efectiva
+      - slug: gestion_de_proyectos_bioinformaticos
+
+  - id: inteligencia_artificial
+    title: "Inteligencia artificial"
+    courses:
+      - slug: introduccion_al_machine_learning_para_datos_biologicos

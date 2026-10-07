@@ -1,0 +1,87 @@
+{{- define "main" -}}
+
+<article class="article">
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+    {{ with site.GetPage (printf "/workshops/%s" .Params.course) }}
+      <p class="workshop-edition-back">
+        <a href="{{ .RelPermalink }}">Volver al curso: {{ .Title }}</a>
+      </p>
+    {{ end }}
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ $courseSlug := .Params.course }}
+    {{ $currentSlug := path.Base (trim .File.Dir "/") }}
+    {{ $courseEntry := false }}
+    {{ $courseTitle := $courseSlug }}
+
+    {{ with site.GetPage (printf "/workshops/%s" $courseSlug) }}
+      {{ $courseTitle = .Title }}
+    {{ end }}
+
+    {{ range site.Data.workshops.trayectos }}
+      {{ if not $courseEntry }}
+        {{ range .courses }}
+          {{ if not $courseEntry }}
+            {{ if eq .slug $courseSlug }}
+              {{ $courseEntry = . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ if $courseEntry }}
+      {{ $editions := index $courseEntry "editions" | default (slice) }}
+      {{ if gt (len $editions) 1 }}
+        <section class="workshop-edition-others">
+          <h2>Otras ediciones</h2>
+          <div class="workshop-edition-others__grid">
+            {{ range $editions }}
+              {{ if ne .slug $currentSlug }}
+                {{ $editionCard := dict "href" (printf "/workshops/%s/%s/" $courseSlug .slug | relURL) "title" .title "year" .year "course_title" $courseTitle }}
+                {{ partial "workshop_edition_card.html" $editionCard }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    {{ end }}
+
+    {{ partial "page_footer" . }}
+  </div>
+</article>
+
+<style>
+  .workshop-edition-back {
+    margin: 0 0 1rem;
+  }
+
+  .workshop-edition-back a {
+    color: #2b94c3;
+    font-weight: 700;
+  }
+
+  .workshop-edition-others {
+    margin-top: 2rem;
+  }
+
+  .workshop-edition-others h2 {
+    margin: 0 0 1rem;
+    font-size: 1.4rem;
+    color: #16324f;
+  }
+
+  .workshop-edition-others__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+    justify-content: center;
+    gap: 1rem;
+  }
+</style>
+
+{{- end -}}

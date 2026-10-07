@@ -99,7 +99,7 @@ projects: [""]
 ## Certificados
 
 - Certificados de asistencia a los talleres
-- Certificado de participación en el 10SAJIB *(TODO: revisar si debería decir 11SAJIB)*
+- Certificado de participación en el 11SAJIB
 
 ## Código de conducta
 
