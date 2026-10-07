@@ -77,7 +77,7 @@ projects: [""]
 ## Fechas importantes
 
 - **01/09** — Apertura de inscripciones — 📝 [Formulario de inscripción](https://forms.gle/MTfsVdqB4vpY7v3M6)
-- **02/09 al 27/09** — Envío de resúmenes — 📝 [Formulario de envío](https://docs.google.com/forms/d/e/1FAIpQLSfSYE5ysKmv0GARj_Pxsndf4yMWAA05gdqmlxG_E4iBIR49ag/viewform?pli=1)
+- **02/09 al 13/10** — Envío de resúmenes — 📝 [Formulario de envío](https://docs.google.com/forms/d/e/1FAIpQLSfSYE5ysKmv0GARj_Pxsndf4yMWAA05gdqmlxG_E4iBIR49ag/viewform?pli=1)
 - **16/10** — Comunicación de resultados
 - **29/10** — Día 1: Talleres
 - **30/10** — Día 2: Simposio
