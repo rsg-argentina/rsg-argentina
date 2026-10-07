@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="10° Simposio Argentino de Jóvenes Investigadores en Bioinformática — 9 y 10 de octubre, Rafaela, Santa Fe." />
-  <meta name="theme-color" content="#2962ff" />
+  <meta name="description" content="11° Simposio Argentino de Jóvenes Investigadores en Bioinformática — 29 y 30 de octubre de 2026, UNNOBA, Pergamino, Buenos Aires." />
+  <meta name="theme-color" content="#1389C9" />
   <link rel="canonical" href="/conferences/sajib2026/" />
   <link rel="icon" type="image/png" href="/images/icon-32.png" />
   <link rel="apple-touch-icon" type="image/png" href="/images/icon-192.png" />
 
-  <title>10SAJIB · Simposio Argentino de Jóvenes Investigadores en Bioinformática</title>
+  <title>11SAJIB · Simposio Argentino de Jóvenes Investigadores en Bioinformática</title>
 
   <link rel="stylesheet" href="./index_files/academicons.min.css" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./index_files/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="./index_files/github.min.css" crossorigin="anonymous" title="hl-light" />
   <link rel="stylesheet" href="./index_files/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled="" />
   <link rel="stylesheet" href="./index_files/css" />
@@ -22,18 +22,20 @@
   <link rel="stylesheet" href="./index_files/css(1)" media="all" />
 
   <style>
+    /* Paleta tomada del flyer del 11SAJIB (celestes #3DBBED → #1389C9). */
     :root {
-      --ink: #10263F;
-      --ink-soft: #1B3A5C;
-      --paper: #F7F6F1;
+      --ink: #0B3550;
+      --ink-soft: #145A86;
+      --paper: #F4F9FC;
       --paper-raised: #FFFFFF;
-      --line: #DEDACD;
-      --text: #23241F;
-      --text-muted: #5B6169;
-      --teal: #0F7C74;
-      --teal-soft: #E4F1EE;
-      --amber: #C97A25;
-      --amber-soft: #FBEDDB;
+      --line: #D4E5F0;
+      --text: #1A2530;
+      --text-muted: #55677A;
+      --blue: #0E6FA8;
+      --blue-soft: #E3F3FC;
+      --accent: #1389C9;
+      --accent-bright: #3DBBED;
+      --accent-soft: #E8F6FD;
       --max: 980px;
     }
 
@@ -55,16 +57,16 @@
       line-height: 1.6;
     }
 
-    h1, h2, h3, .display {
+    h1, h2, h3 {
       font-family: inherit;
       color: var(--ink);
       margin: 0;
       font-weight: 700;
     }
 
-    a { color: var(--teal); }
+    a { color: var(--blue); }
     a:focus-visible, button:focus-visible, label:focus-within {
-      outline: 2px solid var(--teal);
+      outline: 2px solid var(--blue);
       outline-offset: 3px;
     }
 
@@ -73,7 +75,16 @@
     .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
 
     /* ---------- hero ---------- */
-    .hero-inner { max-width: var(--max); margin: 0 auto; padding: 48px 24px 32px; }
+    .hero { background: linear-gradient(180deg, var(--accent-soft) 0%, var(--paper) 100%); }
+    .hero-inner {
+      max-width: var(--max); margin: 0 auto; padding: 48px 24px 32px;
+      display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center;
+    }
+    .hero-logo { width: 220px; height: auto; }
+    @media (max-width: 640px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-logo { width: 150px; order: -1; }
+    }
     .hero h1 {
       font-size: clamp(2.5rem, 7vw, 4rem);
       line-height: 1;
@@ -92,7 +103,7 @@
     .facts .fact { background: var(--paper-raised); padding: 20px 24px; }
     .facts .fact .label { font-size: 0.82rem; color: var(--text-muted); margin: 0 0 4px; }
     .facts .fact .value { font-weight: 700; font-size: 1.15rem; color: var(--ink); }
-    @media (max-width: 640px) { .facts { grid-template-columns: 1fr; margin-top: -20px; } }
+    @media (max-width: 640px) { .facts { grid-template-columns: 1fr; } }
 
     /* ---------- section shell ---------- */
     section.block { max-width: var(--max); margin: 0 auto; padding: 0 24px 64px; }
@@ -113,84 +124,133 @@
     #day2:checked ~ #panel-day2 { display: block; }
     #day1:checked ~ .day-tabs label[for="day1"],
     #day2:checked ~ .day-tabs label[for="day2"] {
-      background: var(--ink); color: #fff;
+      background: var(--accent); color: #fff;
     }
+
+    /* ---------- when / where strip at the top of each day ---------- */
+    .day-meta {
+      list-style: none; margin: 0 0 8px; padding: 16px 20px;
+      display: flex; flex-wrap: wrap; gap: 14px 40px;
+      background: var(--accent-soft); border: 1px solid #BFE3F6; border-radius: 10px;
+    }
+    .day-meta li { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: 1.08rem; color: var(--ink); }
+    .day-meta i { font-size: 1.2rem; color: var(--accent); width: 1.2rem; text-align: center; }
 
     /* ---------- workshops (day 1) ---------- */
     .workshop {
-      display: grid; grid-template-columns: 180px 1fr; gap: 24px;
-      padding: 26px 0; border-top: 1px solid var(--line);
+      display: grid; grid-template-columns: 140px 1fr; gap: 32px;
+      padding: 30px 0; border-top: 1px solid var(--line);
     }
     .workshop:last-child { border-bottom: 1px solid var(--line); }
-    .workshop img { border-radius: 6px; aspect-ratio: 1/1; object-fit: cover; background: var(--line); }
-    .workshop .tag { font-size: 0.8rem; color: var(--teal); font-weight: 600; margin-bottom: 6px; }
+    .workshop .photos { display: flex; flex-direction: column; gap: 14px; align-self: start; }
+    .workshop .photos img {
+      width: 140px; height: 140px; border-radius: 50%; object-fit: cover; background: var(--line);
+    }
     .workshop h3 { font-size: 1.25rem; margin-bottom: 8px; }
     .workshop .who { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 10px; }
     .workshop .who strong { color: var(--text); font-weight: 600; }
     .workshop p.desc { margin: 0; color: var(--text); font-size: 0.96rem; }
-    @media (max-width: 600px) { .workshop { grid-template-columns: 1fr; } .workshop img { max-width: 220px; } }
+    @media (max-width: 600px) {
+      .workshop { grid-template-columns: 1fr; gap: 16px; }
+      .workshop .photos { flex-direction: row; }
+      .workshop .photos img { width: 110px; height: 110px; }
+    }
 
     /* ---------- timeline (day 2) ---------- */
-    .timeline { border-left: 2px solid var(--line); margin-left: 6px; }
-    .slot { position: relative; padding: 0 0 30px 30px; }
+    /* Vertical timeline: time column | line with dot | content.
+       All titles share one size and weight; only the dot marks the kind of entry. */
+    .timeline { --time-w: 130px; --gap: 36px; position: relative; margin-top: 28px; }
+    .timeline::before {
+      content: ""; position: absolute; top: 6px; bottom: 6px;
+      left: calc(var(--time-w) + var(--gap) / 2 - 1px); width: 2px; background: var(--line);
+    }
+    .slot {
+      position: relative; display: grid; grid-template-columns: var(--time-w) 1fr;
+      column-gap: var(--gap); padding-bottom: 26px;
+    }
+    .slot:last-child { padding-bottom: 0; }
+    .slot > :not(.time) { grid-column: 2; }
     .slot::before {
-      content: ""; position: absolute; left: -7px; top: 4px;
+      content: ""; position: absolute; top: 6px; left: calc(var(--time-w) + var(--gap) / 2 - 6px);
       width: 12px; height: 12px; border-radius: 50%;
-      background: var(--paper); border: 2px solid var(--line);
+      background: var(--paper); border: 2px solid var(--blue);
     }
-    .slot.is-highlight::before { border-color: var(--amber); background: var(--amber); }
-    .slot.is-talk::before { border-color: var(--teal); background: var(--paper-raised); }
+    .slot p { margin: 0; }
     .slot .time {
-      font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-muted);
-      font-size: 0.88rem; margin-bottom: 6px;
+      text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap;
+      font-weight: 600; font-size: 0.95rem; color: var(--ink-soft);
     }
-    .slot.is-note { padding-bottom: 22px; }
-    .slot.is-note .time { color: var(--ink-soft); }
-    .slot.is-note .title { font-weight: 500; color: var(--text-muted); }
+    .slot .title { font-weight: 600; font-size: 1.05rem; color: var(--ink); }
+    .slot .sub { color: var(--text-muted); font-size: 0.92rem; margin-top: 4px; }
 
-    .talk-card { display: grid; grid-template-columns: 84px 1fr; gap: 18px; align-items: start; }
-    .talk-card img { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; background: var(--line); }
-    .talk-card h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 4px; }
-    .talk-card .speaker { font-size: 0.9rem; color: var(--teal); font-weight: 600; }
+    .slot.is-highlight::before { background: var(--accent); border-color: var(--accent); }
 
-    .keynote {
-      background: var(--amber-soft); border: 1px solid #EFD5AE; border-radius: 10px;
-      padding: 26px; display: grid; grid-template-columns: 140px 1fr; gap: 24px;
-    }
-    .keynote img { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; }
-    .keynote .eyebrow { font-size: 0.8rem; font-weight: 600; color: var(--amber); margin-bottom: 8px; }
-    .keynote h3 { font-size: 1.4rem; margin-bottom: 2px; }
-    .keynote .role { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 12px; }
-    .keynote .talk-title { font-weight: 700; font-size: 1.15rem; color: var(--ink); margin-bottom: 12px; }
-    .keynote p { font-size: 0.95rem; margin: 0 0 10px; }
-    .keynote p:last-child { margin-bottom: 0; }
-    @media (max-width: 640px) { .keynote, .talk-card { grid-template-columns: 1fr; } .keynote img, .talk-card img { width: 72px; height: 72px; } }
+    .slot.is-note { padding-bottom: 20px; }
+    .slot.is-note::before { width: 8px; height: 8px; top: 8px; left: calc(var(--time-w) + var(--gap) / 2 - 4px); border-color: var(--line); background: var(--line); }
+    .slot.is-note .time, .slot.is-note .title { font-weight: 400; color: var(--text-muted); }
 
-    .panel-block {
-      background: var(--paper-raised); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px;
+    .slot.is-tbc .title { font-weight: 400; font-style: italic; color: var(--text-muted); }
+
+    @media (max-width: 600px) {
+      .timeline { --time-w: 0px; --gap: 28px; }
+      .timeline::before { left: 5px; }
+      .slot { grid-template-columns: 1fr; padding-left: 28px; column-gap: 0; }
+      .slot > :not(.time) { grid-column: 1; }
+      .slot::before { left: 0; }
+      .slot.is-note::before { left: 2px; }
+      .slot .time { text-align: left; margin-bottom: 4px; }
     }
 
-    .roundtable-grid { display: grid; gap: 14px; }
-    .panelist { display: grid; grid-template-columns: 56px 1fr; gap: 14px; align-items: center; }
-    .panelist .initial {
-      width: 56px; height: 56px; border-radius: 50%; background: var(--teal-soft); color: var(--teal);
-      display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.3rem;
+    .talk-card { display: grid; grid-template-columns: 110px 1fr; gap: 22px; align-items: start; }
+    .talk-card img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; background: var(--line); }
+    .talk-card h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
+    .talk-card .speaker { font-size: 0.95rem; color: var(--blue); font-weight: 600; }
+
+    @media (max-width: 640px) { .talk-card { grid-template-columns: 1fr; gap: 12px; } .talk-card img { width: 96px; height: 96px; } }
+
+    /* ---------- hero CTA ---------- */
+    .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .btn-cta, .btn-ghost {
+      display: inline-block; padding: 10px 22px; border-radius: 999px; font-weight: 600; font-size: 0.95rem;
+      text-decoration: none; border: 1px solid var(--accent);
     }
-    .panelist strong { display: block; font-size: 0.98rem; }
-    .panelist span { color: var(--text-muted); font-size: 0.88rem; }
+    .btn-cta { background: var(--accent); color: #fff; }
+    .btn-cta:hover { background: var(--blue); border-color: var(--blue); color: #fff; text-decoration: none; }
+    .btn-ghost { color: var(--blue); }
+    .btn-ghost:hover { background: var(--paper-raised); color: var(--ink); text-decoration: none; }
+
+    /* ---------- important dates ---------- */
+    .dates { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+    .dates li {
+      display: grid; grid-template-columns: 140px 1fr auto; gap: 16px; align-items: baseline;
+      padding: 14px 0; border-bottom: 1px solid var(--line);
+    }
+    .dates .date { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink); }
+    .dates .is-event .date { color: var(--accent); }
+    .dates a { font-size: 0.92rem; font-weight: 600; }
+    @media (max-width: 600px) { .dates li { grid-template-columns: 1fr; gap: 2px; } }
+
+    /* ---------- social ---------- */
+    .social h2 { margin-bottom: 16px; }
+    .social-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+    .social-links a {
+      display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px;
+      border: 1px solid var(--line); background: var(--paper-raised); color: var(--ink);
+      font-weight: 500; font-size: 0.92rem; text-decoration: none;
+    }
+    .social-links a:hover { border-color: var(--blue); color: var(--blue); }
 
     /* ---------- organizers ---------- */
     .organizers { text-align: center; padding: 8px 0 56px; }
     .organizers .label { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 18px; }
-    .organizers .logos { display: flex; align-items: center; justify-content: center; gap: 48px; flex-wrap: wrap; }
-    .organizers img { max-height: 64px; width: auto; }
+    .organizers .logos { display: flex; align-items: center; justify-content: center; gap: 72px; flex-wrap: wrap; }
+    .organizers img { max-height: 120px; width: auto; }
+    @media (max-width: 600px) { .organizers .logos { gap: 40px; } .organizers img { max-height: 90px; } }
 
   </style>
 </head>
 
 <body>
-
-  <nav
 
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
     <div class="container">
@@ -234,22 +294,59 @@
 
   <header class="hero">
     <div class="hero-inner">
-      <h1>10SAJIB</h1>
-      <p class="subtitle">10° Simposio Argentino de Jóvenes Investigadores en Bioinformática, organizado por RSG Argentina.</p>
+      <div class="hero-text">
+        <h1>11SAJIB</h1>
+        <p class="subtitle">11° Simposio Argentino de Jóvenes Investigadores en Bioinformática, organizado por RSG Argentina.</p>
+        <div class="cta">
+          <a class="btn-cta" href="https://forms.gle/MTfsVdqB4vpY7v3M6" target="_blank" rel="noopener">Inscribite</a>
+          <a class="btn-ghost" href="#fechas-h">Fechas importantes</a>
+        </div>
+      </div>
+      <img class="hero-logo" src="./index_files/imgs/logo_11sajib.png" width="392" height="388"
+        alt="Logo del 11° Simposio Argentino de Jóvenes Investigadores en Bioinformática">
     </div>
   </header>
 
   <div class="wrap">
     <div class="facts">
-      <div class="fact"><p class="label">Cuándo</p><p class="value">9 y 10 de octubre</p></div>
-      <div class="fact"><p class="label">Dónde</p><p class="value">Rafaela, Santa Fe</p></div>
+      <div class="fact"><p class="label">Cuándo</p><p class="value">29 y 30 de octubre</p></div>
+      <div class="fact"><p class="label">Dónde</p><p class="value"><a href="https://maps.app.goo.gl/67YKYm8o4juitbd97" target="_blank" rel="noopener">UNNOBA, Pergamino</a></p></div>
       <div class="fact"><p class="label">Modalidad</p><p class="value">Presencial</p></div>
     </div>
   </div>
 
+  <section class="block" aria-labelledby="fechas-h">
+    <h2 id="fechas-h">Fechas importantes</h2>
+    <p class="lede">Todas las fechas son de 2026.</p>
+    <ol class="dates">
+      <li>
+        <span class="date">01/09</span>
+        <span class="what">Apertura de inscripciones</span>
+        <a href="https://forms.gle/MTfsVdqB4vpY7v3M6" target="_blank" rel="noopener">Formulario de inscripción</a>
+      </li>
+      <li>
+        <span class="date">02/09 – 27/09</span>
+        <span class="what">Envío de resúmenes</span>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSYE5ysKmv0GARj_Pxsndf4yMWAA05gdqmlxG_E4iBIR49ag/viewform" target="_blank" rel="noopener">Formulario de envío</a>
+      </li>
+      <li>
+        <span class="date">16/10</span>
+        <span class="what">Comunicación de resultados</span>
+      </li>
+      <li class="is-event">
+        <span class="date">29/10</span>
+        <span class="what">Día 1: Talleres</span>
+      </li>
+      <li class="is-event">
+        <span class="date">30/10</span>
+        <span class="what">Día 2: Simposio</span>
+      </li>
+    </ol>
+  </section>
+
   <section class="block" aria-labelledby="cronograma-h">
     <h2 id="cronograma-h">Cronograma</h2>
-    <p class="lede">Dos días: talleres presenciales y virtuales el primero, charlas y keynotes en la Universidad Nacional de Rafaela el segundo.</p>
+    <p class="lede">Dos días: talleres el 29 de octubre y el simposio el 30, en la UNNOBA. Vamos a ir sumando las actividades a medida que se confirmen.</p>
 
     <input type="radio" name="day" id="day1" class="day-input" checked>
     <input type="radio" name="day" id="day2" class="day-input">
@@ -259,54 +356,60 @@
     </div>
 
     <div id="panel-day1" class="day-panel" role="tabpanel">
-      <p class="lede" style="margin-bottom:0;">9 de octubre · 14 a 18 hs</p>
+      <ul class="day-meta">
+        <li><i class="far fa-calendar" aria-hidden="true"></i><span>Jueves 29 de octubre</span></li>
+        <li><i class="far fa-clock" aria-hidden="true"></i><span>15 a 19 hs</span></li>
+        <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span><a href="https://maps.app.goo.gl/67YKYm8o4juitbd97" target="_blank" rel="noopener">UNNOBA, Pergamino</a> · presencial</span></li>
+      </ul>
 
       <div class="workshop">
-        <img src="./index_files/Workshop1.png" alt="" loading="lazy">
+        <div class="photos">
+          <img src="./index_files/talleristas/franco_cuccovia.jpg" alt="Franco Cuccovia" loading="lazy">
+          <img src="./index_files/talleristas/carolina_cerrudo.jpg" alt="Carolina Cerrudo" loading="lazy">
+        </div>
         <div>
-          <p class="tag">Campus UNRaf</p>
-          <h3>Club de Datos: una introducción a la ingeniería de software aplicada a la Ciencia de Datos</h3>
-          <p class="who"><strong>Miguel Ángel De Lillo</strong> — Club de Datos, FCEN-UBA</p>
-          <p class="desc">Un taller para descubrir cómo las buenas prácticas de programación pueden transformar tu forma de trabajar en proyectos de Ciencia de Datos.</p>
+          <h3>Análisis genómico a partir de datos de NGS</h3>
+          <p class="who"><strong>Franco Cuccovia</strong> — Becario doctoral CONICET, Universidad Nacional de Quilmes<br>
+            <strong>Carolina Cerrudo</strong> — Investigadora adjunta, Universidad Nacional de Quilmes</p>
+          <p class="desc">Un taller práctico sobre el análisis de datos de secuenciación de lecturas cortas (NGS), usando Galaxy, una plataforma en la nube que no requiere instalar software ni gran capacidad de cómputo. A partir de un conjunto reducido de datos se evaluará la calidad de las lecturas y se hará el trimming, para luego ensamblar de novo explorando el efecto de distintos parámetros y evaluando el resultado con distintas herramientas. Por último, se hará la identificación taxonómica y la anotación génica del ensamblado para caracterizar el proteoma predicho, explorando dominios y posibles funciones proteicas, y se discutirán herramientas y estrategias alternativas según los objetivos del análisis.</p>
         </div>
       </div>
 
       <div class="workshop">
-        <img src="./index_files/Workshop2.PNG" alt="" loading="lazy">
+        <div class="photos">
+          <img src="./index_files/talleristas/andrea_penas_ballesteros.jpg" alt="Andrea Peñas Ballesteros" loading="lazy">
+          <img src="./index_files/talleristas/nicolas_lavatti.jpg" alt="Nicolás Lavatti" loading="lazy">
+        </div>
         <div>
-          <p class="tag">Campus UNRaf</p>
-          <h3>Quimioinformática asistida por IA: identificación de compuestos bioactivos</h3>
-          <p class="who"><strong>Mercedes Didier Garnham</strong> — IIB, EByN, UNSAM</p>
-          <p class="desc">Ideal para quienes quieran explorar representaciones moleculares, RDKit, descriptores y fingerprints.</p>
+          <h3>Explorando datos biológicos con R</h3>
+          <p class="who"><strong>Andrea Peñas Ballesteros</strong> — Lic. en Genética y Mg. en Bioinformática y Biología de Sistemas, CITNOBA-UNNOBA<br>
+            <strong>Nicolás Lavatti</strong> — Lic. en Genética, UNNOBA / Trebe Biotech</p>
+          <p class="desc">Una introducción a la programación en R y su aplicación al análisis y visualización de datos biológicos. Se recorrerán conceptos básicos como variables, tipos de datos, funciones y manejo de errores, para luego explorar y visualizar datos con ggplot2, incorporando buenas prácticas de diseño gráfico y estadístico y analizando errores y trampas visuales frecuentes en la comunicación de resultados.</p>
         </div>
       </div>
 
       <div class="workshop">
-        <img src="./index_files/Workshop3.png" alt="" loading="lazy">
-        <div>
-          <p class="tag">Virtual</p>
-          <h3>Esto no es un taller de Docking con IA</h3>
-          <p class="who"><strong>Exequiel Barrera</strong> — IHEM-CONICET</p>
-          <p class="desc">Un espacio para introducirse al docking molecular: desde la búsqueda de compuestos hasta el uso de Autodock Vina y el análisis de resultados.</p>
+        <div class="photos">
+          <img src="./index_files/talleristas/matias_mac_allister.jpg" alt="Matías Mac Allister" loading="lazy">
+          <img src="./index_files/talleristas/diego_peralta.jpg" alt="Diego Peralta" loading="lazy">
         </div>
-      </div>
-
-      <div class="workshop">
-        <img src="./index_files/Workshop4.png" alt="" loading="lazy">
         <div>
-          <p class="tag">Campus UNRaf</p>
-          <h3>Procesamiento de imágenes con Python</h3>
-          <p class="who"><strong>Leandro Matías Sommese</strong> — CONICET, UNQ</p>
-          <p class="desc">Un recorrido práctico por las herramientas de análisis y manipulación de imágenes digitales aplicadas a bioinformática estructural de proteínas.</p>
+          <h3>Introducción a la genómica de poblaciones: fundamentos teóricos y análisis de SNPs obtenidos con RAD-seq</h3>
+          <p class="who"><strong>Matías Mac Allister</strong> — Becario posdoctoral, CeBio, CITNOBA (UNNOBA-UNSADA-CONICET)<br>
+            <strong>Diego Peralta</strong> — Investigador posdoctoral, Laboratorio de Evolución, Facultad de Ciencias, Universidad de la República</p>
+          <p class="desc">La genómica de poblaciones transformó nuestra capacidad para comprender la historia evolutiva y demográfica y analizar la conectividad genética y la estructura poblacional. Este taller conecta los fundamentos teóricos de la disciplina, apoyados en casos de estudio reales, con las herramientas bioinformáticas necesarias para un estudio genómico. En la parte práctica se trabajará con datos de secuenciación masiva (RAD-seq): desde el control de calidad y la limpieza de secuencias crudas, pasando por el llamado y filtrado de SNPs, hasta la ejecución e interpretación de análisis poblacionales.</p>
         </div>
       </div>
     </div>
 
     <div id="panel-day2" class="day-panel" role="tabpanel">
-      <p class="lede" style="margin-bottom:0;">10 de octubre · Universidad Nacional de Rafaela — C. Colectora, S2300 Rafaela, Santa Fe</p>
+      <ul class="day-meta">
+        <li><i class="far fa-calendar" aria-hidden="true"></i><span>Viernes 30 de octubre</span></li>
+        <li><i class="far fa-clock" aria-hidden="true"></i><span>8 a 18:30 hs</span></li>
+        <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span><a href="https://maps.app.goo.gl/67YKYm8o4juitbd97" target="_blank" rel="noopener">UNNOBA, Pergamino</a> · presencial</span></li>
+      </ul>
 
       <div class="timeline">
-
         <div class="slot is-note">
           <p class="time">8:00 – 8:30</p>
           <p class="title">Acreditación y colgado de pósters</p>
@@ -314,168 +417,127 @@
 
         <div class="slot is-highlight">
           <p class="time">8:30 – 9:00</p>
-          <p class="title" style="font-weight:700; font-size:1.1rem; color:var(--ink);">Apertura del Simposio</p>
+          <p class="title">Apertura</p>
         </div>
 
         <div class="slot is-talk">
-          <p class="time">9:00 – 9:20</p>
-          <div class="talk-card">
-            <img src="./index_files/default_presenter.png" alt="" loading="lazy">
-            <div>
-              <h3>Machine learning–driven identification of a minimal gene expression model for predicting adverse outcomes in prostate cancer</h3>
-              <p class="speaker">Lucas Abbate</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slot is-talk">
-          <p class="time">9:20 – 9:40</p>
-          <div class="talk-card">
-            <img src="./index_files/delfina_perez.png" alt="" loading="lazy">
-            <div>
-              <h3>Modelos de aprendizaje automático para predecir estadíos de enfermedades hepáticas a partir de transcriptómica en modelos murinos</h3>
-              <p class="speaker">Delfina Perez</p>
-            </div>
-          </div>
+          <p class="time">9:00 – 9:45</p>
+          <p class="title">Presentaciones orales de pósters</p>
         </div>
 
         <div class="slot is-note">
-          <p class="time">9:40 – 10:00</p>
-          <p class="title">Coffee break ☕</p>
+          <p class="time">9:45 – 10:10</p>
+          <p class="title">Coffee break</p>
         </div>
 
         <div class="slot is-talk">
-          <p class="time">10:00 – 10:20</p>
+          <p class="time">10:10 – 10:30</p>
+          <p class="title">Mariano Belaich</p>
+        </div>
+
+        <div class="slot is-talk">
+          <p class="time">10:30 – 10:50</p>
           <div class="talk-card">
-            <img src="./index_files/nicolas_perez_mauad.png" alt="" loading="lazy">
+            <img src="./index_files/oradores/cintia_fabbri.jpg" alt="Cintia Fabbri" loading="lazy">
             <div>
-              <h3>Reposicionamiento de fármacos contra Trypanosoma cruzi mediante aprendizaje automático</h3>
-              <p class="speaker">Nicolás Pérez Mauad</p>
+              <h3>Vigilancia genómica integrada a la vigilancia laboratorial de dengue y otros arbovirus en Argentina: avances y desafíos</h3>
+              <p class="speaker">Cintia Fabbri</p>
+              <p class="sub">Jefa del Departamento de Investigación y Diagnóstico Referencial — Instituto Nacional de Enfermedades Virales Humanas "Dr. J. I. Maiztegui" (INEVH-ANLIS)</p>
             </div>
           </div>
         </div>
 
-        <div class="slot is-talk">
-          <p class="time">10:20 – 10:40</p>
-          <div class="talk-card">
-            <img src="./index_files/lucia_ortiz_rocca.png" alt="" loading="lazy">
-            <div>
-              <h3>Flujos de gases de efecto invernadero y diversidad microbiana: integración multi-ómica para caracterizar microbiomas en suelos de caña de azúcar bajo distintos manejos agrícolas</h3>
-              <p class="speaker">Lucía Ortiz Rocca</p>
-            </div>
-          </div>
+        <div class="slot is-talk is-tbc">
+          <p class="time">10:50 – 11:10</p>
+          <p class="title">Charla a confirmar</p>
+        </div>
+
+        <div class="slot is-note">
+          <p class="time">11:10 – 11:30</p>
+          <p class="title">Preguntas a oradores/as</p>
         </div>
 
         <div class="slot is-highlight">
-          <p class="time">10:40 – 11:40</p>
-          <div class="keynote">
-            <img src="./index_files/ana_velez_rueda.png" alt="Ana Julia Velez Rueda" loading="lazy">
-            <div>
-              <p class="eyebrow">Keynote ✨</p>
-              <h3>Ana Julia Velez Rueda</h3>
-              <p class="role">CONICET</p>
-              <p class="talk-title">Bioinformática Estructural al Sur del Atardecer</p>
-              <p>Un recorrido por la bioinformática estructural construida desde el sur del mundo. Una individualidad dentro de un contexto y una comunidad. Desde las profundidades de las subestructuras proteicas hasta el impacto del mundo moderno en la salud humana. A lo largo de esta charla, exploraremos la relación entre la estructura y función proteica, su influencia en el diseño de fármacos y cómo estas conexiones se reflejan en la fisiología celular.</p>
-              <p>¿Se puede construir ciencia desde el sur? ¿Se puede construir una carrera científica descolonial, comunitaria y anti-extractivista?</p>
-              <p>Este recorrido busca no solo ofrecer una visión técnica, sino también promover una visión crítica sobre cómo la ciencia puede ser un instrumento para la transformación social y ecológica desde las voces del sur global.</p>
-            </div>
-          </div>
+          <p class="time">11:30 – 12:30</p>
+          <p class="title">Charla estelar: Gustavo Parisi</p>
         </div>
 
         <div class="slot is-note">
-          <p class="time">11:40 – 12:10</p>
-          <p class="title">Sponsor charlas</p>
+          <p class="time">12:30 – 13:30</p>
+          <p class="title">Almuerzo</p>
         </div>
 
-        <div class="slot is-note">
-          <p class="time">12:10 – 13:00</p>
-          <p class="title">Almuerzo libre</p>
-        </div>
-
-        <div class="slot is-note">
-          <p class="time">13:00 – 14:30</p>
+        <div class="slot is-highlight">
+          <p class="time">13:30 – 15:00</p>
           <p class="title">Sesión de pósters</p>
         </div>
 
         <div class="slot is-talk">
-          <p class="time">14:30 – 14:50</p>
+          <p class="time">15:00 – 15:20</p>
           <div class="talk-card">
-            <img src="./index_files/default_presenter.png" alt="" loading="lazy">
+            <img src="./index_files/oradores/ileana_tossolini.jpg" alt="Ileana Tossolini" loading="lazy">
             <div>
-              <h3>Bioinformatic Analysis In Pediatric Sarcomas Identifies Molecular Signatures Associated To Tumoral And Stromal Non-Tumoral Cells</h3>
-              <p class="speaker">Matías Eduardo Rizzo</p>
+              <h3>Integrando genómica, epigenómica y transcriptómica para descubrir el impacto de los elementos transponibles en frutilla silvestre (<em>Fragaria vesca</em>)</h3>
+              <p class="speaker">Ileana Tossolini</p>
+              <p class="sub">Investigadora asistente (CONICET) y profesora titular (FI-UNER) — Instituto de Investigación y Desarrollo en Bioingeniería y Bioinformática (IBB, CONICET-UNER)</p>
             </div>
           </div>
         </div>
 
-        <div class="slot is-talk">
-          <p class="time">14:50 – 15:10</p>
-          <div class="talk-card">
-            <img src="./index_files/santiago_britez.png" alt="" loading="lazy">
-            <div>
-              <h3>Optimización e interpretación de mecanismos de atención en modelos de lenguaje de proteínas para la predicción de patogenicidad en variantes asociadas a enfermedades neurodegenerativas</h3>
-              <p class="speaker">Santiago Britez</p>
-            </div>
-          </div>
+        <div class="slot is-talk is-tbc">
+          <p class="time">15:20 – 15:40</p>
+          <p class="title">Charla a confirmar</p>
         </div>
 
-        <div class="slot is-highlight">
-          <p class="time">15:10 – 16:10</p>
-          <div class="keynote">
-            <img src="./index_files/matias_irazoqui.png" alt="Matías Irazoqui" loading="lazy">
-            <div>
-              <p class="eyebrow">Keynote ✨</p>
-              <h3>Matías Irazoqui</h3>
-              <p class="role">Instituto de Investigación de la Cadena Láctea (INTA-CONICET), Universidad Nacional de Rafaela (UNRaf)</p>
-              <p class="talk-title">Aplicaciones metagenómica en el sector agroindustrial</p>
-              <p>Los avances en las técnicas de secuenciación han revolucionado la microbiología, permitiendo estudiar una gran parte de la diversidad microbiana que no ha sido accesible mediante técnicas basadas en cultivos.</p>
-              <p>La metagenómica no solo ha abierto la puerta a la identificación de nuevas especies microbianas, sino también a comprender su rol en la comunidad microbiana y su relación con el ambiente.</p>
-              <p>En esta charla se abordarán 2 ejemplos de estudios metagenómicos relacionados con el sector agroindustrial. En primer lugar, el estudio de comunidades microbianas en lagunas de estabilización como fuente de enzimas de interés para la industria láctea. En segundo lugar, el uso de secuenciación en tiempo real para la identificación y caracterización rápida de patógenos bovinos.</p>
-            </div>
-          </div>
+        <div class="slot is-talk is-tbc">
+          <p class="time">15:40 – 16:00</p>
+          <p class="title">Charla a confirmar</p>
         </div>
 
         <div class="slot is-note">
-          <p class="time">16:10 – 16:30</p>
-          <p class="title">Coffee break ☕</p>
+          <p class="time">16:00 – 16:20</p>
+          <p class="title">Preguntas a oradores/as</p>
+        </div>
+
+        <div class="slot is-note">
+          <p class="time">16:20 – 16:40</p>
+          <p class="title">Coffee break</p>
+        </div>
+
+        <div class="slot is-talk">
+          <p class="time">16:40 – 17:10</p>
+          <p class="title">Presentaciones orales de pósters</p>
         </div>
 
         <div class="slot is-highlight">
-          <p class="time">16:30 – 17:30</p>
-          <div class="panel-block">
-            <p class="eyebrow" style="color:var(--amber); font-size:0.8rem; font-weight:600; margin-bottom:4px;">Mesa redonda</p>
-            <h3 style="font-size:1.3rem; margin-bottom:16px;">Bioinformática y educación</h3>
-            <div class="roundtable-grid">
-              <div class="panelist">
-                <span class="initial">CC</span>
-                <span><strong>Carolina Susana Cerrudo</strong><span>Bioinformática y Virología — LiGBCM-AVI, Universidad Nacional de Quilmes</span></span>
-              </div>
-              <div class="panelist">
-                <span class="initial">JB</span>
-                <span><strong>Juan Bizzotto</strong><span>Oncología Molecular — Lab. de Inflamación y Cáncer, UBA / IQUIBICEN-CONICET</span></span>
-              </div>
-              <div class="panelist">
-                <span class="initial">AA</span>
-                <span><strong>Ariel Amadio</strong><span>Genómica y Bioinformática — UNRaf / IDICAL (CONICET-INTA)</span></span>
-              </div>
-            </div>
-          </div>
+          <p class="time">17:10 – 18:10</p>
+          <p class="title">Mesa redonda: Ciencia desde la trinchera</p>
         </div>
 
         <div class="slot is-highlight">
-          <p class="time">17:30 – 18:30</p>
-          <p class="title" style="font-weight:700; font-size:1.1rem; color:var(--ink);">Cierre del 10SAJIB, entrega de premios y resultados del Hackatón</p>
+          <p class="time">18:10 – 18:30</p>
+          <p class="title">Palabras finales y premios</p>
         </div>
-
       </div>
     </div>
+  </section>
+
+  <section class="block social" aria-labelledby="redes-h">
+    <h2 id="redes-h">Seguinos</h2>
+    <ul class="social-links">
+      <li><a href="https://twitter.com/rsgargentina" target="_blank" rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/iscb-sc-rsg-argentina-053599214/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      <li><a href="https://www.instagram.com/rsg_arg/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+      <li><a href="https://www.facebook.com/RSGArgentina/" target="_blank" rel="noopener"><i class="fab fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+      <li><a href="https://www.youtube.com/channel/UCVQA_t8dR5xownEu5NI9S0w/featured" target="_blank" rel="noopener"><i class="fab fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+    </ul>
   </section>
 
   <div class="organizers">
     <p class="label">Organizan</p>
     <div class="logos">
       <img src="./index_files/imgs/organizadores/rsg_arg.png" alt="RSG Argentina">
-      <img src="./index_files/imgs/organizadores/unraf_squared.png" alt="Universidad Nacional de Rafaela">
+      <img src="./index_files/imgs/organizadores/unnoba.png" alt="Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)">
     </div>
   </div>
 
