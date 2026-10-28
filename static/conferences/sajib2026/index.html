@@ -83,7 +83,7 @@
     .hero-logo { width: 220px; height: auto; }
     @media (max-width: 640px) {
       .hero-inner { grid-template-columns: 1fr; }
-      .hero-logo { width: 150px; order: -1; }
+      .hero-logo { width: 150px; order: -1; justify-self: center; }
     }
     .hero h1 {
       font-size: clamp(2.5rem, 7vw, 4rem);
@@ -308,6 +308,11 @@
     }
     .social-links a:hover { border-color: var(--blue); color: var(--blue); }
 
+    /* Chip-only sections (abstracts & posters, social) are centered. */
+    .material, .social { text-align: center; }
+    .material h2 { margin-bottom: 16px; }
+    .material .social-links, .social .social-links { justify-content: center; }
+
     /* ---------- organizers ---------- */
     .organizers { text-align: center; padding: 8px 0 56px; }
     .organizers .label { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 18px; }
@@ -367,7 +372,7 @@
         <p class="subtitle">11° Simposio Argentino de Jóvenes Investigadores en Bioinformática, organizado por RSG Argentina.</p>
         <div class="cta">
           <a class="btn-cta" href="https://forms.gle/MTfsVdqB4vpY7v3M6" target="_blank" rel="noopener">Inscribite</a>
-          <a class="btn-ghost" href="#fechas-h">Fechas importantes</a>
+          <a class="btn-ghost" href="#cronograma-h">Cronograma</a>
         </div>
       </div>
       <img class="hero-logo" src="./index_files/imgs/logo_11sajib.png" width="392" height="388"
@@ -383,7 +388,7 @@
     </div>
   </div>
 
-  <section class="block" aria-labelledby="fechas-h">
+  <section class="block" aria-labelledby="fechas-h" hidden>
     <h2 id="fechas-h">Fechas importantes</h2>
     <p class="lede">Todas las fechas son de 2026.</p>
     <ol class="dates">
@@ -592,18 +597,20 @@
           <ol class="talk-list is-invited">
             <li>
               <p class="ptime">15:30</p>
-              <span class="ph" aria-hidden="true"></span>
+              <img src="./index_files/oradores/agustina_pascual.jpg" alt="Agustina Pascual" loading="lazy">
               <div>
-                <h3>Título a confirmar</h3>
+                <h3>Bioinformática y transcriptómica para descifrar la biología de insectos de importancia agrícola</h3>
                 <p class="speaker">Agustina Pascual</p>
+                <p class="sub">Investigadora asistente (CONICET) y jefa de trabajos prácticos (UNNOBA) — Centro de BioInvestigaciones (CEBIO-UNNOBA), Centro de Investigaciones y Transferencia del Noroeste de la Provincia de Buenos Aires (CITNOBA-CONICET)</p>
               </div>
             </li>
             <li>
               <p class="ptime">15:50</p>
-              <span class="ph" aria-hidden="true"></span>
+              <img src="./index_files/oradores/maria_laura_federico.jpg" alt="María Laura Federico" loading="lazy">
               <div>
-                <h3>Título a confirmar</h3>
+                <h3>Breeding 4.0: el impacto de la bioinformática en el mejoramiento molecular de cultivos</h3>
                 <p class="speaker">María Laura Federico</p>
+                <p class="sub">Investigadora adjunta (CONICET) y profesora adjunta (UNNOBA) — CONICET-UNNOBA</p>
               </div>
             </li>
             <li>
@@ -675,15 +682,6 @@
               </div>
             </li>
             <li>
-              <img src="./index_files/panelistas/alberto_penas_steinhardt.jpg" alt="Alberto Penas Steinhardt" loading="lazy">
-              <div>
-                <h3>Alberto Penas Steinhardt</h3>
-                <p class="speaker">Investigador Independiente - Profesor adjunto</p>
-                <p class="sub">Conicet-UNLu</p>
-                <p class="sub">Metagenómica</p>
-              </div>
-            </li>
-            <li>
               <img src="./index_files/panelistas/mercedes_didier_garnham.png" alt="Mercedes Didier Garnham" loading="lazy">
               <div>
                 <h3>Mercedes Didier Garnham</h3>
@@ -710,6 +708,14 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="block material" aria-labelledby="material-h">
+    <h2 id="material-h">Resúmenes y pósters</h2>
+    <ul class="social-links">
+      <li><a href="https://drive.google.com/drive/folders/1x09ONe199TQIG3i_voSupVUUwmWAKd21?usp=sharing" target="_blank" rel="noopener"><i class="fas fa-file-alt" aria-hidden="true"></i> Resúmenes</a></li>
+      <li><a href="https://drive.google.com/drive/folders/111m5dicUqRq_w25JA3DC-3snZhBdEBFf?usp=sharing" target="_blank" rel="noopener"><i class="fas fa-image" aria-hidden="true"></i> Pósters</a></li>
+    </ul>
   </section>
 
   <section class="block social" aria-labelledby="redes-h">
