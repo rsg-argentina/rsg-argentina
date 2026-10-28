@@ -251,6 +251,8 @@
     .talk-list li.is-note { padding: 10px 0; }
     .talk-list .note { grid-column: 2 / -1; color: var(--text-muted); }
     .talk-list .is-note .ptime { font-weight: 400; color: var(--text-muted); }
+    /* Panelists have no time slot, so the photo takes the place of the time column. */
+    .talk-list.is-panel li { grid-template-columns: 88px 1fr; }
 
     @media (max-width: 600px) {
       .talk-list { padding: 4px 14px; }
@@ -262,6 +264,9 @@
       .talk-list li.is-note { display: flex; gap: 10px; }
       /* Long affiliations would push the next talk off screen; two lines are enough to place the speaker. */
       .talk-list .sub { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+      .talk-list.is-panel li { grid-template-columns: 64px 1fr; }
+      .talk-list.is-panel img { grid-row: 1; }
+      .talk-list.is-panel li > div { grid-row: 1; }
     }
 
     /* Morning / afternoon dividers inside the timeline. */
@@ -659,6 +664,44 @@
         <div class="slot is-highlight">
           <p class="time">18:00 – 19:00</p>
           <p class="title">Mesa redonda: Ciencia desde la trinchera</p>
+          <ol class="talk-list is-invited is-panel">
+            <li>
+              <img src="./index_files/panelistas/agustin_ormazabal.jpg" alt="Agustín Ormazábal" loading="lazy">
+              <div>
+                <h3>Agustín Ormazábal</h3>
+                <p class="speaker">Becario postdoctoral y docente universitario</p>
+                <p class="sub">Universidad Nacional de Quilmes | CONICET</p>
+                <p class="sub">Simulación computacional de biomoléculas</p>
+              </div>
+            </li>
+            <li>
+              <img src="./index_files/panelistas/alberto_penas_steinhardt.jpg" alt="Alberto Penas Steinhardt" loading="lazy">
+              <div>
+                <h3>Alberto Penas Steinhardt</h3>
+                <p class="speaker">Investigador Independiente - Profesor adjunto</p>
+                <p class="sub">Conicet-UNLu</p>
+                <p class="sub">Metagenómica</p>
+              </div>
+            </li>
+            <li>
+              <img src="./index_files/panelistas/mercedes_didier_garnham.png" alt="Mercedes Didier Garnham" loading="lazy">
+              <div>
+                <h3>Mercedes Didier Garnham</h3>
+                <p class="speaker">Investigadora Posdoctoral</p>
+                <p class="sub">IIB UNSAM</p>
+                <p class="sub">Búsqueda de tratamientos para la Enfermedad del Chagas</p>
+              </div>
+            </li>
+            <li>
+              <img src="./index_files/panelistas/gabriela_fernandez.jpeg" alt="Gabriela Fernández" loading="lazy">
+              <div>
+                <h3>Gabriela Fernández</h3>
+                <p class="speaker">Profesora - Investigadora - Directora Maestría en Bioinformática y Biología de Sistemas (UNNOBA/UNQ)</p>
+                <p class="sub">UNNOBA</p>
+                <p class="sub">Genética de Poblaciones y Evolutiva / Genética de la Conservación</p>
+              </div>
+            </li>
+          </ol>
         </div>
 
         <div class="slot is-highlight">
